@@ -6,12 +6,8 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/john/ontologies/2017/6/fio">
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
-    </owl:Ontology>
+     xmlns:obo="http://purl.obolibrary.org/obo/">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/john/ontologies/2017/6/fio"/>
     
 
 
@@ -150,7 +146,6 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000002 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000002">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000048"/>
         <obo:IAO_0000115 xml:lang="en">A standard algorithm that generates performance information.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Performance Measure</rdfs:label>
     </owl:Class>
@@ -170,7 +165,6 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000004 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000004">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000048"/>
         <obo:IAO_0000115 xml:lang="en">Any combination of information or change strategies intended to reach one specific person, based on characteristics that are unique to that person, related to the outcome of interest, and have been derived from an individual assessment.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">Kreuter, M. W., Bull, F. C., Clark, E. M. and Oswald, D. L. (1999b) Understanding how people process health information: a comparison of tailored and untailored weight loss materials. Health Psychology, 18 (5), 1–8.
 
@@ -183,10 +177,9 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
     <!-- http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000005 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000005">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
-        <obo:IAO_0000115>Features pertaining to the situation</obo:IAO_0000115>
+        <obo:IAO_0000115>The totality of components related to a performer, setting, and task</obo:IAO_0000115>
         <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">Situational Features</rdfs:label>
+        <rdfs:label xml:lang="en">Situation</rdfs:label>
     </owl:Class>
     
 
@@ -194,7 +187,6 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
     <!-- http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000006 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000006">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000048"/>
         <obo:IAO_0000115>A process that represents the likely outcome that will rise from a relationship between an situation and intervention</obo:IAO_0000115>
         <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Interaction</rdfs:label>
@@ -205,7 +197,6 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
     <!-- http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000007 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000007">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
         <obo:IAO_0000115>An action that is taken to increase a performer&apos;s awareness of his/her performance data</obo:IAO_0000115>
         <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Intervention</rdfs:label>
@@ -216,7 +207,6 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
     <!-- http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000008 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000008">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
         <obo:IAO_0000115>The result, expected or real, of the interaction of a situation and intervention</obo:IAO_0000115>
         <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Outcome</rdfs:label>
@@ -227,10 +217,10 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
     <!-- http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000009 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000009">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000054"/>
-        <obo:IAO_0000115>The subjective effort a performer must exert in order to obtain acceptable performance data for a given behavior relative to other behaviors</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000034"/>
+        <obo:IAO_0000115>The subjective effort a performer must exert in order to obtain acceptable performance data for a given task relative to other tasks</obo:IAO_0000115>
         <obo:IAO_0000119>John Rincón</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">Behavior Difficulty</rdfs:label>
+        <rdfs:label xml:lang="en">Task Difficulty</rdfs:label>
     </owl:Class>
     
 
@@ -241,7 +231,7 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000005"/>
         <obo:IAO_0000115>a measurable action that is engaged in by a performer</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Rincón</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">Behavior</rdfs:label>
+        <rdfs:label xml:lang="en">Task</rdfs:label>
     </owl:Class>
     
 
@@ -249,7 +239,6 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
     <!-- http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000011 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000011">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000048"/>
         <obo:IAO_0000115>The transmission of audit to a performer in a written, electronic or verbal format.</obo:IAO_0000115>
         <obo:IAO_0000116>Split defintion of &quot;audit and feedback&quot; from defintion source for our use case.  (see &quot;audit&quot; for full description)</obo:IAO_0000116>
         <obo:IAO_0000119>Jamtvedt, G., Young, J. M., Kristoffersen, D. T., O’Brien, M. A., &amp; Oxman, A. D. (2006). Audit and feedback: effects on professional practice and health care outcomes. Cochrane Database Syst Rev, 2(2).</obo:IAO_0000119>
@@ -261,7 +250,7 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
     <!-- http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000012 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000012">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000048"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000003"/>
         <obo:IAO_0000115 xml:lang="en">Any summary of clinical performance of health care over a specified one-dimensional temporal region</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">This is used as the preferred definition of &quot;audit and feedback&quot;, but I think for our use case it makes sense to separate them into &quot;audit&quot; and &quot;feedback&quot;.  This should make it easier to delve into nuances related to a successful &quot;audit&quot; (data quality, sufficient data, etc..), and those related to &quot;feedback&quot; (presentation, delivery, etc..)</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">John Rincón</obo:IAO_0000117>
@@ -274,7 +263,7 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
     <!-- http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000013 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000013">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000023"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000005"/>
         <obo:IAO_0000115>A numerical difference between the performance data of a performer for a performance measure and some comparator.</obo:IAO_0000115>
         <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
         <obo:IAO_0000119>Inspired by defintion of &apos;feedback-standard gap&apos; in Kluger, A. N., &amp; DeNisi, A. (1996). The effects of feedback interventions on performance: A historical review, a meta-analysis, and a preliminary feedback intervention theory.</obo:IAO_0000119>
@@ -286,7 +275,7 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
     <!-- http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000014 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000014">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000048"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000007"/>
         <obo:IAO_0000115 xml:lang="en">A report contain information about performer(s) performance datum for performance measure(s), and which is delivered to a recipient</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Rincón</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Performance Report</rdfs:label>
@@ -297,7 +286,6 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
     <!-- http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000021 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000021">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000048"/>
         <obo:IAO_0000115>An interaction that is the result of a relationship between a feedback intervention and the situation in wich a performer exists</obo:IAO_0000115>
         <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Intervention-Situation-Intercation</rdfs:label>
@@ -308,7 +296,6 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
     <!-- http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000022 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000022">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000048"/>
         <obo:IAO_0000115>A process through which the presence of a performance gap for a performance is determined though audit data</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Assessment of Presence of Gap</rdfs:label>
     </owl:Class>
@@ -318,7 +305,6 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
     <!-- http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000023 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000023">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000005"/>
         <rdfs:label xml:lang="en">Data Features</rdfs:label>
     </owl:Class>
     
@@ -339,7 +325,6 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
     <!-- http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000025 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000025">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000051"/>
         <obo:IAO_0000115>The medium through, and style in which, feedback is given to a performer</obo:IAO_0000115>
         <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
         <obo:IAO_0000119>Adapted from West, R. and Michie, S. (2016). A Guide to Development and Evaluation of Digital Behavior Interventions in Healthcare. Silverback Publishing.</obo:IAO_0000119>
@@ -351,7 +336,7 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
     <!-- http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000026 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000026">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000051"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000006"/>
         <obo:IAO_0000115>The interactions that are targeted by a particular intervention.</obo:IAO_0000115>
         <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
         <obo:IAO_0000119>Guided by West, R. and Michie, S. (2016). A Guide to Development and Evaluation of Digital Behavior Interventions in Healthcare. Silverback Publishing.</obo:IAO_0000119>
@@ -363,7 +348,6 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
     <!-- http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000027 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000027">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000055"/>
         <obo:IAO_0000115>The uptake and engagement with an intervention by a performer.</obo:IAO_0000115>
         <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
         <obo:IAO_0000119>Adapted from West, R. and Michie, S. (2016). A Guide to Development and Evaluation of Digital Behavior Interventions in Healthcare. Silverback Publishing.</obo:IAO_0000119>
@@ -376,9 +360,9 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
 
     <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000028">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000027"/>
+        <obo:IAO_0000115>Adapted from West, R. and Michie, S. (2016). A Guide to Development and Evaluation of Digital Behavior Interventions in Healthcare. Silverback Publishing.</obo:IAO_0000115>
         <obo:IAO_0000115>The presence of some level of engagement with an intervention by a target performer</obo:IAO_0000115>
         <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
-        <obo:IAO_0000119>Adapted from West, R. and Michie, S. (2016). A Guide to Development and Evaluation of Digital Behavior Interventions in Healthcare. Silverback Publishing.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Uptake</rdfs:label>
     </owl:Class>
     
@@ -434,11 +418,20 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
     
 
 
+    <!-- http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000034 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000034">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000005"/>
+        <rdfs:label xml:lang="en">Features of Task</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000035 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000035">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000054"/>
-        <rdfs:label xml:lang="en">Behavior Focus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000034"/>
+        <rdfs:label xml:lang="en">Task Framing</rdfs:label>
     </owl:Class>
     
 
@@ -479,7 +472,6 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
     <!-- http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000039 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000039">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000023"/>
         <obo:IAO_0000115>A contextually defined notable amount of change in a performer&apos;s performance data, or as compared to comparator, for a performance measure.</obo:IAO_0000115>
         <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Significant Change in Performance</rdfs:label>
@@ -501,7 +493,6 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
     <!-- http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000041 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000041">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
         <obo:IAO_0000115>The smallest quantity of data from which meaningful inferences and/or evaluations can be made.</obo:IAO_0000115>
         <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Minimally Sufficient Data</rdfs:label>
@@ -512,7 +503,6 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
     <!-- http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000042 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000042">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000023"/>
         <obo:IAO_0000115>The subjective evaluation about the quality (low, satisfactory, or high) of performance data for a performer on a given performance measure, or set of measures</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Performance Level</rdfs:label>
     </owl:Class>
@@ -542,75 +532,9 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
     <!-- http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000045 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000045">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000048"/>
         <obo:IAO_0000115>An occurrent which begins the process leaiding to the creation of a performance report, and its delivery to a recipient</obo:IAO_0000115>
-        <obo:IAO_0000116 xml:lang="en">This could eventually be useful if we think of an automated workflow that reguarly received data and checked for presence of a trigger</obo:IAO_0000116>
         <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Trigger</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000048 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000048">
-        <rdfs:label xml:lang="en">Unnecessary Clasess?</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000050 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000050">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000048"/>
-        <obo:IAO_0000115>The totality of components related to a performer, setting, and task</obo:IAO_0000115>
-        <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">&apos;Situation&apos;</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000051 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000051">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
-        <rdfs:label xml:lang="en">Interventional Features</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000052 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000052">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000051"/>
-        <rdfs:label xml:lang="en">Peer Comparison</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000053 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000053">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000051"/>
-        <rdfs:label xml:lang="en">Display of Trend</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000054 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000054">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000055"/>
-        <rdfs:label xml:lang="en">Features of Behavior</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000055 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000055">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2017/6/fio#FIO_0000005"/>
-        <rdfs:label xml:lang="en">Recipient Features</rdfs:label>
     </owl:Class>
     
 
