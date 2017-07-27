@@ -1,0 +1,3 @@
+# Ignore import directory to reduce overhead
+src/ontology/import/*
+
