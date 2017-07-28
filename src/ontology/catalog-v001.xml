@@ -1,6 +1,5 @@
-
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl" uri="imports/bfo-classes-minimal.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/fio.owl" uri="fio-edit.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/foo.owl" uri="imports/foo_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/bar.owl" uri="imports/bar_import.owl"/>
 </catalog>
