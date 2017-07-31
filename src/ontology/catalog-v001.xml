@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl" uri="imports/bfo.owl"/>
-    <uri id="Imports Wizard Entry" name="http://www.ifomis.org/bfo/1.1" uri="imports/bfo.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/omrse.owl" uri="imports/omrse.owl"/>
-    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1501189018008" name="http://informatics.mayo.edu/TEO.owl" uri="imports/TEO.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1501189018008" name="http://kt.ijs.si/panovp/OntoDT" uri="imports/OntoDT.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1501189018008" name="http://purl.obolibrary.org/obo/MFOEM.owl" uri="imports/MFOEM.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1501189018008" name="http://purl.obolibrary.org/obo/bfo.owl" uri="imports/bfo-classes-minimal.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1501189018008" name="http://purl.obolibrary.org/obo/iao.owl" uri="imports/iao-merged.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1501189018008" name="http://purl.obolibrary.org/obo/iao/dev/ontology-metadata.owl" uri="imports/ontology-metadata.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1501189018008" name="http://purl.obolibrary.org/obo/iao/pno.owl" uri="imports/pno.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1501189018008" name="http://purl.obolibrary.org/obo/omrse.owl" uri="imports/omrse.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1501189018008" name="http://purl.obolibrary.org/obo/uo.owl" uri="imports/uo.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1501189018008" name="http://www.ifomis.org/bfo/1.1" uri="imports/bfo.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1501189018008" name="http://www.ontodm.com/OntoDM-core/" uri="imports/OntoDM.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1501189018008" name="http://www.semanticweb.org/john/ontologies/2017/6/fio" uri="fio-edit.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1501275826924" name="http://purl.obolibrary.org/obo/bfo.owl" uri="imports/bfo.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1501275826924" name="http://www.semanticweb.org/john/ontologies/2017/6/fio" uri="fio-edit.owl"/>
-    </group>
+    <uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl" uri="imports/bfo.owl"/>
+    <uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/iao/2017-03-24/iao.owl" uri="imports/iao-merged.owl"/>
 </catalog>
