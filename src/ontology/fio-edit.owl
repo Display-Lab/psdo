@@ -437,17 +437,17 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
     <!-- http://purl.obolibrary.org/obo/fio#FIO_0000026 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/fio#FIO_0000026">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000030"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000014"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The interactions that are targeted by a particular intervention.</obo:IAO_0000115>
+        <obo:IAO_0000115>Components of an interventions that are likely to produce an interaction</obo:IAO_0000115>
         <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
         <obo:IAO_0000119>Guided by West, R. and Michie, S. (2016). A Guide to Development and Evaluation of Digital Behavior Interventions in Healthcare. Silverback Publishing.</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">Content</rdfs:label>
+        <rdfs:label xml:lang="en">Interventional Features</rdfs:label>
     </owl:Class>
     
 
@@ -655,7 +655,7 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
     <!-- http://purl.obolibrary.org/obo/fio#FIO_0000050 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/fio#FIO_0000050">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
         <obo:IAO_0000115>The totality of features related to a performer, setting, and task</obo:IAO_0000115>
         <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
         <rdfs:label xml:lang="en">&apos;Situation&apos;</rdfs:label>
