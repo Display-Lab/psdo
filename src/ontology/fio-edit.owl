@@ -148,14 +148,20 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/fio#FIO_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/fio#FIO_0000001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000050"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An entity to which observed or expected performance information can be attributed, including healthcare professionals, teams and organizations that are the recipients of a report, as well as benchmarks, standards, and goals that are applied as performance comparators.</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000081"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000059"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A continuant to which observed or expected performance information can be attributed, including healthcare professionals, teams and organizations that are the recipients of a report, as well as benchmarks, standards, and goals that are applied as performance comparators.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Performer</rdfs:label>
     </owl:Class>
     
@@ -178,11 +184,11 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000014"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A documented outcome of the targeted behavior that results from processes such as performance measurement, prediction, or goal-setting.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Performance Datum</rdfs:label>
+        <rdfs:label xml:lang="en">Performance_Datum</rdfs:label>
     </owl:Class>
     
 
@@ -238,6 +244,13 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000050"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>An action that is taken to increase a performer&apos;s awareness of his/her performance data</obo:IAO_0000115>
         <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
         <rdfs:label xml:lang="en">Intervention</rdfs:label>
@@ -262,7 +275,7 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000054"/>
         <obo:IAO_0000115>The subjective effort a performer must exert in order to obtain acceptable performance data for a given behavior relative to other behaviors</obo:IAO_0000115>
         <obo:IAO_0000119>John Rincón</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">Performance Behavior Difficulty</rdfs:label>
+        <rdfs:label xml:lang="en">Performance_Behavior_Difficulty</rdfs:label>
     </owl:Class>
     
 
@@ -316,7 +329,7 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
         <obo:IAO_0000115>A numerical difference between the performance data of a performer for a performance measure and some comparator.</obo:IAO_0000115>
         <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
         <obo:IAO_0000119>Inspired by defintion of &apos;feedback-standard gap&apos; in Kluger, A. N., &amp; DeNisi, A. (1996). The effects of feedback interventions on performance: A historical review, a meta-analysis, and a preliminary feedback intervention theory.</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">Feedback-Comparator Gap</rdfs:label>
+        <rdfs:label xml:lang="en">Feedback-Comparator_Gap</rdfs:label>
     </owl:Class>
     
 
@@ -339,7 +352,7 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A report contain information about performer(s) performance datum for performance measure(s), and which is delivered to a recipient</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Rincón</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">Performance Report</rdfs:label>
+        <rdfs:label xml:lang="en">Performance_Report</rdfs:label>
     </owl:Class>
     
 
@@ -375,7 +388,9 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000050"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">Data Features</rdfs:label>
+        <obo:IAO_0000115>Aspects of data that indicate its appropriateness for various types of feedback interventions.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Data_Features</rdfs:label>
     </owl:Class>
     
 
@@ -498,7 +513,10 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000014"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">Relational Information Display</rdfs:label>
+        <obo:IAO_0000115>A display which represents relations between dimensions.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
+        <obo:IAO_0000119>Zhang</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Relational_Information_Display</rdfs:label>
     </owl:Class>
     
 
@@ -507,7 +525,9 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/fio#FIO_0000035">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000054"/>
-        <rdfs:label xml:lang="en">Performance Behavior Focus</rdfs:label>
+        <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
+        <efo:definition>The focus with which a performer approaches a behavior and/or goal.</efo:definition>
+        <rdfs:label xml:lang="en">Performance_Behavior_Focus</rdfs:label>
     </owl:Class>
     
 
@@ -515,7 +535,7 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
     <!-- http://purl.obolibrary.org/obo/fio#FIO_0000036 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/fio#FIO_0000036">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000081"/>
@@ -532,7 +552,7 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
     <!-- http://purl.obolibrary.org/obo/fio#FIO_0000037 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/fio#FIO_0000037">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -564,7 +584,7 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
         </rdfs:subClassOf>
         <obo:IAO_0000115>The method through which information is delivered, as to affect a particular emotional response.</obo:IAO_0000115>
         <obo:IAO_0000116>John Rincón</obo:IAO_0000116>
-        <rdfs:label xml:lang="en">Message Framing</rdfs:label>
+        <rdfs:label xml:lang="en">Message_Framing</rdfs:label>
     </owl:Class>
     
 
@@ -575,7 +595,7 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000023"/>
         <obo:IAO_0000115>A contextually defined notable amount of change in a performer&apos;s performance data, or as compared to comparator, for a performance measure.</obo:IAO_0000115>
         <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">Significant Change in Performance</rdfs:label>
+        <rdfs:label xml:lang="en">Significant_Change_in_Performance</rdfs:label>
     </owl:Class>
     
 
@@ -586,7 +606,7 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000042"/>
         <obo:IAO_0000115>An acceptable performance level</obo:IAO_0000115>
         <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">Satisfactory Performance</rdfs:label>
+        <rdfs:label xml:lang="en">Satisfactory_Performance</rdfs:label>
     </owl:Class>
     
 
@@ -597,7 +617,7 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000023"/>
         <obo:IAO_0000115>The smallest quantity of data from which meaningful inferences and/or evaluations can be made.</obo:IAO_0000115>
         <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">Minimally Sufficient Data</rdfs:label>
+        <rdfs:label xml:lang="en">Minimally_Sufficient_Data</rdfs:label>
     </owl:Class>
     
 
@@ -607,7 +627,7 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/fio#FIO_0000042">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000023"/>
         <obo:IAO_0000115>The subjective evaluation about the quality (low, satisfactory, or high) of performance data for a performer on a given performance measure, or set of measures</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Performance Level</rdfs:label>
+        <rdfs:label xml:lang="en">Performance_Level</rdfs:label>
     </owl:Class>
     
 
@@ -617,7 +637,7 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/fio#FIO_0000043">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000042"/>
         <obo:IAO_0000115>A contextually defined performance level that is considered high.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">High Performance</rdfs:label>
+        <rdfs:label xml:lang="en">High_Performance</rdfs:label>
     </owl:Class>
     
 
@@ -627,7 +647,7 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/fio#FIO_0000044">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000042"/>
         <obo:IAO_0000115>A contextually defined performance level that is considered low</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Low Performance</rdfs:label>
+        <rdfs:label xml:lang="en">Low_Performance</rdfs:label>
     </owl:Class>
     
 
@@ -655,7 +675,13 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
     <!-- http://purl.obolibrary.org/obo/fio#FIO_0000050 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/fio#FIO_0000050">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002434"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The totality of features related to a performer, setting, and task</obo:IAO_0000115>
         <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
         <rdfs:label xml:lang="en">&apos;Situation&apos;</rdfs:label>
@@ -673,6 +699,13 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000007"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000069"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Interventional Features</rdfs:label>
     </owl:Class>
     
@@ -682,6 +715,13 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/fio#FIO_0000052">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000026"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Normative Information</rdfs:label>
     </owl:Class>
     
@@ -700,7 +740,7 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/fio#FIO_0000054">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000055"/>
-        <rdfs:label xml:lang="en">Features of Performance Behavior</rdfs:label>
+        <rdfs:label xml:lang="en">Features_of_Performance_Behavior</rdfs:label>
     </owl:Class>
     
 
@@ -715,7 +755,7 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000059"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">Recipient Features</rdfs:label>
+        <rdfs:label xml:lang="en">Recipient_Features</rdfs:label>
     </owl:Class>
     
 
@@ -724,8 +764,14 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/fio#FIO_0000059">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000050"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>get PATH from OMRSE for Homo Sapien</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Homo Sapien</rdfs:label>
+        <rdfs:label xml:lang="en">Homo_Sapien</rdfs:label>
     </owl:Class>
     
 
@@ -734,7 +780,9 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/fio#FIO_0000060">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000035"/>
-        <rdfs:label xml:lang="en">Promotion Focus</rdfs:label>
+        <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
+        <efo:definition>A focus for a performance behavior in which the performer is primarily concerned with accomplishment</efo:definition>
+        <rdfs:label xml:lang="en">Promotion_Focus</rdfs:label>
     </owl:Class>
     
 
@@ -743,7 +791,9 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/fio#FIO_0000061">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000035"/>
-        <rdfs:label xml:lang="en">Prevention Focus</rdfs:label>
+        <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
+        <efo:definition>A focus for a performance behavior in which the performer is primarily concerned with avoidance of loss</efo:definition>
+        <rdfs:label xml:lang="en">Prevention_Focus</rdfs:label>
     </owl:Class>
     
 
@@ -777,7 +827,7 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
             </owl:Restriction>
         </rdfs:subClassOf>
         <efo:definition>The social aspects that are part of a setting</efo:definition>
-        <rdfs:label xml:lang="en">Social Setting</rdfs:label>
+        <rdfs:label xml:lang="en">Social_Setting</rdfs:label>
     </owl:Class>
     
 
@@ -793,7 +843,7 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
             </owl:Restriction>
         </rdfs:subClassOf>
         <efo:definition>The tangible aspects that are part of a setting</efo:definition>
-        <rdfs:label xml:lang="en">Physical Setting</rdfs:label>
+        <rdfs:label xml:lang="en">Physical_Setting</rdfs:label>
     </owl:Class>
     
 
@@ -802,8 +852,25 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/fio#FIO_0000066">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <efo:definition>Get PATH from IAO</efo:definition>
-        <rdfs:label xml:lang="en">Material Information Bearer</rdfs:label>
+        <rdfs:label xml:lang="en">Material_Information_Bearer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/fio#FIO_0000069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/fio#FIO_0000069">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000023"/>
+        <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
+        <efo:definition>The presence of performance data over multiple one-dimensional temporal regions for a given performer and performance measure</efo:definition>
+        <rdfs:label xml:lang="en">Time-Series</rdfs:label>
     </owl:Class>
     
 
