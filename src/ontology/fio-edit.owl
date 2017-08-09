@@ -768,7 +768,7 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
         </rdfs:subClassOf>
         <obo:IAO_0000115>The totality of features related to a performer, setting, and task</obo:IAO_0000115>
         <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">&apos;Situation&apos;</rdfs:label>
+        <rdfs:label xml:lang="en">Situation</rdfs:label>
     </owl:Class>
     
 
