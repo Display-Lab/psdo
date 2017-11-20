@@ -976,6 +976,18 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
     
 
 
+    <!-- http://purl.obolibrary.org/obo/fio#FIO_0000110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/fio#FIO_0000110">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000030"/>
+        <obo:IAO_0000116>John Rincon</obo:IAO_0000116>
+        <obo:IAO_0000119>Zach Landis-Lewis</obo:IAO_0000119>
+        <efo:definition>A relational information display that represents dimensions of performer, performance measure, performance data, and time.</efo:definition>
+        <rdfs:label xml:lang="en">Performance_Summary_Display</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.w3.org/2002/07/owl#Thing -->
 
     <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Thing"/>
