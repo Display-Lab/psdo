@@ -988,6 +988,30 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
     
 
 
+    <!-- http://purl.obolibrary.org/obo/fio#FIO_0000111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/fio#FIO_0000111">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000110"/>
+        <obo:IAO_0000115>A single-performer display is a performance summary display that represents a performer.</obo:IAO_0000115>
+        <obo:IAO_0000116>John Rincón</obo:IAO_0000116>
+        <obo:IAO_0000119>Dahee Lee</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Single-Perfomfer_Display</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/fio#FIO_0000112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/fio#FIO_0000112">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000110"/>
+        <obo:IAO_0000115>A Multi-performer display is a performance summary display that represents two or more performers.</obo:IAO_0000115>
+        <obo:IAO_0000116>John Rincón</obo:IAO_0000116>
+        <obo:IAO_0000119>Zach Landis-Lewis</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Multi-Performer_Display</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.w3.org/2002/07/owl#Thing -->
 
     <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Thing"/>
