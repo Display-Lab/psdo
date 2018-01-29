@@ -1015,11 +1015,53 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
     <!-- http://purl.obolibrary.org/obo/fio#FIO_0000113 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/fio#FIO_0000113">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000110"/>
-        <obo:IAO_0000115>A time(1) display is a performance summary display that represents one time point.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000111"/>
+        <obo:IAO_0000115>A single time single performer display is a single performer display that represents one time point.</obo:IAO_0000115>
         <obo:IAO_0000116>John Rincón</obo:IAO_0000116>
         <obo:IAO_0000119>Dahee Lee</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">Time(1)_Display</rdfs:label>
+        <rdfs:label xml:lang="en">Single_Time_Single_Performer_DIsplay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/fio#FIO_0000114 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/fio#FIO_0000114">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000112"/>
+        <obo:IAO_0000115>A single time multi-performer is a mulit performer display that represents one time point.</obo:IAO_0000115>
+        <obo:IAO_0000116>John Rincón</obo:IAO_0000116>
+        <obo:IAO_0000119>Dahee Lee</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Single Time Multi-Performer Display</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/fio#FIO_0000115 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/fio#FIO_0000115">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000113"/>
+        <efo:definition>A single time single performer bargraph is a single time single performer display that contains a bagraph.</efo:definition>
+        <rdfs:label xml:lang="en">Single Time Single Performer Bargraph</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/fio#FIO_0000116 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/fio#FIO_0000116">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000111"/>
+        <efo:definition>A multi-time, single performer display is a single-performer display that has multiple times.</efo:definition>
+        <rdfs:label xml:lang="en">Multi-Time_Single_Performer_Display</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/fio#FIO_0000117 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/fio#FIO_0000117">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000112"/>
+        <efo:definition>A multi-time, multi-performer display is a multi-performer display that has multiple times.</efo:definition>
+        <rdfs:label xml:lang="en">Multi-Time_Multi-Performer_Display</rdfs:label>
     </owl:Class>
     
 
