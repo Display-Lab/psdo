@@ -1,4 +1,4 @@
-# fio
+# FIO
 Feedback Intervention Ontology
 
 ## Contributing
@@ -40,10 +40,27 @@ This ontology is a BFO ontology and conforms to the guidelines provided by the O
     * have been squashed to a single (or minimal) number of commits.
 
 ## Development
-### Importing Terms from External Ontologies
-**MIREOT**: Minimum Information to Reference an External Ontology Term.
 
-Use Owl Tools or OntoFox to generate the import rdf-xml.  This will be a subset of the ontology the term was imported from.
+### Getting Started
+1. Clone this repository
+2. Download & install Protege
+3. Install wget 
+    * OSX: `brew install wget`
+    * Debian/Ubuntu: `sudo apt-get install wget`
+3. `cd` to project directory
+4. Run tools/download-catalog.sh
+5. Open Protege
+6. Open FIO ontology
+    1. Use File>Open... menu item
+    2. Open owl file src/ontology/fio-edit.owl in project directory
+
+### MIREOT Terms External Ontologies
+Use if the imported ontologies become too cumbersome to import in their entirety.
+- **MIREOT**: Minimum Information to Reference an External Ontology Term.
+
+1. Use Owl Tools or OntoFox to generate the import file.  This will be a subset of the ontology the term was imported from.
+2. Replace the target file in imports directory.
+    e.g. Replace imports/iao.owl with the mireot'd version iao_import.owl
 
 ### Building Ontology Artifacts
 

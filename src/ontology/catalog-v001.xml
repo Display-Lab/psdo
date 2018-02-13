@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/MFOEM.owl" uri="imports/mfoem_import1.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/your_ontology/external/MFO_import1.owl" uri="imports/mfo_import1.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/your_ontology/external/IAO_import1.owl" uri="imports/iao_import1.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/dideo.owl" uri="imports/dideo.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ro/core.owl" uri="imports/ro_core.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ro/releases/2017-07-19/ro.owl" uri="imports/ro.owl"/>
+    <uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/MFOEM.owl" uri="imports/mfoem.owl"/>
+    <uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/MFO.owl" uri="imports/mfo.owl"/>
+    <uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/dideo.owl" uri="imports/dideo.owl"/>
+    <uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/ro/core.owl" uri="imports/core.owl"/>
+    <uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/ro/releases/2017-07-19/ro.owl" uri="imports/ro.owl"/>
     <uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl" uri="imports/bfo.owl"/>
-    <uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/iao/2017-03-24/iao.owl" uri="imports/iao-merged.owl"/>
+    <uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/IAO.owl" uri="imports/iao.owl"/>
+    <uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/iao/2017-03-24/iao.owl" uri="imports/iao.owl"/>
 </catalog>
