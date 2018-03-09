@@ -578,7 +578,7 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000014"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A display which represents relations between dimensions.</obo:IAO_0000115>
+        <obo:IAO_0000115>An information content entity which displays relations between dimensions.</obo:IAO_0000115>
         <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
         <obo:IAO_0000119>Zhang</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Relational_Information_Display</rdfs:label>

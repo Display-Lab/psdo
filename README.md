@@ -10,6 +10,9 @@ Feedback Intervention Ontology
     * Reference
     * Example Usage (IAO_0000112)
 1. Create an issue for the new term in the tracker for this project.
+1. (if applicable) Add label 
+   * 'icebox' indicates store for future discussion, and not ready for implementation
+   * 'needs further discussion' indicates term needs to be fleshed out before implementation
 
 ### Implementing New Term
 The ground truth file for the ontology is `src/ontology/fio-edit.owl`.  
@@ -21,6 +24,7 @@ The rdf-xml and bfo formatted files that describe the ontology are artifacts whi
 1. Insert term into `src/ontology/fio-edit.owl`
 1. Make Pull Request against master branch
     * Include comment indicating which issue is closed by the PR. e.g. "Closes #15"
+1. (if applicable) Add label 'needs further discussion', if term does not appear ready for implementation
 
 ### Accepting/Merging New Term
 This ontology is a BFO ontology and conforms to the guidelines provided by the OBO Foundry.
