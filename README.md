@@ -1,6 +1,9 @@
 # FIO
 Feedback Intervention Ontology
 
+## List of Terms
+[Dictionary](DICTIONARY.md)
+
 ## Contributing
 ### Propose New Term
 1. Collect required information for new term.
@@ -17,7 +20,6 @@ Feedback Intervention Ontology
 ### Implementing New Term
 The ground truth file for the ontology is `src/ontology/fio-edit.owl`.  
 The rdf-xml and bfo formatted files that describe the ontology are artifacts which are generated from the fio-edit.owl file.
-
 
 1. Create new branch named after issue e.g. "issue_15"
 1. Select or generate URI e.g. FIO_00000088
