@@ -1,8 +1,11 @@
 #!/usr/bin/env bash
 
 # Requires xmllint to be installed
-command -v xmllint 1> /dev/null 2>&1 || \
-  { echo >&2 "xmllint required but it's not installed.  Aborting."; exit 1; }
+command -v robot 1> /dev/null 2>&1 || \
+  { echo >&2 "robot required but it's not installed.  Aborting."; exit 1; }
+
+command -v sed 1> /dev/null 2>&1 || \
+  { echo >&2 "sed required but it's not installed.  Aborting."; exit 1; }
 
 # Start by assuming it was the path invoked.
 THIS_SCRIPT="$0"
@@ -24,11 +27,15 @@ done
 # Get path to the scripts directory.
 SCRIPT_DIR=$(dirname "${THIS_SCRIPT}")
 
-# Calculate absolute path to imports/
-# Start with ontology/ as imports/ might not exist
 FIO_FILE="${SCRIPT_DIR}/../src/ontology/fio-edit.owl"
-SPARQL_FILE="${SCRIPT_DIR}/elec_dict.sparql"
+SPARQL_FILE="${SCRIPT_DIR}/dict.sparql"
+CSV_FILE="${SCRIPT_DIR}/../src/ontology/dictionary.csv"
+MD_FILE="${SCRIPT_DIR}/../DICTIONARY.md"
 
 # Extract Labels and Descriptions of terms
+echo "Using ROBOT to extract classes"
+robot query --input ${FIO_FILE} --query ${SPARQL_FILE} ${CSV_FILE}
 
-robot query --input ${FIO_FILE} --query ${SPARQL_FILE} outfile
+# Format csv to markdown 
+echo "Formatting dictionary markdown"
+sed -e 's|^\([^,]*\),\([^,]*\),\(.*\)|## \1\n### \2\n\3\n|' ${CSV_FILE} > ${MD_FILE} 
