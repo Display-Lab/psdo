@@ -578,7 +578,7 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000014"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A display which represents relations between dimensions.</obo:IAO_0000115>
+        <obo:IAO_0000115>An information content entity which displays relations between dimensions.</obo:IAO_0000115>
         <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
         <obo:IAO_0000119>Zhang</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Relational_Information_Display</rdfs:label>
@@ -992,10 +992,10 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/fio#FIO_0000111">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000110"/>
-        <obo:IAO_0000115>A single-performer display is a performance summary display that represents a performer.</obo:IAO_0000115>
+        <obo:IAO_0000115>A performance summary display that represents a single performer.</obo:IAO_0000115>
         <obo:IAO_0000116>John Rincón</obo:IAO_0000116>
         <obo:IAO_0000119>Dahee Lee</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">Single-Perfomfer_Display</rdfs:label>
+        <rdfs:label xml:lang="en">Individual_Display</rdfs:label>
     </owl:Class>
     
 
@@ -1004,10 +1004,64 @@ Kreuter, M. W., &amp; Skinner, C. S. (2000). Tailoring: what&apos;s in a name?.&
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/fio#FIO_0000112">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000110"/>
-        <obo:IAO_0000115>A Multi-performer display is a performance summary display that represents two or more performers.</obo:IAO_0000115>
+        <obo:IAO_0000115>A performance summary display that represents two or more performers.</obo:IAO_0000115>
         <obo:IAO_0000116>John Rincón</obo:IAO_0000116>
         <obo:IAO_0000119>Zach Landis-Lewis</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">Multi-Performer_Display</rdfs:label>
+        <rdfs:label xml:lang="en">Comparative_Display</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/fio#FIO_0000113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/fio#FIO_0000113">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000111"/>
+        <obo:IAO_0000115>An individual display that represents one time point.</obo:IAO_0000115>
+        <obo:IAO_0000116>John Rincón</obo:IAO_0000116>
+        <obo:IAO_0000119>Dahee Lee</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Invididual_Instant_Display</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/fio#FIO_0000114 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/fio#FIO_0000114">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000112"/>
+        <obo:IAO_0000115>A comparative display that represents one time point.</obo:IAO_0000115>
+        <obo:IAO_0000116>John Rincón</obo:IAO_0000116>
+        <obo:IAO_0000119>Dahee Lee</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">Comparative_Instant_Display</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/fio#FIO_0000115 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/fio#FIO_0000115">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000113"/>
+        <efo:definition>A single time single performer bargraph is a single time single performer display that contains a bagraph.</efo:definition>
+        <rdfs:label xml:lang="en">Single Time Single Performer Bargraph</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/fio#FIO_0000116 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/fio#FIO_0000116">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000111"/>
+        <efo:definition>An individual display that has multiple times.</efo:definition>
+        <rdfs:label xml:lang="en">Individual_Time_Series_Display</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/fio#FIO_0000117 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/fio#FIO_0000117">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000112"/>
+        <efo:definition>A comparative display that has multiple times.</efo:definition>
+        <rdfs:label xml:lang="en">Comparative_Time_Series_Display</rdfs:label>
     </owl:Class>
     
 
