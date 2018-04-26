@@ -14,8 +14,9 @@ Feedback Intervention Ontology
     * Reference
     * Example Usage (IAO_0000112)
 1. Create an issue for the new term in the tracker for this project.
-1. (if applicable) Add label
-   * 'icebox' indicates store for future discussion, and not ready for implementation
+1. Add label: 'term'
+   * Add other optional labels as needed (examples below)
+   * 'future' indicates store for future discussion, and not ready for implementation at this time
    * 'needs further discussion' indicates term needs to be fleshed out before implementation
 
 ### Implementing New Term
