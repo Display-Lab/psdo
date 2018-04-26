@@ -3,6 +3,7 @@
      xml:base="http://purl.obolibrary.org/obo/fio"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:apollo_sv="http://purl.obolibrary.org/obo/apollo_sv.owl/"
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
      xmlns:go="http://purl.obolibrary.org/obo/go#"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
@@ -12,6 +13,7 @@
      xmlns:cito="http://purl.org/spar/cito/"
      xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
      xmlns:efo="http://www.ebi.ac.uk/efo/"
+     xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:iao="http://purl.obolibrary.org/obo/iao/"
@@ -819,8 +821,8 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000007"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>A material information bearer that bears performance and intervention features, and is a key participant in the intervention process</obo:IAO_0000115>
         <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
-        <efo:definition>A material information bearer that bears performance and intervention features, and is a key participant in the intervention process</efo:definition>
         <rdfs:label xml:lang="en">Intervention_Report</rdfs:label>
     </owl:Class>
 
@@ -836,8 +838,8 @@ We also have the outstanding issue of how to aim different definitions to differ
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/fio#FIO_0000050"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>A material information bearer that bears performance and intervention features, and is a key participant in the intervention process</obo:IAO_0000115>
         <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
-        <efo:definition>The material information bearer which physically stores data related to a situation</efo:definition>
         <rdfs:label xml:lang="en">Situation_Data_Storer</rdfs:label>
     </owl:Class>
 
