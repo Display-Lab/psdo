@@ -6,6 +6,7 @@ Feedback Intervention Ontology
 
 ## Contributing
 ### Propose New Term
+1. Check the current dictionary to see if the term already exists.
 1. Collect required information for new term.
     * Term name
     * Definition
@@ -13,7 +14,7 @@ Feedback Intervention Ontology
     * Reference
     * Example Usage (IAO_0000112)
 1. Create an issue for the new term in the tracker for this project.
-1. (if applicable) Add label 
+1. (if applicable) Add label
    * 'icebox' indicates store for future discussion, and not ready for implementation
    * 'needs further discussion' indicates term needs to be fleshed out before implementation
 
@@ -46,7 +47,7 @@ This ontology is a BFO ontology and conforms to the guidelines provided by the O
 ### Getting Started
 1. Clone this repository
 2. Download & install Protege
-3. Install wget 
+3. Install wget
     * OSX: `brew install wget`
     * Debian/Ubuntu: `sudo apt-get install wget`
 3. `cd` to project directory
@@ -70,4 +71,3 @@ Use if the imported ontologies become too cumbersome to import in their entirety
 1. Tag commit with semantic version string e.g. "v0.2.0"
 1. Build .owl (rdf-xml) and .obo artifacts.
 1. Update OBO Foundry
-
