@@ -33,9 +33,10 @@ mkdir -p "${ABS_IMPORTS_DIR}"
 
 # Requires wget (brew install wget)
 wget -nc --directory-prefix="${ABS_IMPORTS_DIR}" "http://purl.obolibrary.org/obo/MFOEM.owl"
-wget -nc --directory-prefix="${ABS_IMPORTS_DIR}" "http://purl.obolibrary.org/obo/ro/releases/2017-07-19/ro.owl"
+wget -nc --directory-prefix="${ABS_IMPORTS_DIR}" "http://purl.obolibrary.org/obo/ro/core.owl"
 wget -nc --directory-prefix="${ABS_IMPORTS_DIR}" "http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"
-
+wget -nc --directory-prefix="${ABS_IMPORTS_DIR}" "http://purl.obolibrary.org/obo/IAO.owl"
+wget -nc --directory-prefix="${ABS_IMPORTS_DIR}" "http://purl.obolibrary.org/obo/dideo.owl"
 
 # # Unused ontology imports
 # wget -nc --directory-prefix="${ABS_IMPORTS_DIR}" "http://purl.obolibrary.org/obo/MFOEM.owl"
