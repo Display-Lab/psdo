@@ -33,14 +33,21 @@ mkdir -p "${ABS_IMPORTS_DIR}"
 
 # Requires wget (brew install wget)
 wget -nc --directory-prefix="${ABS_IMPORTS_DIR}" "http://purl.obolibrary.org/obo/MFOEM.owl"
-wget -nc --directory-prefix="${ABS_IMPORTS_DIR}" "http://purl.obolibrary.org/obo/dideo.owl"
-wget -nc --directory-prefix="${ABS_IMPORTS_DIR}" "http://purl.obolibrary.org/obo/ro/core.owl"
 wget -nc --directory-prefix="${ABS_IMPORTS_DIR}" "http://purl.obolibrary.org/obo/ro/releases/2017-07-19/ro.owl"
 wget -nc --directory-prefix="${ABS_IMPORTS_DIR}" "http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"
-wget -nc --directory-prefix="${ABS_IMPORTS_DIR}" "http://purl.obolibrary.org/obo/IAO.owl"
-wget -nc --directory-prefix="${ABS_IMPORTS_DIR}" "http://purl.obolibrary.org/obo/ro/annotations.owl"
-wget -nc --directory-prefix="${ABS_IMPORTS_DIR}" "http://purl.obolibrary.org/obo/ro/bfo-axioms.owl"
-wget -nc --directory-prefix="${ABS_IMPORTS_DIR}" "http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl"
-wget -nc --directory-prefix="${ABS_IMPORTS_DIR}" "http://purl.obolibrary.org/obo/bfo/2014-05-03/classes-only.owl"
+
+
+# # Unused ontology imports
+# wget -nc --directory-prefix="${ABS_IMPORTS_DIR}" "http://purl.obolibrary.org/obo/MFOEM.owl"
+# wget -nc --directory-prefix="${ABS_IMPORTS_DIR}" "http://purl.obolibrary.org/obo/MFO.owl"
+# wget -nc --directory-prefix="${ABS_IMPORTS_DIR}" "http://purl.obolibrary.org/obo/dideo.owl"
+# wget -nc --directory-prefix="${ABS_IMPORTS_DIR}" "http://purl.obolibrary.org/obo/ro/core.owl"
+# wget -nc --directory-prefix="${ABS_IMPORTS_DIR}" "http://purl.obolibrary.org/obo/ro/releases/2017-07-19/ro.owl"
+# wget -nc --directory-prefix="${ABS_IMPORTS_DIR}" "http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"
+# wget -nc --directory-prefix="${ABS_IMPORTS_DIR}" "http://purl.obolibrary.org/obo/IAO.owl"
+# wget -nc --directory-prefix="${ABS_IMPORTS_DIR}" "http://purl.obolibrary.org/obo/ro/annotations.owl"
+# wget -nc --directory-prefix="${ABS_IMPORTS_DIR}" "http://purl.obolibrary.org/obo/ro/bfo-axioms.owl"
+# wget -nc --directory-prefix="${ABS_IMPORTS_DIR}" "http://purl.obolibrary.org/obo/ro/bfo-classes-minimal.owl"
+# wget -nc --directory-prefix="${ABS_IMPORTS_DIR}" "http://purl.obolibrary.org/obo/bfo/2014-05-03/classes-only.owl"
 
 echo "Done."
