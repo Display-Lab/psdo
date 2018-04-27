@@ -33,7 +33,6 @@ mkdir -p "${ABS_IMPORTS_DIR}"
 
 # Requires wget (brew install wget)
 wget -nc --directory-prefix="${ABS_IMPORTS_DIR}" "http://purl.obolibrary.org/obo/MFOEM.owl"
-wget -nc --directory-prefix="${ABS_IMPORTS_DIR}" "http://purl.obolibrary.org/obo/MFO.owl"
 wget -nc --directory-prefix="${ABS_IMPORTS_DIR}" "http://purl.obolibrary.org/obo/dideo.owl"
 wget -nc --directory-prefix="${ABS_IMPORTS_DIR}" "http://purl.obolibrary.org/obo/ro/core.owl"
 wget -nc --directory-prefix="${ABS_IMPORTS_DIR}" "http://purl.obolibrary.org/obo/ro/releases/2017-07-19/ro.owl"

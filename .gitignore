@@ -1,3 +1,4 @@
 # Ignore import directory to reduce overhead
 src/ontology/imports/*
-
+# Intermediate dictionary output
+src/ontology/dictionary.csv
