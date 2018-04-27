@@ -18,7 +18,7 @@ All contributions to terms in the ontology should be documented in a separate is
 1. If the change request requires action from someone specific assign the issue to that person.
 1. Create the issue.
 
-### Propose a New Term
+### Proposing a New Term
 1. Check the current dictionary to see if the term already exists.
 1. Create a new issue for the new term with a descriptive title, i.e., 'New Term Need: domain problem'
 1. Assign the label 'term' to the issue, along with any other labels necessary.
