@@ -36,6 +36,6 @@ MD_FILE="${SCRIPT_DIR}/../DICTIONARY.md"
 echo "Using ROBOT to extract classes"
 robot query --input ${FIO_FILE} --query ${SPARQL_FILE} ${CSV_FILE}
 
-# Format csv to markdown 
+# Format csv to markdown
 echo "Formatting dictionary markdown"
-tail -n +2 ${CSV_FILE} | sort | sed -e 's|^\([^,]*\),\([^,]*\),\(.*\)|## \1\n### \2\n\3\n|' > ${MD_FILE}
+tail -n +2 ${CSV_FILE} | sort | sed -e 's|^\([^,]*\),\([^,]*\),\(.*\)|##\1\n### \2\n\3\n|' > ${MD_FILE}
