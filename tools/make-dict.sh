@@ -38,4 +38,5 @@ robot query --input ${FIO_FILE} --query ${SPARQL_FILE} ${CSV_FILE}
 
 # Format csv to markdown
 echo "Formatting dictionary markdown"
-tail -n +2 ${CSV_FILE} | sort | sed -e 's|^\([^,]*\),\([^,]*\),\(.*\)|##\1 <br/> ### \2 <br/>\3 <br/>|' > ${MD_FILE}
+tail -n +2 ${CSV_FILE} | sort | sed -e 's|^\([^,]*\),\([^,]*\),\(.*\)|## \1\
+### \3\2\n|' > ${MD_FILE}
