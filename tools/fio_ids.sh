@@ -4,9 +4,6 @@
 command -v robot 1> /dev/null 2>&1 || \
   { echo >&2 "robot required but it's not installed.  Aborting."; exit 1; }
 
-command -v sed 1> /dev/null 2>&1 || \
-  { echo >&2 "sed required but it's not installed.  Aborting."; exit 1; }
-
 # Start by assuming it was the path invoked.
 THIS_SCRIPT="$0"
 
@@ -28,16 +25,13 @@ done
 SCRIPT_DIR=$(dirname "${THIS_SCRIPT}")
 
 FIO_FILE="${SCRIPT_DIR}/../src/ontology/fio-edit.owl"
-SPARQL_FILE="${SCRIPT_DIR}/dict.sparql"
-CSV_FILE="${SCRIPT_DIR}/../src/ontology/dictionary.csv"
-MD_FILE="${SCRIPT_DIR}/../DICTIONARY.md"
+SPARQL_FILE="${SCRIPT_DIR}/ids.sparql"
+CSV_FILE="${SCRIPT_DIR}/../src/ontology/id.csv"
 
-# Extract Labels and Descriptions of terms
-echo "Using ROBOT to extract classes"
+# Extract FIO Ids
+echo "Using ROBOT to extract 10 recent FIO Ids (largest)"
 robot query --input ${FIO_FILE} --query ${SPARQL_FILE} ${CSV_FILE}
 
-# Format csv to markdown
-echo "Formatting dictionary markdown"
-tail -n +2 ${CSV_FILE} | sort | sed -e 's|^\([^,]*\),\([^,]*\),\(.*\)|## \1\
-\3\
-\2|' > ${MD_FILE}
+# Print query results to the command line
+echo "$(<${CSV_FILE})"
+# sed -n '1,11p' ${CSV_FILE}
