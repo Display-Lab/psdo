@@ -1,4 +1,8 @@
 # Ignore import directory to reduce overhead
 src/ontology/imports/*
+
 # Intermediate csv outputs
 src/ontology/*.csv
+
+# ODBA file
+src/ontology/fido-edit.obda
