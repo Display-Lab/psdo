@@ -6,7 +6,7 @@ PREFIX obo: <http://purl.obolibrary.org/obo/>
 SELECT (?type as ?FIDO_Ids________)
 WHERE {
   ?type a ?Class
-  FILTER (regex (str(?type), "FIDO") && regex (str(?type), "[0-9]"))
+  FILTER (regex (str(?type), "fido") && regex (str(?type), "[0-9]"))
 }
 ORDER BY DESC(?type)
 LIMIT 10

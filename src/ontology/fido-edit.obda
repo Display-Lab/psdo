@@ -1,5 +1,5 @@
 [PrefixDeclaration]
-:		http://purl.obolibrary.org/obo/fio#
+:		http://purl.obolibrary.org/obo/fido#
 dc:		http://purl.org/dc/elements/1.1/
 efo:		http://www.ebi.ac.uk/efo/
 obo:		http://purl.obolibrary.org/obo/
@@ -19,11 +19,10 @@ oboInOwl:	http://www.geneontology.org/formats/oboInOwl#
 
 [SourceDeclaration]
 sourceUri	datasource1
-connectionUrl	
-username	
-password	
-driverClass	
+connectionUrl
+username
+password
+driverClass
 
 [MappingDeclaration] @collection [[
 ]]
-

@@ -18,7 +18,7 @@ while [ -h "$THIS_SCRIPT" ] ; do
     THIS_SCRIPT="$link"
   else
     THIS_SCRIPT=`dirname "$THIS_SCRIPT"`/"$link"
-  fiß
+  fi
 done
 
 # Get path to the scripts directory.
