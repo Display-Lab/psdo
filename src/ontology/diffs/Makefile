@@ -1,6 +1,6 @@
 
 OBO=http://purl.obolibrary.org/obo
-ONT = fio
+ONT = fido
 SRC = ../$(ONT).obo
 LAST = $(OBO)/$(ONT).obo
 
