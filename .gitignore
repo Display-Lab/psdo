@@ -5,4 +5,4 @@ src/ontology/imports/*
 src/ontology/*.csv
 
 # ODBA file
-src/ontology/fido-edit.obda
+src/ontology/psdo-edit.obda
