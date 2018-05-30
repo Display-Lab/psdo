@@ -2,7 +2,7 @@
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/MFOEM.owl" uri="imports/MFOEM.owl"/>
     <uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl" uri="imports/bfo.owl"/>
-    <uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/IAO.owl" uri="imports/IAO.owl"/>
+    <uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/iao.owl" uri="imports/iao.owl"/>
     <uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/ro/core.owl" uri="imports/core.owl"/>
 
     <!-- <uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/MFOEM.owl" uri="imports/MFOEM.owl"/>
