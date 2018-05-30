@@ -1,12 +1,12 @@
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX fido: <http://purl.obolibrary.org/obo/fido#>
+PREFIX psdo: <http://purl.obolibrary.org/obo/psdo#>
 PREFIX obo: <http://purl.obolibrary.org/obo/>
 
-SELECT (?type as ?FIDO_Ids________)
+SELECT (?type as ?psdo_Ids________)
 WHERE {
   ?type a ?Class
-  FILTER (regex (str(?type), "fido") && regex (str(?type), "[0-9]"))
+  FILTER (regex (str(?type), "psdo") && regex (str(?type), "[0-9]"))
 }
 ORDER BY DESC(?type)
 LIMIT 10
