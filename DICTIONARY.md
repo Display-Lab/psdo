@@ -1,24 +1,12 @@
-## behavior change intervention
-A coordinated set of activities designed to change specified behaviour patterns
-http://purl.obolibrary.org/obo/psdo#psdo_0000007
-## behavior
-a measurable action that is engaged in by a performer
-http://purl.obolibrary.org/obo/psdo#psdo_0000010
-## capability barrier
-Definition Needed
-http://purl.obolibrary.org/obo/psdo#psdo_0000132
-## cardinality
-The number of represented dimensions in a display
-http://purl.obolibrary.org/obo/psdo#psdo_0000122
 ## comparator
 "A performer to which a performance report is not delivered, and to which a recipient can be compared"
 http://purl.obolibrary.org/obo/psdo#psdo_0000037
 ## data features
 Aspects of data that indicate its appropriateness for various types of feedback interventions.
 http://purl.obolibrary.org/obo/psdo#psdo_0000023
-## delivery
-"The medium through, and style in which, feedback is given to a performer"
-http://purl.obolibrary.org/obo/psdo#psdo_0000025
+## display dimension cardinality
+The number of represented dimensions in a display
+http://purl.obolibrary.org/obo/psdo#psdo_0000122
 ## display trend
 the general movement over time of a detectable change in performance
 http://purl.obolibrary.org/obo/psdo#psdo_0000128
@@ -31,15 +19,9 @@ http://purl.obolibrary.org/obo/psdo#psdo_0000013
 ## high performance
 A contextually defined performance level that is considered high.
 http://purl.obolibrary.org/obo/psdo#psdo_0000043
-## homo sapien
-get PATH from OMRSE for Homo Sapien
-http://purl.obolibrary.org/obo/psdo#psdo_0000059
 ## intervention features
 features of an interventions that are likely to produce an interaction
 http://purl.obolibrary.org/obo/psdo#psdo_0000026
-## intervention situation relationship
-a causal pathway from an intervention to a situation
-http://purl.obolibrary.org/obo/psdo#psdo_0000135
 ## low performance
 A contextually defined performance level that is considered low
 http://purl.obolibrary.org/obo/psdo#psdo_0000044
@@ -55,12 +37,6 @@ http://purl.obolibrary.org/obo/psdo#psdo_0000112
 ## negative performance trend
 A trend where the direction of change is negative
 http://purl.obolibrary.org/obo/psdo#psdo_0000130
-## negative signal
-A performance signal that indicates the performance is bad
-http://purl.obolibrary.org/obo/psdo#psdo_0000126
-## normative comparator
-Definition Needed
-http://purl.obolibrary.org/obo/psdo#psdo_0000134
 ## normative information
 Definition Needed
 http://purl.obolibrary.org/obo/psdo#psdo_0000052
@@ -73,11 +49,11 @@ http://purl.obolibrary.org/obo/psdo#psdo_0000042
 ## performance report
 "A report contain information about performer(s) performance datum for performance measure(s), and which is delivered to a recipient"
 http://purl.obolibrary.org/obo/psdo#psdo_0000014
-## performance signal
-An indication of the state affairs of an accomplished behavior
-http://purl.obolibrary.org/obo/psdo#psdo_0000125
+## performance
+a determinable quality that is dependant on human beings organizations and instantiated by measurement values of a behavior process
+http://purl.obolibrary.org/obo/psdo#psdo_0000139
 ## performer cardinality
-the number of dimensions that represent performers
+the number of dimensions that represent performers in a display
 http://purl.obolibrary.org/obo/psdo#psdo_0000123
 ## performer
 "A continuant to which observed or expected performance information can be attributed, including healthcare professionals, teams and organizations that are the recipients of a report, as well as benchmarks, standards, and goals that are applied as performance comparators."
@@ -85,30 +61,15 @@ http://purl.obolibrary.org/obo/psdo#psdo_0000001
 ## positive performance trend
 Definition Needed
 http://purl.obolibrary.org/obo/psdo#psdo_0000129
-## positive signal
-A performance signal that indicates the performance is good
-http://purl.obolibrary.org/obo/psdo#psdo_0000127
-## prevention focus
-definition needed
-http://purl.obolibrary.org/obo/psdo#psdo_0000119
 ## prevention framing
 An attribute of an intervention that exposes loss
 http://purl.obolibrary.org/obo/psdo#psdo_0000116
-## promotion focus
-Definition Needed
-http://purl.obolibrary.org/obo/psdo#psdo_0000120
 ## promotion framing
 an attribute of an intervention that exposes gain
 http://purl.obolibrary.org/obo/psdo#psdo_0000117
 ## recipient
 the performer to which a performance report is delivered in order to enact a feedback intervention
 http://purl.obolibrary.org/obo/psdo#psdo_0000036
-## regulatory focus
-a sensitivity of the recipient
-http://purl.obolibrary.org/obo/psdo#psdo_0000118
-## related location
-Definition Needed
-http://purl.obolibrary.org/obo/psdo#psdo_0000131
 ## relational information display template
 the specifications and metadata associated with a relational information display
 http://purl.obolibrary.org/obo/psdo#psdo_0000133
@@ -118,23 +79,14 @@ http://purl.obolibrary.org/obo/psdo#psdo_0000030
 ## satisfactory performance
 An acceptable performance level
 http://purl.obolibrary.org/obo/psdo#psdo_0000040
-## setting
-The social and physical environment in which an intervention takes place.
-http://purl.obolibrary.org/obo/psdo#psdo_0000024
 ## significant change in performance
 "A contextually defined notable amount of change in a performer's performance data, or as compared to comparator, for a performance measure."
 http://purl.obolibrary.org/obo/psdo#psdo_0000039
 ## single performer display
 A single-performer display is a performance summary display that represents a performer.
 http://purl.obolibrary.org/obo/psdo#psdo_0000111
-## situation
-"The set of salient features within a particular context, behavior, exposure, mechanisms, and effects for a candidate intervention"
-http://purl.obolibrary.org/obo/psdo#psdo_0000050
-## spek
-Definition Needed
-http://purl.obolibrary.org/obo/psdo#psdo_0000114
 ## time cardinality
-the number of dimensions that represent time
+the number of dimensions that represent time in a display
 http://purl.obolibrary.org/obo/psdo#psdo_0000124
 ## uptake
 The presence of some level of engagement with an intervention by a target performer
