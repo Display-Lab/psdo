@@ -4,6 +4,7 @@
     <uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl" uri="imports/bfo.owl"/>
     <uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/iao.owl" uri="imports/iao.owl"/>
     <uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/ro/core.owl" uri="imports/core.owl"/>
+    <uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/stato.owl" uri="imports/stato.owl"/>
 
     <!-- <uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/MFOEM.owl" uri="imports/MFOEM.owl"/>
     <uri id="User Edited Redirect" name="http://purl.obolibrary.org/obo/MFO.owl" uri="imports/MFO.owl"/>

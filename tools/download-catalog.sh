@@ -36,6 +36,7 @@ wget -nc --directory-prefix="${ABS_IMPORTS_DIR}" "http://purl.obolibrary.org/obo
 wget -nc --directory-prefix="${ABS_IMPORTS_DIR}" "http://purl.obolibrary.org/obo/ro/core.owl"
 wget -nc --directory-prefix="${ABS_IMPORTS_DIR}" "http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"
 wget -nc --directory-prefix="${ABS_IMPORTS_DIR}" "http://purl.obolibrary.org/obo/iao.owl"
+wget -nc --directory-prefix="${ABS_IMPORTS_DIR}" "http://purl.obolibrary.org/obo/stato.owl"
 
 # # Unused ontology imports
 # wget -nc --directory-prefix="${ABS_IMPORTS_DIR}" "http://purl.obolibrary.org/obo/MFOEM.owl"

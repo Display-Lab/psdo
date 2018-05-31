@@ -953,6 +953,16 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
+    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000139 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000139">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:IAO_0000115>a determinable quality that is dependant on human beings organizations and instantiated by measurement values of a behavior process</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">performance</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.w3.org/2002/07/owl#Thing -->
 
     <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Thing"/>
