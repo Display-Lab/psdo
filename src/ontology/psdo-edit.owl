@@ -305,7 +305,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000014">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000088"/>
         <obo:IAO_0000115 xml:lang="en">A report contain information about performer(s) performance datum for performance measure(s), and which is delivered to a recipient</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Rincón</obo:IAO_0000117>
         <rdfs:label xml:lang="en">performance report</rdfs:label>
@@ -845,7 +845,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000125 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000125">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000113"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
         <obo:IAO_0000115>An indication of the state affairs of an accomplished behavior</obo:IAO_0000115>
         <rdfs:label>performance signal</rdfs:label>
     </owl:Class>
