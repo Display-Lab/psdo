@@ -10,6 +10,7 @@
      xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
      xmlns:efo="http://www.ebi.ac.uk/efo/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:doap="http://usefulinc.com/ns/doap#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:iao="http://purl.obolibrary.org/obo/iao/"
      xmlns:ace_lexicon="http://attempto.ifi.uzh.ch/ace_lexicon#"
@@ -17,6 +18,7 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/psdo">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/stato.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/MFOEM.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/core.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
@@ -248,7 +250,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000003">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -625,7 +627,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000065 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000065">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -815,9 +817,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000122 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000122">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000113"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
         <obo:IAO_0000115>The number of represented dimensions in a display</obo:IAO_0000115>
-        <rdfs:label>cardinality</rdfs:label>
+        <rdfs:label>display dimension cardinality</rdfs:label>
     </owl:Class>
     
 
@@ -826,7 +828,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000123">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000122"/>
-        <obo:IAO_0000115>the number of dimensions that represent performers</obo:IAO_0000115>
+        <obo:IAO_0000115>the number of dimensions that represent performers in a display</obo:IAO_0000115>
         <rdfs:label>performer cardinality</rdfs:label>
     </owl:Class>
     
@@ -836,7 +838,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000124">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000122"/>
-        <obo:IAO_0000115>the number of dimensions that represent time</obo:IAO_0000115>
+        <obo:IAO_0000115>the number of dimensions that represent time in a display</obo:IAO_0000115>
         <rdfs:label>time cardinality</rdfs:label>
     </owl:Class>
     
@@ -875,7 +877,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000128 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000128">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000113"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
         <obo:IAO_0000115>the general movement over time of a detectable change in performance</obo:IAO_0000115>
         <obo:IAO_0000119>Trend [Internet]. Merriam-Webster. Merriam-Webster; [cited 2018May9]. Available from: https://www.merriam-webster.com/dictionary/trend</obo:IAO_0000119>
         <rdfs:label>display trend</rdfs:label>
