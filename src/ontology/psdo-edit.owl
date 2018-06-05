@@ -227,12 +227,6 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000050"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A continuant to which observed or expected performance information can be attributed, including healthcare professionals, teams and organizations that are the recipients of a report, as well as benchmarks, standards, and goals that are applied as performance comparators.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">performer</rdfs:label>
     </owl:Class>
@@ -251,35 +245,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A documented outcome of the targeted behavior that results from processes such as performance measurement, prediction, or goal-setting.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">performance datum</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000007 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000007">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002434"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000050"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A coordinated set of activities designed to change specified behaviour patterns</obo:IAO_0000115>
-        <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
-        <obo:IAO_0000119>Michie S, Stralen MMV, West R. The behaviour change wheel: A new method for characterising and designing behaviour change interventions. Implementation Science. 2011;6(1).</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">behavior change intervention</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000010 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000010">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <obo:IAO_0000115>a measurable action that is engaged in by a performer</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">John Rincón</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">behavior</rdfs:label>
     </owl:Class>
     
 
@@ -311,63 +276,9 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000023">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000050"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>Aspects of data that indicate its appropriateness for various types of feedback interventions.</obo:IAO_0000115>
         <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
         <rdfs:label xml:lang="en">data features</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000024 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000024">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000050"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000064"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000065"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>The social and physical environment in which an intervention takes place.</obo:IAO_0000115>
-        <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
-        <obo:IAO_0000119>Adapted from West, R. and Michie, S. (2016). A Guide to Development and Evaluation of Digital Behavior Interventions in Healthcare. Silverback Publishing.</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">setting</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000025 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000025">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000007"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>The medium through, and style in which, feedback is given to a performer</obo:IAO_0000115>
-        <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
-        <obo:IAO_0000119>Adapted from West, R. and Michie, S. (2016). A Guide to Development and Evaluation of Digital Behavior Interventions in Healthcare. Silverback Publishing.</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">delivery</rdfs:label>
     </owl:Class>
     
 
@@ -440,17 +351,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
         <obo:IAO_0000119>Zhang J. A representational analysis of relational information displays. International Journal of Human-Computer Studies. 1996;45(1):59–74.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">relational information display</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000035 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000035">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
-        <efo:definition>An appraisal with represent the performance behavior.</efo:definition>
-        <rdfs:label xml:lang="en">appraisal of performance behavior</rdfs:label>
     </owl:Class>
     
 
@@ -558,29 +458,6 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000050 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000050">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000024"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002434"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000007"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>The set of salient features within a particular context, behavior, exposure, mechanisms, and effects for a candidate intervention</obo:IAO_0000115>
-        <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">situation</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000052 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000052">
@@ -600,38 +477,6 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000064 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000064">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000141"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000024"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <efo:definition>The social aspects that are part of a setting</efo:definition>
-        <rdfs:label xml:lang="en">social setting</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000065 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000065">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000024"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <efo:definition>The tangible aspects that are part of a setting</efo:definition>
-        <rdfs:label xml:lang="en">physical setting</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000069 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000069">
@@ -639,65 +484,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
         <efo:definition>The presence of performance data over multiple one-dimensional temporal regions for a given performer and performance measure</efo:definition>
         <rdfs:label xml:lang="en">time series</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000085 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000085">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <efo:definition>A capability realized in the process of performing a performance behavior</efo:definition>
-        <rdfs:label xml:lang="en">performance behavior capability</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000086 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000086">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000085"/>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000087"/>
-        <efo:definition>A capability realized when a performer is able to consistently carry out a performance behavior at a high level of excellence</efo:definition>
-        <rdfs:label xml:lang="en">dominant performance behavior capability</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000087 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000087">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000085"/>
-        <efo:definition>A capability realized when a performer is not able to consistently carry out a performance behavior at a high level of excellence</efo:definition>
-        <rdfs:label xml:lang="en">nondominant performance behavior capability</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000088 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000088">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000050"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <efo:definition>An independent continuant which represents the union of the features of a situation and those of a template</efo:definition>
-        <rdfs:label xml:lang="en">candidate</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000089 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000089">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000088"/>
-        <obo:IAO_0000116>This is as opposed to &quot;Naughty_Candidate&quot;, which is an innappropriate candidate that would probably create inappropriate mischief.  Again according to psychological theory</obo:IAO_0000116>
-        <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
-        <efo:definition>A candidate thats situation and template characteristics are complementary according to theory</efo:definition>
-        <rdfs:label xml:lang="en">appropriate candidate</rdfs:label>
     </owl:Class>
     
 
@@ -738,14 +524,6 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000113 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000113">
-        <rdfs:label>spek terms</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000116 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000116">
@@ -762,36 +540,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000038"/>
         <obo:IAO_0000115>an attribute of an intervention that exposes gain</obo:IAO_0000115>
         <rdfs:label>promotion framing</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000118 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000118">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000113"/>
-        <obo:IAO_0000115>a sensitivity of the recipient</obo:IAO_0000115>
-        <rdfs:label>regulatory focus</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000119 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000119">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000118"/>
-        <obo:IAO_0000115>definition needed</obo:IAO_0000115>
-        <rdfs:label>prevention focus</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000120 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000120">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000118"/>
-        <obo:IAO_0000115>Definition Needed</obo:IAO_0000115>
-        <rdfs:label>promotion focus</rdfs:label>
     </owl:Class>
     
 
@@ -822,36 +570,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000122"/>
         <obo:IAO_0000115>the number of dimensions that represent time in a display</obo:IAO_0000115>
         <rdfs:label>time cardinality</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000125 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000125">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
-        <obo:IAO_0000115>An indication of the state affairs of an accomplished behavior</obo:IAO_0000115>
-        <rdfs:label>performance signal</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000126 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000126">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000125"/>
-        <obo:IAO_0000115>A performance signal that indicates the performance is bad</obo:IAO_0000115>
-        <rdfs:label>negative signal</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000127 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000127">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000125"/>
-        <obo:IAO_0000115>A performance signal that indicates the performance is good</obo:IAO_0000115>
-        <rdfs:label>positive signal</rdfs:label>
     </owl:Class>
     
 
@@ -887,42 +605,12 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000132 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000132">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000113"/>
-        <obo:IAO_0000115>Definition Needed</obo:IAO_0000115>
-        <rdfs:label>capability barrier</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000133 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000133">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000030"/>
         <obo:IAO_0000115>the specifications and metadata associated with a relational information display</obo:IAO_0000115>
         <rdfs:label>relational information display template</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000134 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000134">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000113"/>
-        <obo:IAO_0000115>Definition Needed</obo:IAO_0000115>
-        <rdfs:label>normative comparator</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000135 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000135">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000113"/>
-        <obo:IAO_0000115>a causal pathway from an intervention to a situation</obo:IAO_0000115>
-        <rdfs:label>intervention situation relationship</rdfs:label>
     </owl:Class>
     
 
