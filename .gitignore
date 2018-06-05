@@ -6,3 +6,6 @@ src/ontology/*.csv
 
 # ODBA file
 src/ontology/psdo-edit.obda
+
+# add catalog file
+src/ontology/catalog-v001.xml
