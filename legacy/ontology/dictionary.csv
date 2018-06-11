@@ -1,0 +1,33 @@
+label,subject,desc
+engagement,http://purl.obolibrary.org/obo/psdo#psdo_0000029,"The amount and manner of use of, or interaction with, an invention by a performer"
+display trend,http://purl.obolibrary.org/obo/psdo#psdo_0000128,the general movement over time of a detectable change in performance
+gap,http://purl.obolibrary.org/obo/psdo#psdo_0000013,A numerical difference between the performance data of a performer for a performance measure and some comparator.
+multiple performer display,http://purl.obolibrary.org/obo/psdo#psdo_0000112,A multi-performer display is a performance summary display that represents two or more performers.
+performer cardinality,http://purl.obolibrary.org/obo/psdo#psdo_0000123,the number of dimensions that represent performers in a display
+relational information display,http://purl.obolibrary.org/obo/psdo#psdo_0000030,A display which represents relations between dimensions.
+performance report,http://purl.obolibrary.org/obo/psdo#psdo_0000014,"A report contain information about performer(s) performance datum for performance measure(s), and which is delivered to a recipient"
+time cardinality,http://purl.obolibrary.org/obo/psdo#psdo_0000124,the number of dimensions that represent time in a display
+normative information,http://purl.obolibrary.org/obo/psdo#psdo_0000052,Definition Needed
+performance level,http://purl.obolibrary.org/obo/psdo#psdo_0000042,"The subjective evaluation about the quality (low, satisfactory, or high) of performance data for a performer on a given performance measure, or set of measures"
+intervention features,http://purl.obolibrary.org/obo/psdo#psdo_0000026,features of an interventions that are likely to produce an interaction
+comparator,http://purl.obolibrary.org/obo/psdo#psdo_0000037,"A performer to which a performance report is not delivered, and to which a recipient can be compared"
+negative performance trend,http://purl.obolibrary.org/obo/psdo#psdo_0000130,A trend where the direction of change is negative
+high performance,http://purl.obolibrary.org/obo/psdo#psdo_0000043,A contextually defined performance level that is considered high.
+single performer display,http://purl.obolibrary.org/obo/psdo#psdo_0000111,A single-performer display is a performance summary display that represents a performer.
+display dimension cardinality,http://purl.obolibrary.org/obo/psdo#psdo_0000122,The number of represented dimensions in a display
+satisfactory performance,http://purl.obolibrary.org/obo/psdo#psdo_0000040,An acceptable performance level
+performance datum,http://purl.obolibrary.org/obo/psdo#psdo_0000003,"A documented outcome of the targeted behavior that results from processes such as performance measurement, prediction, or goal-setting."
+prevention framing,http://purl.obolibrary.org/obo/psdo#psdo_0000116,An attribute of an intervention that exposes loss
+low performance,http://purl.obolibrary.org/obo/psdo#psdo_0000044,A contextually defined performance level that is considered low
+minimally sufficient data,http://purl.obolibrary.org/obo/psdo#psdo_0000041,The smallest quantity of data from which meaningful inferences and/or evaluations can be made.
+significant change in performance,http://purl.obolibrary.org/obo/psdo#psdo_0000039,"A contextually defined notable amount of change in a performer's performance data, or as compared to comparator, for a performance measure."
+recipient,http://purl.obolibrary.org/obo/psdo#psdo_0000036,the performer to which a performance report is delivered in order to enact a feedback intervention
+promotion framing,http://purl.obolibrary.org/obo/psdo#psdo_0000117,an attribute of an intervention that exposes gain
+performer,http://purl.obolibrary.org/obo/psdo#psdo_0000001,"A continuant to which observed or expected performance information can be attributed, including healthcare professionals, teams and organizations that are the recipients of a report, as well as benchmarks, standards, and goals that are applied as performance comparators."
+performance,http://purl.obolibrary.org/obo/psdo#psdo_0000139,a determinable quality that is dependant on human beings organizations and instantiated by measurement values of a behavior process
+positive performance trend,http://purl.obolibrary.org/obo/psdo#psdo_0000129,Definition Needed
+data features,http://purl.obolibrary.org/obo/psdo#psdo_0000023,Aspects of data that indicate its appropriateness for various types of feedback interventions.
+relational information display template,http://purl.obolibrary.org/obo/psdo#psdo_0000133,the specifications and metadata associated with a relational information display
+uptake,http://purl.obolibrary.org/obo/psdo#psdo_0000028,The presence of some level of engagement with an intervention by a target performer
+usage,http://purl.obolibrary.org/obo/psdo#psdo_0000027,The uptake and engagement with an intervention by a performer.
+message framing,http://purl.obolibrary.org/obo/psdo#psdo_0000038,"An intervention attribute through which information is exposed, as to affect a particular emotional response"

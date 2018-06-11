@@ -24,10 +24,10 @@
         <owl:versionInfo>0.0.1</owl:versionInfo>
         <dc:license>Insert license link whenever we decide what that is</dc:license>
     </owl:Ontology>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Annotation properties
@@ -35,7 +35,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
@@ -69,7 +69,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</rdfs:label>
     </owl:AnnotationProperty>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
@@ -81,7 +81,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label>editor note</rdfs:label>
         <rdfs:label xml:lang="en">editor note</rdfs:label>
     </owl:AnnotationProperty>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
@@ -96,7 +96,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition editor</rdfs:label>
         <rdfs:label xml:lang="en">term editor</rdfs:label>
     </owl:AnnotationProperty>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
@@ -110,19 +110,19 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label xml:lang="en">definition source</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition source</rdfs:label>
     </owl:AnnotationProperty>
-    
+
 
 
     <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
 
     <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
-    
+
 
 
     <!-- http://www.ebi.ac.uk/efo/definition -->
 
     <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/definition"/>
-    
+
 
 
     <!-- http://www.w3.org/2000/01/rdf-schema#label -->
@@ -130,10 +130,10 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
         <rdfs:label>label</rdfs:label>
     </owl:AnnotationProperty>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Datatypes
@@ -141,16 +141,16 @@ We also have the outstanding issue of how to aim different definitions to differ
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://www.w3.org/2001/XMLSchema#ID -->
 
     <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#ID"/>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Object Properties
@@ -158,13 +158,13 @@ We also have the outstanding issue of how to aim different definitions to differ
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/RO_0002434 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002434"/>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000076 -->
@@ -172,7 +172,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000076">
         <rdfs:label xml:lang="en">has_some</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000077 -->
@@ -182,7 +182,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <efo:definition>Creates a more desirable outcome</efo:definition>
         <rdfs:label xml:lang="en">improves</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000136 -->
@@ -191,7 +191,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115>Definition Needed</obo:IAO_0000115>
         <rdfs:label>about_performer</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000137 -->
@@ -200,7 +200,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115>Definition Needed</obo:IAO_0000115>
         <rdfs:label>uses_template</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000138 -->
@@ -209,10 +209,10 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115>Definition Needed</obo:IAO_0000115>
         <rdfs:label>uses_intervention_situation_response</rdfs:label>
     </owl:ObjectProperty>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Classes
@@ -220,7 +220,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000027 -->
@@ -228,7 +228,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000027">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->
@@ -236,13 +236,13 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000030">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000088 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000088"/>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000308 -->
@@ -250,7 +250,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000308">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
     </rdf:Description>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000001 -->
@@ -260,7 +260,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115 xml:lang="en">A continuant to which observed or expected performance information can be attributed, including healthcare professionals, teams and organizations that are the recipients of a report, as well as benchmarks, standards, and goals that are applied as performance comparators.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">performer</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000003 -->
@@ -276,7 +276,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115 xml:lang="en">A documented outcome of the targeted behavior that results from processes such as performance measurement, prediction, or goal-setting.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">performance datum</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000013 -->
@@ -288,7 +288,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000119>Inspired by defintion of &apos;feedback-standard gap&apos; in Kluger, A. N., &amp; DeNisi, A. (1996). The effects of feedback interventions on performance: A historical review, a meta-analysis, and a preliminary feedback intervention theory.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">gap</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000014 -->
@@ -299,7 +299,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000117 xml:lang="en">John Rincón</obo:IAO_0000117>
         <rdfs:label xml:lang="en">performance report</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000023 -->
@@ -310,7 +310,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
         <rdfs:label xml:lang="en">data features</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000026 -->
@@ -328,7 +328,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000119>Guided by West, R. and Michie, S. (2016). A Guide to Development and Evaluation of Digital Behavior Interventions in Healthcare. Silverback Publishing.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">intervention features</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000027 -->
@@ -340,7 +340,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000119>Adapted from West, R. and Michie, S. (2016). A Guide to Development and Evaluation of Digital Behavior Interventions in Healthcare. Silverback Publishing.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">usage</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000028 -->
@@ -352,7 +352,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000119>Adapted from West, R. and Michie, S. (2016). A Guide to Development and Evaluation of Digital Behavior Interventions in Healthcare. Silverback Publishing.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">uptake</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000029 -->
@@ -364,7 +364,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000119>Adapted from West, R. and Michie, S. (2016). A Guide to Development and Evaluation of Digital Behavior Interventions in Healthcare. Silverback Publishing.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">engagement</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000030 -->
@@ -382,7 +382,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000119>Zhang J. A representational analysis of relational information displays. International Journal of Human-Computer Studies. 1996;45(1):59–74.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">relational information display</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000036 -->
@@ -394,7 +394,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
         <rdfs:label>recipient</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000037 -->
@@ -405,7 +405,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
         <rdfs:label xml:lang="en">comparator</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000038 -->
@@ -422,7 +422,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000116>John Rincón</obo:IAO_0000116>
         <rdfs:label xml:lang="en">message framing</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000039 -->
@@ -433,7 +433,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
         <rdfs:label xml:lang="en">significant change in performance</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000040 -->
@@ -444,7 +444,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
         <rdfs:label xml:lang="en">satisfactory performance</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000041 -->
@@ -455,7 +455,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000117>John Rincón</obo:IAO_0000117>
         <rdfs:label xml:lang="en">minimally sufficient data</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000042 -->
@@ -465,7 +465,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115>The subjective evaluation about the quality (low, satisfactory, or high) of performance data for a performer on a given performance measure, or set of measures</obo:IAO_0000115>
         <rdfs:label xml:lang="en">performance level</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000043 -->
@@ -475,7 +475,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115>A contextually defined performance level that is considered high.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">high performance</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000044 -->
@@ -485,7 +485,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115>A contextually defined performance level that is considered low</obo:IAO_0000115>
         <rdfs:label xml:lang="en">low performance</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000052 -->
@@ -495,7 +495,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115>Definition Needed</obo:IAO_0000115>
         <rdfs:label xml:lang="en">normative information</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000055 -->
@@ -504,7 +504,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
         <rdfs:label xml:lang="en">recipient features</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000069 -->
@@ -515,7 +515,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <efo:definition>The presence of performance data over multiple one-dimensional temporal regions for a given performer and performance measure</efo:definition>
         <rdfs:label xml:lang="en">time series</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000110 -->
@@ -527,7 +527,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <efo:definition>A relational information display that represents dimensions of performer, performance measure, performance data, and time.</efo:definition>
         <rdfs:label xml:lang="en">performance summary display</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000111 -->
@@ -539,7 +539,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000119>Dahee Lee</obo:IAO_0000119>
         <rdfs:label xml:lang="en">single performer display</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000112 -->
@@ -551,7 +551,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000119>Zach Landis-Lewis</obo:IAO_0000119>
         <rdfs:label xml:lang="en">multiple performer display</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000116 -->
@@ -561,7 +561,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115>An attribute of an intervention that exposes loss</obo:IAO_0000115>
         <rdfs:label>prevention framing</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000117 -->
@@ -571,7 +571,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115>an attribute of an intervention that exposes gain</obo:IAO_0000115>
         <rdfs:label>promotion framing</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000122 -->
@@ -581,7 +581,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115>The number of represented dimensions in a display</obo:IAO_0000115>
         <rdfs:label>display dimension cardinality</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000123 -->
@@ -591,7 +591,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115>the number of dimensions that represent performers in a display</obo:IAO_0000115>
         <rdfs:label>performer cardinality</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000124 -->
@@ -601,7 +601,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115>the number of dimensions that represent time in a display</obo:IAO_0000115>
         <rdfs:label>time cardinality</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000128 -->
@@ -612,7 +612,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000119>Trend [Internet]. Merriam-Webster. Merriam-Webster; [cited 2018May9]. Available from: https://www.merriam-webster.com/dictionary/trend</obo:IAO_0000119>
         <rdfs:label>display trend</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000129 -->
@@ -622,7 +622,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115>Definition Needed</obo:IAO_0000115>
         <rdfs:label>positive performance trend</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000130 -->
@@ -632,7 +632,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115>A trend where the direction of change is negative</obo:IAO_0000115>
         <rdfs:label>negative performance trend</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000133 -->
@@ -642,7 +642,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115>the specifications and metadata associated with a relational information display</obo:IAO_0000115>
         <rdfs:label>relational information display template</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000139 -->
@@ -652,7 +652,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115>a determinable quality that is dependant on human beings organizations and instantiated by measurement values of a behavior process</obo:IAO_0000115>
         <rdfs:label xml:lang="en">performance</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://www.w3.org/2002/07/owl#Thing -->
@@ -663,4 +663,3 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
 <!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
-
