@@ -2,10 +2,15 @@
 src/ontology/imports/*
 
 # Intermediate csv outputs
-src/ontology/*.csv
+*.csv
 
 # ODBA file
 src/ontology/psdo-edit.obda
 
-# add catalog file
+# hide catalog fileas
 src/ontology/catalog-v001.xml
+catalog-v001.xml
+
+
+# new file shouldn't require catalog download
+tools/download-catalog.sh

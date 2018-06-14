@@ -27,9 +27,9 @@ done
 # Get path to the scripts directory.
 SCRIPT_DIR=$(dirname "${THIS_SCRIPT}")
 
-PSDO_FILE="${SCRIPT_DIR}/../src/ontology/psdo-edit.owl"
+PSDO_FILE="${SCRIPT_DIR}/../psdo.owl"
 SPARQL_FILE="${SCRIPT_DIR}/dict.sparql"
-CSV_FILE="${SCRIPT_DIR}/../src/ontology/dictionary.csv"
+CSV_FILE="${SCRIPT_DIR}/../dictionary.csv"
 MD_FILE="${SCRIPT_DIR}/../DICTIONARY.md"
 
 # Extract Labels and Descriptions of terms

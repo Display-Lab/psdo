@@ -24,9 +24,9 @@ done
 # Get path to the scripts directory.
 SCRIPT_DIR=$(dirname "${THIS_SCRIPT}")
 
-PSDO_FILE="${SCRIPT_DIR}/../src/ontology/psdo-edit.owl"
+PSDO_FILE="${SCRIPT_DIR}/../psdo.owl"
 SPARQL_FILE="${SCRIPT_DIR}/ids.sparql"
-CSV_FILE="${SCRIPT_DIR}/../src/ontology/id.csv"
+CSV_FILE="${SCRIPT_DIR}/../id.csv"
 
 # Extract FIO Ids
 echo "Using ROBOT to extract 10 recent PSDO Ids (largest)"
