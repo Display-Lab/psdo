@@ -1,6 +1,9 @@
 ## angle
 the quality of the magnitude of the degree of divergence of two things from one another
 http://purl.obolibrary.org/obo/psdo#psdo_0000058
+## attribute
+"a quality that can be measured, observed, or logged"
+http://purl.obolibrary.org/obo/psdo#psdo_0000061
 ## color
 the quality or attribute by virtue of which some thing appears to have a color
 http://purl.obolibrary.org/obo/psdo#psdo_0000055
@@ -22,9 +25,12 @@ http://purl.obolibrary.org/obo/psdo#psdo_0000046
 ## interval scale
 "a continuous scale with three formal properties that (1) the instances can be distinguished from each another and (2) that one instance on a scale can be judged greater than, less than, or equal to another instance on the same scale and that (3) the magnitude of an instance represented by a unit on the scale is the same regardless of where on the scale the unit falls"
 http://purl.obolibrary.org/obo/psdo#psdo_0000023
-## length/distance
+## length
 the quality of linear magnitude of any thing as measured from end to end
 http://purl.obolibrary.org/obo/psdo#psdo_0000060
+## mark
+a material entity that is a basic visual element
+http://purl.obolibrary.org/obo/psdo#psdo_0000062
 ## nominal scale
 a discrete scale with one  formal property that (1) the instances can be distinguished from each another
 http://purl.obolibrary.org/obo/psdo#psdo_0000026
@@ -43,6 +49,9 @@ http://purl.obolibrary.org/obo/psdo#psdo_0000050
 ## obsolete performer data
 A data item that is a statement about entities which can have attributed performance data
 http://purl.obolibrary.org/obo/psdo#psdo_0000048
+## obsolete relational perceptions
+"the perception of emergent properties between dimensions, or elements of dimension of relational information displays"
+http://purl.obolibrary.org/obo/psdo#psdo_0000043
 ## obsolete time data
 A data item that is a statement about time
 http://purl.obolibrary.org/obo/psdo#psdo_0000049
@@ -50,13 +59,13 @@ http://purl.obolibrary.org/obo/psdo#psdo_0000049
 "a discrete scale with two formal properties that (1) the instances can be distinguished from each another and (2) that one instance on a scale can be judged greater than, less than, or equal to another instance on the same scale"
 http://purl.obolibrary.org/obo/psdo#psdo_0000025
 ## performance dimension
-"a represented dimension where the elements are about measurements, decisions, aggregates, and/or calculations related to measured behavior"
+"a represented dimension where the attributes are about measurements, decisions, aggregates, and/or calculations related to measured behavior"
 http://purl.obolibrary.org/obo/psdo#psdo_0000037
 ## performance gap
-the perception of distance between a focal element and a comparator
+the distance between marks that bear roles focal element and a comparative element
 http://purl.obolibrary.org/obo/psdo#psdo_0000029
 ## performance measure dimension
-a represented dimension where the elements are about the methods of measuring behavior
+a represented dimension where the attributes are about the methods of measuring behavior
 http://purl.obolibrary.org/obo/psdo#psdo_0000035
 ## performance report
 a report for the purpose of providing performance summary information to a recipient of an intervention
@@ -68,10 +77,10 @@ http://purl.obolibrary.org/obo/psdo#psdo_0000002
 "A relational information display whose display components relate some combination of dimensions: performer dimension, performance measure dimension, performance dimension, and time dimension"
 http://purl.obolibrary.org/obo/psdo#psdo_0000003
 ## performance trend
-the perception of the aggregate of comparisons over time
+"the itergral of comparisons between multiple marks bearing the comparative element role, over time, indicating the general direction of movement"
 http://purl.obolibrary.org/obo/psdo#psdo_0000028
 ## performer dimension
-a represented dimension where the elements are about entities that have attributed performance data
+a represented dimension where the attributes are about entities that have attributed performance data
 http://purl.obolibrary.org/obo/psdo#psdo_0000018
 ## position
 the quality of relation in which a thing stands with respect to another or others
@@ -85,9 +94,6 @@ http://purl.obolibrary.org/obo/psdo#psdo_0000041
 ## relational information display
 An information content entity which represents relations between dimensions in a concretized collection of display components
 http://purl.obolibrary.org/obo/psdo#psdo_0000001
-## relational perceptions
-"the perception of emergent properties between dimensions, or elements of dimension of relational information displays"
-http://purl.obolibrary.org/obo/psdo#psdo_0000043
 ## represented dimension
 a set of attributes that share a scale type and that convey information about something
 http://purl.obolibrary.org/obo/psdo#psdo_0000006
@@ -110,5 +116,5 @@ http://purl.obolibrary.org/obo/psdo#psdo_0000057
 "the quality of constitution, structure, or substance of anything with regard to its constituents or formative element"
 http://purl.obolibrary.org/obo/psdo#psdo_0000059
 ## time dimension
-a represented dimension where the elements are about time
+a represented dimension where the attributes are about time
 http://purl.obolibrary.org/obo/psdo#psdo_0000036

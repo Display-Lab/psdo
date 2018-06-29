@@ -1,6 +1,13 @@
 # Welcome!
-Performance Summary Display Ontology (PSDO) (pronounced "pseudo" or "sudo") is an application ontology about charts, tables, and graphs that are used to communicate performance information to employees and teams in organizations. PSDO's domain focus is on healthcare organizations that use performance summary displays in clinical dashboards and feedback interventions for healthcare professionals and teams. The displays commonly show information about the quality of care and health outcomes that has been derived from clinical data using performance measures (aka metrics, process indicators, quality measures, etc). PSDO uses Basic Formal Ontology as its upper level ontology.
+Performance Summary Display Ontology (PSDO) (pronounced "pseudo" or "sudo") is an application ontology about charts, tables, and graphs that are used to communicate performance information to employees and teams in organizations. PSDO's domain focus is on healthcare organizations that use performance summary displays in clinical dashboards and feedback interventions for healthcare professionals and teams. The displays commonly show information about the quality of care and health outcomes that has been derived from clinical data using performance measures (aka metrics, process indicators, quality measures, etc). PSDO uses Basic Formal Ontology as its upper level ontology. This work is not peer-reviewed.
 
+## Competing Interests
+The authors declare no competing interests.
+
+## Acknowledgements
+Research reported in this ontology was supported by the National Library of Medicine of the National Institutes of Health under grant number 1K01LM012528-01.
+
+# Ontology Content
 ## Current Ontology Terms and Definitions
 The [DICTIONARY](DICTIONARY.md) represents all terms and definitions in the Performance Summary Display Ontology that are not the result of imports from other ontologies. In order to ensure interoperability, please read the [OBO Foundry Guidelines](http://obofoundry.org/principles/fp-000-summary.html) before contributing to term development.
 
