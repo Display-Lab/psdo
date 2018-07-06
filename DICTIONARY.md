@@ -1,6 +1,9 @@
 ## angle
 the quality of the magnitude of the degree of divergence of two things from one another
 http://purl.obolibrary.org/obo/psdo#psdo_0000058
+## ascribee dimension
+a represented dimension where the attributes are about entities that have attributed performance data
+http://purl.obolibrary.org/obo/psdo#psdo_0000018
 ## attribute
 "a quality that can be measured, observed, or logged"
 http://purl.obolibrary.org/obo/psdo#psdo_0000061
@@ -74,14 +77,11 @@ http://purl.obolibrary.org/obo/psdo#psdo_0000031
 the specifications and metadata associated with a generalized potential  information display that has not been concretized
 http://purl.obolibrary.org/obo/psdo#psdo_0000002
 ## performance summary display
-"A relational information display whose display components relate some combination of dimensions: performer dimension, performance measure dimension, performance dimension, and time dimension"
+"A relational information display whose display components relate some combination of dimensions: ascribee dimension, performance measure dimension, performance dimension, and time dimension"
 http://purl.obolibrary.org/obo/psdo#psdo_0000003
 ## performance trend
 "the itergral of comparisons between multiple marks bearing the comparative element role, over time, indicating the general direction of movement"
 http://purl.obolibrary.org/obo/psdo#psdo_0000028
-## performer dimension
-a represented dimension where the attributes are about entities that have attributed performance data
-http://purl.obolibrary.org/obo/psdo#psdo_0000018
 ## position
 the quality of relation in which a thing stands with respect to another or others
 http://purl.obolibrary.org/obo/psdo#psdo_0000056

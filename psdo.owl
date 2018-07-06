@@ -123,7 +123,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000001"/>
-        <obo:IAO_0000115>A relational information display whose display components relate some combination of dimensions: performer dimension, performance measure dimension, performance dimension, and time dimension</obo:IAO_0000115>
+        <obo:IAO_0000115>A relational information display whose display components bear some combination of dimension roles: ascribee dimension, performance measure dimension, performance dimension, and time dimension</obo:IAO_0000115>
         <obo:IAO_0000116>it is the authors current belief that the necessary and sufficient definiton of &apos;performance summary display&apos; mandates that at least two dimensions must be realized through the act of perception</obo:IAO_0000116>
         <rdfs:label xml:lang="en">performance summary display</rdfs:label>
     </owl:Class>
@@ -184,8 +184,8 @@ Munzner T. Visualization analysis and design. Boca Raton: CRC Press, Taylor &amp
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000018">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000006"/>
         <obo:IAO_0000115>a represented dimension where the attributes are about entities that have attributed performance data</obo:IAO_0000115>
-        <obo:IAO_0000116>The elements of a &apos;performer dimension&apos; typically represent people, organizations, or groups. They can also represent statistics, targets, or goals. The possible overlap with &apos;performance measure dimension&apos; is justified by the creative liberties taken by the designer of the performance summary display.</obo:IAO_0000116>
-        <rdfs:label xml:lang="en">performer dimension</rdfs:label>
+        <obo:IAO_0000116>The elements of an &apos;ascribee dimension&apos; typically represent people, organizations, or groups. They can also represent statistics, targets, or goals. The possible overlap with &apos;performance measure dimension&apos; is justified by the creative liberties taken by the designer of the performance summary display.</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">ascribee dimension</rdfs:label>
     </owl:Class>
     
 
