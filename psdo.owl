@@ -54,8 +54,23 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000008"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000058"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000079"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An information content entity that displays relations between dimensions in a concretized collection of display components.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">Zhang J. A representational analysis of relational information displays. International Journal of Human-Computer Studies. 1996 Jul 1;45(1):59–74.</obo:IAO_0000119>
+        <obo:IAO_0000232 xml:lang="en">Zhang’s notion of &apos;dimension&apos; relies on an understanding of ‘distributed representations’ which have both an &apos;internal&apos; and an &apos;external&apos; component. Each dimension (see &apos;representing dimension&apos;) has a quality of &apos;being distrobuted between internal (the cognition and representation of the dimension as such) and external (the &apos;mark).&apos; See:
+
+Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Science. 1994 Jan 1;18(1):87–122.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">relational information display</rdfs:label>
     </owl:Class>
     
@@ -75,7 +90,15 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000006"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A relational information display whose display components bear some combination of dimension roles: ascribee dimension, performance measure dimension, performance dimension, or time dimension.</obo:IAO_0000115>
+        <obo:IAO_0000117>Cooper Stansbury, John Rincon, Dahee Lee, Zach Landis-Lewis, Colin Gross</obo:IAO_0000117>
+        <obo:IAO_0000232 xml:lang="en">All subclasses of &apos;performance summary display&apos; are defined classes based on cardinality of marks that realize specific represented dimension roles.</obo:IAO_0000232>
         <obo:IAO_0000232 xml:lang="en">It is the authors current belief that the necessary and sufficient definiton of &apos;performance summary display&apos; mandates that at least two dimensions must be realized.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">performance summary display</rdfs:label>
     </owl:Class>
@@ -97,7 +120,21 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000006">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000115 xml:lang="en">A role inhering in the set of attributes of a mark that share a scale type and that convey information about something in a representational information display.</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000062"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000079"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A role inhering in the set of attributes of a mark that share a scale type and that convey information about something in a relational information display.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">Zhang J. A representational analysis of relational information displays. International Journal of Human-Computer Studies. 1996 Jul 1;45(1):59–74.</obo:IAO_0000119>
         <obo:IAO_0000232 xml:lang="en">&apos;Represented dimensions&apos; are realized in the processes perception, design or cognition.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">represented dimension</rdfs:label>
@@ -109,11 +146,17 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000008">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000112>An axis, a title of an axis or of a graph, a bar in a bar graph, a line in a line graph, a textual entity in a table.</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">An information content entity that is a proper part of a relational information display and is concretized by a mark.</obo:IAO_0000115>
         <obo:IAO_0000232 xml:lang="en">Munzner T. Visualization analysis and design. Boca Raton: CRC Press, Taylor &amp; Francis Group, CRC Press is an imprint of the Taylor &amp; Francis Group, an informa business; 2015. 404 p. (A.K. Peters visualization series).</obo:IAO_0000232>
         <obo:IAO_0000232 xml:lang="en">The material entity that concretizes the information content entity has the capability to bear some role &apos;represented dimension&apos; or &apos;focal element, ect...</obo:IAO_0000232>
-        <rdfs:label xml:lang="en">display component</rdfs:label>
+        <rdfs:label xml:lang="en">relational information display component</rdfs:label>
     </owl:Class>
     
 
@@ -147,6 +190,20 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000019">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000062"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000079"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A role inhering in a mark that is disjoint with a focal element and that has the same scale type as the focal element.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">comparative element</rdfs:label>
     </owl:Class>
@@ -157,6 +214,12 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000062"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A quality that is the abstract measurement property of a concretized display component.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">Zhang J. A representational analysis of relational information displays. International Journal of Human-Computer Studies. 1996 Jul 1;45(1):59–74.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">scale type</rdfs:label>
@@ -192,6 +255,12 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000023">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000020"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000062"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A scale type with three formal properties that (1) the instances can be distinguished from each other and (2) that one instance on a scale can be judged greater than, less than, or equal to another instance on the same scale and that (3) the magnitude of an instance represented by a unit on the scale is the same regardless of where on the scale the unit falls.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">Zhang J. A representational analysis of relational information displays. International Journal of Human-Computer Studies. 1996 Jul 1;45(1):59–74.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">interval scale</rdfs:label>
@@ -203,6 +272,12 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000024">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000020"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000062"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A scale type with four formal properties that (1) the instances can be distinguished from each other and (2) that one instance on a scale can be judged greater than, less than, or equal to another instance on the same scale, that (3) the magnitude of an instance represented by a unit on the scale is the same regardless of where on the scale the unit falls and (4) an absolute zero value can indicate that nothing at all of the property being represented exists.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">Zhang J. A representational analysis of relational information displays. International Journal of Human-Computer Studies. 1996 Jul 1;45(1):59–74.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">ratio scale</rdfs:label>
@@ -214,6 +289,12 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000025">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000020"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000062"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A scale type with two formal properties that (1) the instances can be distinguished from each other and (2) that one instance on a scale can be judged greater than, less than, or equal to another instance on the same scale.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">Zhang J. A representational analysis of relational information displays. International Journal of Human-Computer Studies. 1996 Jul 1;45(1):59–74.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">ordinal scale</rdfs:label>
@@ -225,6 +306,12 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000026">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000020"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000062"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A scale type with one  formal property that (1) the instances can be distinguished from each other.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">Zhang J. A representational analysis of relational information displays. International Journal of Human-Computer Studies. 1996 Jul 1;45(1):59–74.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">nominal scale</rdfs:label>
@@ -246,7 +333,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000028">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000145"/>
-        <obo:IAO_0000115 xml:lang="en">A relational quality of the perceived general movement of marks integrated over a time dimension.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A relational quality of the perceived general movement of a mark, or set of marks that is integrated over a time dimension.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">performance trend</rdfs:label>
     </owl:Class>
     
@@ -308,6 +395,12 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000040">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000062"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A role inhering in a mark that conveys specific information to the recipient of a performance summary report realized through the acts of perception.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">focal element</rdfs:label>
     </owl:Class>
@@ -504,6 +597,12 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000061">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000062"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An information carrier that can be measured, observed, or logged.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">Munzner T. Visualization analysis and design. Boca Raton: CRC Press, Taylor &amp; Francis Group, CRC Press is an imprint of the Taylor &amp; Francis Group, an informa business; 2015. 404 p. (A.K. Peters visualization series).</obo:IAO_0000119>
         <rdfs:label xml:lang="en">attribute</rdfs:label>
@@ -514,11 +613,183 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000062 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000062">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000178"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000059"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000008"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000178"/>
         <obo:IAO_0000112 xml:lang="en">Ink on paper or pixels on a screen (non-exhaustive).</obo:IAO_0000112>
-        <obo:IAO_0000115 xml:lang="en">A material information bearer that is a basic visual element of a display.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A material information bearer that is a basic visual element of a relational information display.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">Munzner T. Visualization analysis and design. Boca Raton: CRC Press, Taylor &amp; Francis Group, CRC Press is an imprint of the Taylor &amp; Francis Group, an informa business; 2015. 404 p. (A.K. Peters visualization series).</obo:IAO_0000119>
         <rdfs:label xml:lang="en">mark</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000065">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000003"/>
+        <obo:IAO_0000115 xml:lang="en">A performance summary display where the ascribee dimension role inheres in more than one mark.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">comparative performance summary display</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000066">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000003"/>
+        <obo:IAO_0000115 xml:lang="en">A performance summary display where the ascribee dimension role inheres in only one mark.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">individual performance summary display</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000067">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000065"/>
+        <obo:IAO_0000115 xml:lang="en">A comparative performance summary display where the time dimension role inheres in more than one mark.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">comparative time series display</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000068">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000065"/>
+        <obo:IAO_0000115 xml:lang="en">A comparative performance summary display where the time dimension role inheres in only one mark.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">comparative time point display</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000069">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000066"/>
+        <obo:IAO_0000115 xml:lang="en">An individual performance summary display where the time dimension role inheres in more than one mark.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">individual time series display</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000070">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000066"/>
+        <obo:IAO_0000115 xml:lang="en">An individual performance summary display where the time dimension role inheres in only one mark.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">individual time point display</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000071 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000071">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000070"/>
+        <obo:IAO_0000115 xml:lang="en">An individual time point display where the performance measure dimension role inheres in more than one mark.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">individual time point multiple measure display</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000072">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000070"/>
+        <obo:IAO_0000115 xml:lang="en">An individual time point display where the performance measure dimension role inheres in only one mark.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">individual time point single measure display</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000073">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000069"/>
+        <obo:IAO_0000115 xml:lang="en">An individual time series display where the performance measure dimension role inheres in more than one mark.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">individual time series single measure display</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000074">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000069"/>
+        <obo:IAO_0000115 xml:lang="en">An individual time series display where the performance measure dimension role inheres in only one mark.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">individual time series multiple measure display</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000075">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000068"/>
+        <obo:IAO_0000115 xml:lang="en">A comparative time point display where the performance measure dimension role inheres in only one mark.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">comparative time point single measure display</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000076">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000068"/>
+        <obo:IAO_0000115 xml:lang="en">A comparative time point display where the performance measure dimension role inheres in more than one mark.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">comparative time point multiple measure display</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000077">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000067"/>
+        <obo:IAO_0000115 xml:lang="en">A comparative time series display where the performance measure dimension role inheres in more than one mark.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">comparative time series multiple measure display</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000078">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000067"/>
+        <obo:IAO_0000115 xml:lang="en">A comparative time series display where the performance measure dimension role inheres in only one mark.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">comparative time series single measure display</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000079">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000062"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A object aggregate of marks.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">mark collection</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 

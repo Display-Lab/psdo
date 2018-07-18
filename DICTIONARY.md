@@ -2,10 +2,10 @@
 An attribute of the magnitude of the degree of divergence of two things from one another.
 http://purl.obolibrary.org/obo/psdo#psdo_0000058
 ## ascribee dimension
-A represented dimension where the attributes of the mark are about entities that have attributed performance data.
+A representing dimension where the attributes of the mark are about entities that have attributed performance data.
 http://purl.obolibrary.org/obo/psdo#psdo_0000018
 ## attribute
-"A quality that can be measured, observed, or logged."
+"An information carrier that can be measured, observed, or logged."
 http://purl.obolibrary.org/obo/psdo#psdo_0000061
 ## color
 An attribute by virtue of which some thing appears to have a color.
@@ -13,6 +13,27 @@ http://purl.obolibrary.org/obo/psdo#psdo_0000055
 ## comparative element
 A role inhering in a mark that is disjoint with a focal element and that has the same scale type as the focal element.
 http://purl.obolibrary.org/obo/psdo#psdo_0000019
+## comparative performance summary display
+A performance summary display where the ascribee dimension role inheres in more than one mark.
+http://purl.obolibrary.org/obo/psdo#psdo_0000065
+## comparative time point display
+A comparative performance summary display where the time dimension role inheres in only one mark.
+http://purl.obolibrary.org/obo/psdo#psdo_0000068
+## comparative time point multiple measure display
+A comparative time point display where the performance measure dimension role inheres in more than one mark.
+http://purl.obolibrary.org/obo/psdo#psdo_0000076
+## comparative time point single measure display
+A comparative time point display where the performance measure dimension role inheres in only one mark.
+http://purl.obolibrary.org/obo/psdo#psdo_0000075
+## comparative time series display
+A comparative performance summary display where the time dimension role inheres in more than one mark.
+http://purl.obolibrary.org/obo/psdo#psdo_0000067
+## comparative time series multiple measure display
+A comparative time series display where the performance measure dimension role inheres in more than one mark.
+http://purl.obolibrary.org/obo/psdo#psdo_0000077
+## comparative time series single measure display
+A comparative time series display where the performance measure dimension role inheres in only one mark.
+http://purl.obolibrary.org/obo/psdo#psdo_0000078
 ## display component
 An information content entity that is a proper part of a relational information display and is concretized by a mark.
 http://purl.obolibrary.org/obo/psdo#psdo_0000008
@@ -22,14 +43,35 @@ http://purl.obolibrary.org/obo/psdo#psdo_0000040
 ## goal comparator
 A comparative element that conveys information about a desired future performance value.
 http://purl.obolibrary.org/obo/psdo#psdo_0000046
+## individual performance summary display
+A performance summary display where the ascribee dimension role inheres in only one mark.
+http://purl.obolibrary.org/obo/psdo#psdo_0000066
+## individual time point display
+An individual performance summary display where the time dimension role inheres in only one mark.
+http://purl.obolibrary.org/obo/psdo#psdo_0000070
+## individual time point multiple measure display
+An individual time point display where the performance measure dimension role inheres in more than one mark.
+http://purl.obolibrary.org/obo/psdo#psdo_0000071
+## individual time point single measure display
+An individual time point display where the performance measure dimension role inheres in only one mark.
+http://purl.obolibrary.org/obo/psdo#psdo_0000072
+## individual time series display
+An individual performance summary display where the time dimension role inheres in more than one mark.
+http://purl.obolibrary.org/obo/psdo#psdo_0000069
+## individual time series multiple measure display
+An individual time series display where the performance measure dimension role inheres in only one mark.
+http://purl.obolibrary.org/obo/psdo#psdo_0000074
+## individual time series single measure display
+An individual time series display where the performance measure dimension role inheres in more than one mark.
+http://purl.obolibrary.org/obo/psdo#psdo_0000073
 ## interval scale
 "A scale type with three formal properties that (1) the instances can be distinguished from each other and (2) that one instance on a scale can be judged greater than, less than, or equal to another instance on the same scale and that (3) the magnitude of an instance represented by a unit on the scale is the same regardless of where on the scale the unit falls."
 http://purl.obolibrary.org/obo/psdo#psdo_0000023
-## length
+## mark length
 the quality of linear magnitude of any thing as measured from end to end
 http://purl.obolibrary.org/obo/psdo#psdo_0000060
 ## mark
-An object that is a basic visual element of a display that is perceived.
+A material information bearer that is a basic visual element of a display.
 http://purl.obolibrary.org/obo/psdo#psdo_0000062
 ## nominal scale
 A scale type with one  formal property that (1) the instances can be distinguished from each other.
@@ -65,13 +107,13 @@ http://purl.obolibrary.org/obo/psdo#psdo_0000049
 "A scale type with two formal properties that (1) the instances can be distinguished from each other and (2) that one instance on a scale can be judged greater than, less than, or equal to another instance on the same scale."
 http://purl.obolibrary.org/obo/psdo#psdo_0000025
 ## performance dimension
-"A represented dimension where the attributes of the mark are about measurements, decisions, aggregates, or calculations related to measured behavior."
+"A representing dimension where the attributes of the mark are about measurements, decisions, aggregates, or calculations related to measured behavior."
 http://purl.obolibrary.org/obo/psdo#psdo_0000037
 ## performance gap
 A relational quality of the perceived distance between marks.
 http://purl.obolibrary.org/obo/psdo#psdo_0000029
 ## performance measure dimension
-A represented dimension where the attributes of the mark are about the methods of measuring behavior.
+A representing dimension where the attributes of the mark are about the methods of measuring behavior.
 http://purl.obolibrary.org/obo/psdo#psdo_0000035
 ## performance report
 A report designed for the purpose of providing performance summary information to a recipient of an intervention.
@@ -97,8 +139,8 @@ http://purl.obolibrary.org/obo/psdo#psdo_0000041
 ## relational information display
 An information content entity that displays relations between dimensions in a concretized collection of display components.
 http://purl.obolibrary.org/obo/psdo#psdo_0000001
-## represented dimension
-A role inhering in the set of attributes of a mark that share a scale type and that convey information about something in a representational information display.
+## representing dimension
+A role inhering in the set of attributes of a mark that share a scale type and that convey information about something in a relational information display.
 http://purl.obolibrary.org/obo/psdo#psdo_0000006
 ## scale type
 A quality that is the abstract measurement property of a concretized display component.
@@ -116,5 +158,5 @@ http://purl.obolibrary.org/obo/psdo#psdo_0000047
 "An attribute of constitution, structure, or substance of anything with regard to its constituents or formative element."
 http://purl.obolibrary.org/obo/psdo#psdo_0000059
 ## time dimension
-A represented dimension where the attributes of the mark are about time.
+A representing dimension where the attributes of the mark are about time.
 http://purl.obolibrary.org/obo/psdo#psdo_0000036
