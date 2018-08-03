@@ -8,4 +8,6 @@ WHERE {
 	?subject a owl:Class.
   ?subject rdfs:label ?label.
 	?subject obo:IAO_0000115 ?desc.
+
+	FILTER (!regex(str(?label), "^obsolete"))
 }

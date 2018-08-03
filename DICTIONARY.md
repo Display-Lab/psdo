@@ -2,7 +2,7 @@
 An attribute of the magnitude of the degree of divergence of two things from one another.
 http://purl.obolibrary.org/obo/psdo#psdo_0000058
 ## ascribee dimension
-A representing dimension where the attributes of the mark are about entities that have attributed performance data.
+A represented dimension where the attributes of the mark are about entities that have attributed performance data.
 http://purl.obolibrary.org/obo/psdo#psdo_0000018
 ## attribute
 "An information carrier that can be measured, observed, or logged."
@@ -34,9 +34,6 @@ http://purl.obolibrary.org/obo/psdo#psdo_0000077
 ## comparative time series single measure display
 A comparative time series display where the performance measure dimension role inheres in only one mark.
 http://purl.obolibrary.org/obo/psdo#psdo_0000078
-## display component
-An information content entity that is a proper part of a relational information display and is concretized by a mark.
-http://purl.obolibrary.org/obo/psdo#psdo_0000008
 ## focal element
 A role inhering in a mark that conveys specific information to the recipient of a performance summary report realized through the acts of perception.
 http://purl.obolibrary.org/obo/psdo#psdo_0000040
@@ -67,53 +64,29 @@ http://purl.obolibrary.org/obo/psdo#psdo_0000073
 ## interval scale
 "A scale type with three formal properties that (1) the instances can be distinguished from each other and (2) that one instance on a scale can be judged greater than, less than, or equal to another instance on the same scale and that (3) the magnitude of an instance represented by a unit on the scale is the same regardless of where on the scale the unit falls."
 http://purl.obolibrary.org/obo/psdo#psdo_0000023
+## mark collection
+A object aggregate of marks.
+http://purl.obolibrary.org/obo/psdo#psdo_0000079
 ## mark length
 the quality of linear magnitude of any thing as measured from end to end
 http://purl.obolibrary.org/obo/psdo#psdo_0000060
 ## mark
-A material information bearer that is a basic visual element of a display.
+A material information bearer that is a basic visual element of a relational information display.
 http://purl.obolibrary.org/obo/psdo#psdo_0000062
 ## nominal scale
 A scale type with one  formal property that (1) the instances can be distinguished from each other.
 http://purl.obolibrary.org/obo/psdo#psdo_0000026
-## obsolete continuous scale types
-a scale type that be measured in infinitely small units
-http://purl.obolibrary.org/obo/psdo#psdo_0000022
-## obsolete dimension
-the property of a space in a dataset or relational information display that indicates that 'n' mutually perpendicular linear directions of movement are possible
-http://purl.obolibrary.org/obo/psdo#psdo_0000017
-## obsolete discrete scale types
-a scale type without equal interval or absolute zero properties
-http://purl.obolibrary.org/obo/psdo#psdo_0000021
-## obsolete performance data
-"A data item that is a statement about the recorded output of measurements, aggregates, and/or calculations, or decisions related to measured behavior"
-http://purl.obolibrary.org/obo/psdo#psdo_0000004
-## obsolete performance measurement data
-a data item that is a statement about a method of measuring performance data
-http://purl.obolibrary.org/obo/psdo#psdo_0000050
-## obsolete performer data
-A data item that is a statement about entities which can have attributed performance data
-http://purl.obolibrary.org/obo/psdo#psdo_0000048
-## obsolete relational perceptions
-"the perception of emergent properties between dimensions, or elements of dimension of relational information displays"
-http://purl.obolibrary.org/obo/psdo#psdo_0000043
-## obsolete text
-def needed
-http://purl.obolibrary.org/obo/psdo#psdo_0000057
-## obsolete time data
-A data item that is a statement about time
-http://purl.obolibrary.org/obo/psdo#psdo_0000049
 ## ordinal scale
 "A scale type with two formal properties that (1) the instances can be distinguished from each other and (2) that one instance on a scale can be judged greater than, less than, or equal to another instance on the same scale."
 http://purl.obolibrary.org/obo/psdo#psdo_0000025
 ## performance dimension
-"A representing dimension where the attributes of the mark are about measurements, decisions, aggregates, or calculations related to measured behavior."
+"A represented dimension where the attributes of the mark are about measurements, decisions, aggregates, or calculations related to measured behavior."
 http://purl.obolibrary.org/obo/psdo#psdo_0000037
 ## performance gap
 A relational quality of the perceived distance between marks.
 http://purl.obolibrary.org/obo/psdo#psdo_0000029
 ## performance measure dimension
-A representing dimension where the attributes of the mark are about the methods of measuring behavior.
+A represented dimension where the attributes of the mark are about the methods of measuring behavior.
 http://purl.obolibrary.org/obo/psdo#psdo_0000035
 ## performance report
 A report designed for the purpose of providing performance summary information to a recipient of an intervention.
@@ -125,7 +98,7 @@ http://purl.obolibrary.org/obo/psdo#psdo_0000002
 "A relational information display whose display components bear some combination of dimension roles: ascribee dimension, performance measure dimension, performance dimension, or time dimension."
 http://purl.obolibrary.org/obo/psdo#psdo_0000003
 ## performance trend
-A relational quality of the perceived general movement of marks integrated over a time dimension.
+"A relational quality of the perceived general movement of a mark, or set of marks that is integrated over a time dimension."
 http://purl.obolibrary.org/obo/psdo#psdo_0000028
 ## position
 An attribute of relation in which a thing stands with respect to another or others.
@@ -136,10 +109,13 @@ http://purl.obolibrary.org/obo/psdo#psdo_0000024
 ## recipient element
 A focal element that conveys information about identity to the recipient of the performance summary report.
 http://purl.obolibrary.org/obo/psdo#psdo_0000041
+## relational information display component
+An information content entity that is a proper part of a relational information display and is concretized by a mark.
+http://purl.obolibrary.org/obo/psdo#psdo_0000008
 ## relational information display
 An information content entity that displays relations between dimensions in a concretized collection of display components.
 http://purl.obolibrary.org/obo/psdo#psdo_0000001
-## representing dimension
+## represented dimension
 A role inhering in the set of attributes of a mark that share a scale type and that convey information about something in a relational information display.
 http://purl.obolibrary.org/obo/psdo#psdo_0000006
 ## scale type
@@ -158,5 +134,5 @@ http://purl.obolibrary.org/obo/psdo#psdo_0000047
 "An attribute of constitution, structure, or substance of anything with regard to its constituents or formative element."
 http://purl.obolibrary.org/obo/psdo#psdo_0000059
 ## time dimension
-A representing dimension where the attributes of the mark are about time.
+A represented dimension where the attributes of the mark are about time.
 http://purl.obolibrary.org/obo/psdo#psdo_0000036
