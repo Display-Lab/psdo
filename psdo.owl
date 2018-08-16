@@ -642,8 +642,8 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000065">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000003"/>
-        <obo:IAO_0000115 xml:lang="en">A performance summary display where the ascribee dimension role inheres in more than one mark.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">comparative performance summary display</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">label TDB</rdfs:label>
     </owl:Class>
     
 
@@ -652,8 +652,8 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000066">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000003"/>
-        <obo:IAO_0000115 xml:lang="en">A performance summary display where the ascribee dimension role inheres in only one mark.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">individual performance summary display</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">label TDB</rdfs:label>
     </owl:Class>
     
 
@@ -662,8 +662,8 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000067">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000065"/>
-        <obo:IAO_0000115 xml:lang="en">A comparative performance summary display where the time dimension role inheres in more than one mark.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">comparative time series display</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">label TDB</rdfs:label>
     </owl:Class>
     
 
@@ -672,8 +672,8 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000068">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000065"/>
-        <obo:IAO_0000115 xml:lang="en">A comparative performance summary display where the time dimension role inheres in only one mark.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">comparative time point display</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">label TDB</rdfs:label>
     </owl:Class>
     
 
@@ -682,8 +682,8 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000069">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000066"/>
-        <obo:IAO_0000115 xml:lang="en">An individual performance summary display where the time dimension role inheres in more than one mark.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">individual time series display</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">label TDB</rdfs:label>
     </owl:Class>
     
 
@@ -692,8 +692,8 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000070">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000066"/>
-        <obo:IAO_0000115 xml:lang="en">An individual performance summary display where the time dimension role inheres in only one mark.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">individual time point display</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">label TDB</rdfs:label>
     </owl:Class>
     
 
@@ -702,8 +702,8 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000071">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000070"/>
-        <obo:IAO_0000115 xml:lang="en">An individual time point display where the performance measure dimension role inheres in more than one mark.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">individual time point multiple measure display</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">label TDB</rdfs:label>
     </owl:Class>
     
 
@@ -712,8 +712,8 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000072">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000070"/>
-        <obo:IAO_0000115 xml:lang="en">An individual time point display where the performance measure dimension role inheres in only one mark.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">individual time point single measure display</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">label TDB</rdfs:label>
     </owl:Class>
     
 
@@ -722,8 +722,8 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000073">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000069"/>
-        <obo:IAO_0000115 xml:lang="en">An individual time series display where the performance measure dimension role inheres in more than one mark.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">individual time series single measure display</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">label TDB</rdfs:label>
     </owl:Class>
     
 
@@ -732,8 +732,8 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000074">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000069"/>
-        <obo:IAO_0000115 xml:lang="en">An individual time series display where the performance measure dimension role inheres in only one mark.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">individual time series multiple measure display</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">label TDB</rdfs:label>
     </owl:Class>
     
 
@@ -742,8 +742,8 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000075">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000068"/>
-        <obo:IAO_0000115 xml:lang="en">A comparative time point display where the performance measure dimension role inheres in only one mark.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">comparative time point single measure display</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">label TDB</rdfs:label>
     </owl:Class>
     
 
@@ -752,8 +752,8 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000076">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000068"/>
-        <obo:IAO_0000115 xml:lang="en">A comparative time point display where the performance measure dimension role inheres in more than one mark.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">comparative time point multiple measure display</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">label TDB</rdfs:label>
     </owl:Class>
     
 
@@ -762,8 +762,8 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000077">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000067"/>
-        <obo:IAO_0000115 xml:lang="en">A comparative time series display where the performance measure dimension role inheres in more than one mark.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">comparative time series multiple measure display</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">label TDB</rdfs:label>
     </owl:Class>
     
 
@@ -772,8 +772,8 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000078">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000067"/>
-        <obo:IAO_0000115 xml:lang="en">A comparative time series display where the performance measure dimension role inheres in only one mark.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">comparative time series single measure display</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">label TDB</rdfs:label>
     </owl:Class>
     
 

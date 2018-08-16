@@ -13,57 +13,57 @@ http://purl.obolibrary.org/obo/psdo#psdo_0000055
 ## comparative element
 A role inhering in a mark that is disjoint with a focal element and that has the same scale type as the focal element.
 http://purl.obolibrary.org/obo/psdo#psdo_0000019
-## comparative performance summary display
-A performance summary display where the ascribee dimension role inheres in more than one mark.
-http://purl.obolibrary.org/obo/psdo#psdo_0000065
-## comparative time point display
-A comparative performance summary display where the time dimension role inheres in only one mark.
-http://purl.obolibrary.org/obo/psdo#psdo_0000068
-## comparative time point multiple measure display
-A comparative time point display where the performance measure dimension role inheres in more than one mark.
-http://purl.obolibrary.org/obo/psdo#psdo_0000076
-## comparative time point single measure display
-A comparative time point display where the performance measure dimension role inheres in only one mark.
-http://purl.obolibrary.org/obo/psdo#psdo_0000075
-## comparative time series display
-A comparative performance summary display where the time dimension role inheres in more than one mark.
-http://purl.obolibrary.org/obo/psdo#psdo_0000067
-## comparative time series multiple measure display
-A comparative time series display where the performance measure dimension role inheres in more than one mark.
-http://purl.obolibrary.org/obo/psdo#psdo_0000077
-## comparative time series single measure display
-A comparative time series display where the performance measure dimension role inheres in only one mark.
-http://purl.obolibrary.org/obo/psdo#psdo_0000078
 ## focal element
 A role inhering in a mark that conveys specific information to the recipient of a performance summary report realized through the acts of perception.
 http://purl.obolibrary.org/obo/psdo#psdo_0000040
 ## goal comparator
 A comparative element that conveys information about a desired future performance value.
 http://purl.obolibrary.org/obo/psdo#psdo_0000046
-## individual performance summary display
-A performance summary display where the ascribee dimension role inheres in only one mark.
-http://purl.obolibrary.org/obo/psdo#psdo_0000066
-## individual time point display
-An individual performance summary display where the time dimension role inheres in only one mark.
-http://purl.obolibrary.org/obo/psdo#psdo_0000070
-## individual time point multiple measure display
-An individual time point display where the performance measure dimension role inheres in more than one mark.
-http://purl.obolibrary.org/obo/psdo#psdo_0000071
-## individual time point single measure display
-An individual time point display where the performance measure dimension role inheres in only one mark.
-http://purl.obolibrary.org/obo/psdo#psdo_0000072
-## individual time series display
-An individual performance summary display where the time dimension role inheres in more than one mark.
-http://purl.obolibrary.org/obo/psdo#psdo_0000069
-## individual time series multiple measure display
-An individual time series display where the performance measure dimension role inheres in only one mark.
-http://purl.obolibrary.org/obo/psdo#psdo_0000074
-## individual time series single measure display
-An individual time series display where the performance measure dimension role inheres in more than one mark.
-http://purl.obolibrary.org/obo/psdo#psdo_0000073
 ## interval scale
 "A scale type with three formal properties that (1) the instances can be distinguished from each other and (2) that one instance on a scale can be judged greater than, less than, or equal to another instance on the same scale and that (3) the magnitude of an instance represented by a unit on the scale is the same regardless of where on the scale the unit falls."
 http://purl.obolibrary.org/obo/psdo#psdo_0000023
+## label TDB
+**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.
+http://purl.obolibrary.org/obo/psdo#psdo_0000065
+## label TDB
+**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.
+http://purl.obolibrary.org/obo/psdo#psdo_0000066
+## label TDB
+**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.
+http://purl.obolibrary.org/obo/psdo#psdo_0000067
+## label TDB
+**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.
+http://purl.obolibrary.org/obo/psdo#psdo_0000068
+## label TDB
+**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.
+http://purl.obolibrary.org/obo/psdo#psdo_0000069
+## label TDB
+**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.
+http://purl.obolibrary.org/obo/psdo#psdo_0000070
+## label TDB
+**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.
+http://purl.obolibrary.org/obo/psdo#psdo_0000071
+## label TDB
+**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.
+http://purl.obolibrary.org/obo/psdo#psdo_0000072
+## label TDB
+**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.
+http://purl.obolibrary.org/obo/psdo#psdo_0000073
+## label TDB
+**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.
+http://purl.obolibrary.org/obo/psdo#psdo_0000074
+## label TDB
+**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.
+http://purl.obolibrary.org/obo/psdo#psdo_0000075
+## label TDB
+**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.
+http://purl.obolibrary.org/obo/psdo#psdo_0000076
+## label TDB
+**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.
+http://purl.obolibrary.org/obo/psdo#psdo_0000077
+## label TDB
+**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.
+http://purl.obolibrary.org/obo/psdo#psdo_0000078
 ## mark collection
 A object aggregate of marks.
 http://purl.obolibrary.org/obo/psdo#psdo_0000079
