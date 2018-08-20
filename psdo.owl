@@ -2,6 +2,7 @@
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/psdo#"
      xml:base="http://purl.obolibrary.org/obo/psdo"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -15,31 +16,22 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/2017-03-24/iao.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/core.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
-        <dc:license xml:lang="en">Ontology Content
-The ontology content is licensed under a Creative Commons Attribution 4.0 International License.
-
-Source Code
-Copyright 2018 Regents of the University of Michigan
-
-Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</dc:license>
+        <dc:contributor xml:lang="en">Dahee Lee</dc:contributor>
+        <dc:description xml:lang="en">Performance Summary Display Ontology (PSDO) (pronounced &quot;pseudo&quot; or &quot;sudo&quot;) is an application ontology about charts, tables, and graphs that are used to communicate performance information to employees and teams in organizations. PSDO&apos;s domain focus is on healthcare organizations that use performance summary displays in clinical dashboards and feedback interventions for healthcare professionals and teams. The displays commonly show information about the quality of care and health outcomes that has been derived from clinical data using performance measures (aka metrics, process indicators, quality measures, etc). PSDO uses Basic Formal Ontology as its upper level ontology. This work is not peer-reviewed.</dc:description>
+        <terms:license xml:lang="en">https://creativecommons.org/licenses/by/4.0/</terms:license>
         <dc:creator xml:lang="en">John Rincon</dc:creator>
-        <dc:creator xml:lang="en">Cooper Stansbury</dc:creator>
+        <dc:language xml:lang="en">en</dc:language>
         <owl:versionInfo xml:lang="en">1.0.0</owl:versionInfo>
+        <dc:creator xml:lang="en">Cooper Stansbury</dc:creator>
         <dc:creator xml:lang="en">Zach Landis-Lewis</dc:creator>
+        <dc:title xml:lang="en">Performance Summary Display Ontology</dc:title>
+        <dc:contributor xml:lang="en">Veena Panicker</dc:contributor>
         <dc:creator xml:lang="en">Colin Gross</dc:creator>
     </owl:Ontology>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Classes
@@ -47,7 +39,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000001 -->
@@ -73,7 +65,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
 Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Science. 1994 Jan 1;18(1):87–122.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">relational information display</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000002 -->
@@ -83,7 +75,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000115 xml:lang="en">An information content entity that is the collection of specification and metadata associated with a generalized potential information display.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">performance summary display template</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000003 -->
@@ -102,7 +94,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000232 xml:lang="en">It is the authors current belief that the necessary and sufficient definiton of &apos;performance summary display&apos; mandates that at least two dimensions must be realized.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">performance summary display</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000006 -->
@@ -128,7 +120,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000232 xml:lang="en">&apos;Represented dimensions&apos; are realized in the processes perception, design or cognition.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">represented dimension</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000008 -->
@@ -147,7 +139,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000232 xml:lang="en">The material entity that concretizes the information content entity has the capability to bear some role &apos;represented dimension&apos; or &apos;focal element, ect...</obo:IAO_0000232>
         <rdfs:label xml:lang="en">relational information display component</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000018 -->
@@ -158,7 +150,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000232 xml:lang="en">The elements of an &apos;ascribee dimension&apos; typically represent people, organizations, or groups. They can also represent statistics, targets, or goals. The possible overlap with &apos;performance measure dimension&apos; is justified by the creative liberties taken by the designer of the performance summary display.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">ascribee dimension</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000019 -->
@@ -182,7 +174,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000115 xml:lang="en">A role inhering in a mark that is disjoint with a focal element and that has the same scale type as the focal element.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">comparative element</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000020 -->
@@ -199,7 +191,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000119 xml:lang="en">Zhang J. A representational analysis of relational information displays. International Journal of Human-Computer Studies. 1996 Jul 1;45(1):59–74.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">scale type</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000023 -->
@@ -216,7 +208,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000119 xml:lang="en">Zhang J. A representational analysis of relational information displays. International Journal of Human-Computer Studies. 1996 Jul 1;45(1):59–74.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">interval scale</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000024 -->
@@ -233,7 +225,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000119 xml:lang="en">Zhang J. A representational analysis of relational information displays. International Journal of Human-Computer Studies. 1996 Jul 1;45(1):59–74.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">ratio scale</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000025 -->
@@ -250,7 +242,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000119 xml:lang="en">Zhang J. A representational analysis of relational information displays. International Journal of Human-Computer Studies. 1996 Jul 1;45(1):59–74.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">ordinal scale</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000026 -->
@@ -267,7 +259,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000119 xml:lang="en">Zhang J. A representational analysis of relational information displays. International Journal of Human-Computer Studies. 1996 Jul 1;45(1):59–74.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">nominal scale</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000028 -->
@@ -277,7 +269,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000115 xml:lang="en">A relational quality of the perceived general movement of a mark, or set of marks that is integrated over a time dimension.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">performance trend</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000029 -->
@@ -287,7 +279,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000115 xml:lang="en">A relational quality of the perceived distance between marks.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">performance gap</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000031 -->
@@ -297,7 +289,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000115 xml:lang="en">A report designed for the purpose of providing performance summary information to a recipient of an intervention.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">performance report</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000035 -->
@@ -308,7 +300,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000115 xml:lang="en">A represented dimension where the attributes of the mark are about the methods of measuring behavior.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">performance measure dimension</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000036 -->
@@ -318,7 +310,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000115 xml:lang="en">A represented dimension where the attributes of the mark are about time.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">time dimension</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000037 -->
@@ -329,7 +321,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000232 xml:lang="en">Performance dimension can include entities like performance values (all scale types)</obo:IAO_0000232>
         <rdfs:label xml:lang="en">performance dimension</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000040 -->
@@ -345,7 +337,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000115 xml:lang="en">A role inhering in a mark that conveys specific information to the recipient of a performance summary report realized through the acts of perception.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">focal element</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000041 -->
@@ -355,7 +347,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000115 xml:lang="en">A focal element that conveys information about identity to the recipient of the performance summary report.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">recipient element</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000045 -->
@@ -365,7 +357,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000115 xml:lang="en">A comparative element that conveys information about an entity that has an attributed performance value.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">social comparator</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000046 -->
@@ -375,7 +367,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000115 xml:lang="en">A comparative element that conveys information about a desired future performance value.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">goal comparator</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000047 -->
@@ -385,7 +377,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000115 xml:lang="en">A comparative element that conveys information about a predetermined performance value.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">standard comparator</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000054 -->
@@ -396,7 +388,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000119 xml:lang="en">&quot;shape, n.1.&quot; OED Online, Oxford University Press, June 2018, www.oed.com/view/Entry/177498. Accessed 28 June 2018.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">shape</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000055 -->
@@ -407,7 +399,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000119 xml:lang="en">&quot;colour | color, n.1.&quot; OED Online, Oxford University Press, June 2018, www.oed.com/view/Entry/36596. Accessed 28 June 2018.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">color</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000056 -->
@@ -419,7 +411,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000232>&apos;Position’ may actually be a relational quality in BFO because is depends on multiple entities.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">position</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000058 -->
@@ -431,7 +423,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000232>&apos;Angle’ may actually be a relational quality in BFO because is depends on multiple entities.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">angle</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000059 -->
@@ -442,19 +434,19 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000119 xml:lang="en">&quot;texture, n.&quot; OED Online, Oxford University Press, June 2018, www.oed.com/view/Entry/200031. Accessed 28 June 2018.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">texture</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000060 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000060">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000061"/>
-        <obo:IAO_0000115 xml:lang="en">the quality of linear magnitude of any thing as measured from end to end</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The quality of linear magnitude of any thing as measured from end to end</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">&quot;length, n.&quot; OED Online, Oxford University Press, June 2018, www.oed.com/view/Entry/107245. Accessed 28 June 2018.</obo:IAO_0000119>
         <obo:IAO_0000232 xml:lang="en">rdfs:Label property is &apos;mark length&apos; to distinguish from the PATO class &apos;length.&apos;</obo:IAO_0000232>
         <rdfs:label xml:lang="en">mark length</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000061 -->
@@ -471,7 +463,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000119 xml:lang="en">Munzner T. Visualization analysis and design. Boca Raton: CRC Press, Taylor &amp; Francis Group, CRC Press is an imprint of the Taylor &amp; Francis Group, an informa business; 2015. 404 p. (A.K. Peters visualization series).</obo:IAO_0000119>
         <rdfs:label xml:lang="en">attribute</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000062 -->
@@ -499,7 +491,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000119 xml:lang="en">Munzner T. Visualization analysis and design. Boca Raton: CRC Press, Taylor &amp; Francis Group, CRC Press is an imprint of the Taylor &amp; Francis Group, an informa business; 2015. 404 p. (A.K. Peters visualization series).</obo:IAO_0000119>
         <rdfs:label xml:lang="en">mark</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000079 -->
@@ -520,4 +512,3 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
 
 
 <!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
-

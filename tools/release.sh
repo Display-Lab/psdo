@@ -26,6 +26,8 @@ SCRIPT_DIR=$(dirname "${THIS_SCRIPT}")
 
 PSDO="${SCRIPT_DIR}/../psdo.owl"
 
+robot report --input ${PSDO}
+
 # add date to IRI version
 robot annotate \
   --input ${PSDO} \
@@ -33,6 +35,6 @@ robot annotate \
   --version-iri "http://purl.obolibrary.org/obo/`date '+%Y-%m-%d'`/psdo.owl" \
   --output psdo-updated.owl
 
-# clean up
-rm psdo.owl
-mv psdo-updated.owl psdo.owl
+# # clean up
+# rm psdo.owl
+# mv psdo-updated.owl psdo.owl
