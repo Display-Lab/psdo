@@ -105,17 +105,6 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
     
 
 
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000004 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000004">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000042"/>
-        <obo:IAO_0000115>A data item that is a statement about the recorded output of measurements, aggregates, and/or calculations, or decisions related to measured behavior</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete performance data</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000006 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000006">
@@ -157,20 +146,6 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000232 xml:lang="en">Munzner T. Visualization analysis and design. Boca Raton: CRC Press, Taylor &amp; Francis Group, CRC Press is an imprint of the Taylor &amp; Francis Group, an informa business; 2015. 404 p. (A.K. Peters visualization series).</obo:IAO_0000232>
         <obo:IAO_0000232 xml:lang="en">The material entity that concretizes the information content entity has the capability to bear some role &apos;represented dimension&apos; or &apos;focal element, ect...</obo:IAO_0000232>
         <rdfs:label xml:lang="en">relational information display component</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000017 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000017">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000042"/>
-        <obo:IAO_0000115 xml:lang="en">the property of a space in a dataset or relational information display that indicates that &apos;n&apos; mutually perpendicular linear directions of movement are possible</obo:IAO_0000115>
-        <obo:IAO_0000116 xml:lang="en">Formally, saying a &quot;space&quot; has n dimensions means that you can find n vectors in the &quot;space&quot; for which none is a linear combination of the others. In addition, in any set of n + 1 vectors one of them can be written as a linear combination of the other n vectors</obo:IAO_0000116>
-        <obo:IAO_0000116 xml:lang="en">each dimension is a set of elements (di1, di2, di3 ... din) from 1. Zhang J. A representational analysis of relational information displays. International Journal of Human-Computer Studies. 1996 Jul 1;45(1):59–74.</obo:IAO_0000116>
-        <obo:IAO_0000119 xml:lang="en">1. Mathwords: Dimensions [Internet]. [cited 2018 Jun 8]. Available from: http://www.mathwords.com/d/dimensions.htm</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete dimension</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -223,30 +198,6 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000115 xml:lang="en">A quality that is the abstract measurement property of a concretized display component.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">Zhang J. A representational analysis of relational information displays. International Journal of Human-Computer Studies. 1996 Jul 1;45(1):59–74.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">scale type</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000021 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000021">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000042"/>
-        <obo:IAO_0000115>a scale type without equal interval or absolute zero properties</obo:IAO_0000115>
-        <obo:IAO_0000116>def circular and needs work</obo:IAO_0000116>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete discrete scale types</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000022 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000022">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000042"/>
-        <obo:IAO_0000115>a scale type that be measured in infinitely small units</obo:IAO_0000115>
-        <obo:IAO_0000116>def circular and needs work</obo:IAO_0000116>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete continuous scale types</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -315,16 +266,6 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000115 xml:lang="en">A scale type with one  formal property that (1) the instances can be distinguished from each other.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">Zhang J. A representational analysis of relational information displays. International Journal of Human-Computer Studies. 1996 Jul 1;45(1):59–74.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">nominal scale</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000027 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000027">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000042"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete time series</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -417,27 +358,6 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
     
 
 
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000042 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000042">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete obsolete class</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000043 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000043">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000042"/>
-        <obo:IAO_0000115>the perception of emergent properties between dimensions, or elements of dimension of relational information displays</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete relational perceptions</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000045 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000045">
@@ -464,51 +384,6 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000019"/>
         <obo:IAO_0000115 xml:lang="en">A comparative element that conveys information about a predetermined performance value.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">standard comparator</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000048 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000048">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000042"/>
-        <obo:IAO_0000112>the textual entity: &apos;John E. Doe&apos; is a perfomer data item.</obo:IAO_0000112>
-        <obo:IAO_0000115>A data item that is a statement about entities which can have attributed performance data</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete performer data</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000049 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000049">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000042"/>
-        <obo:IAO_0000115>A data item that is a statement about time</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete time data</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000050 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000050">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000042"/>
-        <obo:IAO_0000112>the textual entity: &apos;appropriate prescription of drug A&apos; is a performance measurement data item that is about the method of collecting data for the behavior &apos;prescribing drug A.&apos;  The result of this method is a performance data item.</obo:IAO_0000112>
-        <obo:IAO_0000115>a data item that is a statement about a method of measuring performance data</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete performance measurement data</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000053 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000053">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000042"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete mark</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -543,17 +418,6 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000119 xml:lang="en">&quot;position, n.&quot; OED Online, Oxford University Press, June 2018, www.oed.com/view/Entry/148314. Accessed 28 June 2018.</obo:IAO_0000119>
         <obo:IAO_0000232>&apos;Position’ may actually be a relational quality in BFO because is depends on multiple entities.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">position</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000057 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000057">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">def needed</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete text</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -634,146 +498,6 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000115 xml:lang="en">A material information bearer that is a basic visual element of a relational information display.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">Munzner T. Visualization analysis and design. Boca Raton: CRC Press, Taylor &amp; Francis Group, CRC Press is an imprint of the Taylor &amp; Francis Group, an informa business; 2015. 404 p. (A.K. Peters visualization series).</obo:IAO_0000119>
         <rdfs:label xml:lang="en">mark</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000065 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000065">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000003"/>
-        <obo:IAO_0000115 xml:lang="en">**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">label TDB</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000066 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000066">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000003"/>
-        <obo:IAO_0000115 xml:lang="en">**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">label TDB</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000067 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000067">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000065"/>
-        <obo:IAO_0000115 xml:lang="en">**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">label TDB</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000068 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000068">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000065"/>
-        <obo:IAO_0000115 xml:lang="en">**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">label TDB</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000069 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000069">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000066"/>
-        <obo:IAO_0000115 xml:lang="en">**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">label TDB</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000070 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000070">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000066"/>
-        <obo:IAO_0000115 xml:lang="en">**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">label TDB</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000071 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000071">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000070"/>
-        <obo:IAO_0000115 xml:lang="en">**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">label TDB</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000072 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000072">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000070"/>
-        <obo:IAO_0000115 xml:lang="en">**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">label TDB</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000073 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000073">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000069"/>
-        <obo:IAO_0000115 xml:lang="en">**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">label TDB</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000074 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000074">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000069"/>
-        <obo:IAO_0000115 xml:lang="en">**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">label TDB</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000075 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000075">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000068"/>
-        <obo:IAO_0000115 xml:lang="en">**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">label TDB</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000076 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000076">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000068"/>
-        <obo:IAO_0000115 xml:lang="en">**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">label TDB</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000077 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000077">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000067"/>
-        <obo:IAO_0000115 xml:lang="en">**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">label TDB</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000078 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000078">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000067"/>
-        <obo:IAO_0000115 xml:lang="en">**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">label TDB</rdfs:label>
     </owl:Class>
     
 
