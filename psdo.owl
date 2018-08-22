@@ -114,7 +114,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
                 </owl:unionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A role inhering in the set of attributes of a mark that share a scale type and that convey information about something in a relational information display.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A role inhering in the set of attributes of a mark in a relational information display that share a scale type and that convey information about another entity.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">Zhang J. A representational analysis of relational information displays. International Journal of Human-Computer Studies. 1996 Jul 1;45(1):59–74.</obo:IAO_0000119>
         <obo:IAO_0000232 xml:lang="en">&apos;Represented dimensions&apos; are realized in the processes perception, design or cognition.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">represented dimension</rdfs:label>
