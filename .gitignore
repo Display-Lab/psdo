@@ -1,16 +1,8 @@
-# Ignore import directory to reduce overhead
-src/ontology/imports/*
+# Ignore release logging, for local troubleshooting only
+tools/psdo_log.txt
 
-# Intermediate csv outputs
+# Ignore intermediate csvs
 *.csv
 
-# ODBA file
-src/ontology/psdo-edit.obda
-
-# hide catalog fileas
-src/ontology/catalog-v001.xml
-catalog-v001.xml
-
-
-# new file shouldn't require catalog download
-tools/download-catalog.sh
+# Ignore catalogs
+*.xml

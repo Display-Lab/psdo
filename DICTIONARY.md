@@ -22,53 +22,11 @@ http://purl.obolibrary.org/obo/psdo#psdo_0000046
 ## interval scale
 "A scale type with three formal properties that (1) the instances can be distinguished from each other and (2) that one instance on a scale can be judged greater than, less than, or equal to another instance on the same scale and that (3) the magnitude of an instance represented by a unit on the scale is the same regardless of where on the scale the unit falls."
 http://purl.obolibrary.org/obo/psdo#psdo_0000023
-## label TDB
-**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.
-http://purl.obolibrary.org/obo/psdo#psdo_0000065
-## label TDB
-**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.
-http://purl.obolibrary.org/obo/psdo#psdo_0000066
-## label TDB
-**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.
-http://purl.obolibrary.org/obo/psdo#psdo_0000067
-## label TDB
-**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.
-http://purl.obolibrary.org/obo/psdo#psdo_0000068
-## label TDB
-**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.
-http://purl.obolibrary.org/obo/psdo#psdo_0000069
-## label TDB
-**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.
-http://purl.obolibrary.org/obo/psdo#psdo_0000070
-## label TDB
-**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.
-http://purl.obolibrary.org/obo/psdo#psdo_0000071
-## label TDB
-**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.
-http://purl.obolibrary.org/obo/psdo#psdo_0000072
-## label TDB
-**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.
-http://purl.obolibrary.org/obo/psdo#psdo_0000073
-## label TDB
-**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.
-http://purl.obolibrary.org/obo/psdo#psdo_0000074
-## label TDB
-**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.
-http://purl.obolibrary.org/obo/psdo#psdo_0000075
-## label TDB
-**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.
-http://purl.obolibrary.org/obo/psdo#psdo_0000076
-## label TDB
-**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.
-http://purl.obolibrary.org/obo/psdo#psdo_0000077
-## label TDB
-**WARNING** This is a placeholder class whose IRI will be used to query different PSDOs with different dimensional cardinalities (as defined classes). The semantic label and defintion will be changed to reflect different subclasses of PSDO once that taxonomy is formalized.
-http://purl.obolibrary.org/obo/psdo#psdo_0000078
 ## mark collection
 A object aggregate of marks.
 http://purl.obolibrary.org/obo/psdo#psdo_0000079
 ## mark length
-the quality of linear magnitude of any thing as measured from end to end
+The quality of linear magnitude of any thing as measured from end to end
 http://purl.obolibrary.org/obo/psdo#psdo_0000060
 ## mark
 A material information bearer that is a basic visual element of a relational information display.
@@ -116,7 +74,7 @@ http://purl.obolibrary.org/obo/psdo#psdo_0000008
 An information content entity that displays relations between dimensions in a concretized collection of display components.
 http://purl.obolibrary.org/obo/psdo#psdo_0000001
 ## represented dimension
-A role inhering in the set of attributes of a mark that share a scale type and that convey information about something in a relational information display.
+A role inhering in the set of attributes of a mark in a relational information display that share a scale type and that convey information about another entity.
 http://purl.obolibrary.org/obo/psdo#psdo_0000006
 ## scale type
 A quality that is the abstract measurement property of a concretized display component.
