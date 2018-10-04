@@ -54,9 +54,7 @@ The ground truth file for the ontology is `psdo.owl`. The [DICTIONARY](DICTIONAR
     2. Open owl file `psdo.owl` in project directory
 
 ### Release & Publish Ontology Version
-1. Tag commit with semantic version string e.g. "v0.2.0"
-1. Build .owl (rdf-xml) and .obo artifacts.
-1. Update OBO Foundry
+1. `tools/psdo_release.sh`
 
 ## License
 ### Ontology Content
