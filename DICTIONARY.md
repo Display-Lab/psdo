@@ -4,6 +4,9 @@ http://purl.obolibrary.org/obo/psdo_0000058
 ## ascribee dimension
 A represented dimension where the attributes of the mark are about entities that have attributed performance data.
 http://purl.obolibrary.org/obo/psdo_0000018
+## ascribee element
+A represented element that is born by a member of an acribee dimension.
+http://purl.obolibrary.org/obo/psdo_0000084
 ## attribute
 "An information carrier that can be measured, observed, or logged."
 http://purl.obolibrary.org/obo/psdo_0000061
@@ -40,12 +43,18 @@ http://purl.obolibrary.org/obo/psdo_0000025
 ## performance dimension
 "A represented dimension where the attributes of the mark are about measurements, decisions, aggregates, or calculations related to measured behavior."
 http://purl.obolibrary.org/obo/psdo_0000037
+## performance element
+A represented element that is born by a member of a performance dimension.
+http://purl.obolibrary.org/obo/psdo_0000083
 ## performance gap
 A relational quality of the perceived distance between marks.
 http://purl.obolibrary.org/obo/psdo_0000029
 ## performance measure dimension
 A represented dimension where the attributes of the mark are about the methods of measuring behavior.
 http://purl.obolibrary.org/obo/psdo_0000035
+## performance measure element
+A represented element that is born by a member of a performance measure dimension.
+http://purl.obolibrary.org/obo/psdo_0000081
 ## performance report
 A report designed for the purpose of providing performance summary information to a recipient of an intervention.
 http://purl.obolibrary.org/obo/psdo_0000031
@@ -97,3 +106,6 @@ http://purl.obolibrary.org/obo/psdo_0000059
 ## time dimension
 A represented dimension where the attributes of the mark are about time.
 http://purl.obolibrary.org/obo/psdo_0000036
+## time element
+A represented element that is born by a member of the a dimension.
+http://purl.obolibrary.org/obo/psdo_0000082
