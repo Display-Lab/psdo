@@ -13,7 +13,7 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/psdo.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/2018-10-02/psdo.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/2018-12-12/psdo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/2017-03-24/iao.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/core.owl"/>
         <dc:contributor xml:lang="en">Dahee Lee</dc:contributor>
@@ -42,20 +42,20 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000001 -->
+    <!-- http://purl.obolibrary.org/obo/psdo_0000001 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000001">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000008"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo_0000008"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000058"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000079"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo_0000079"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An information content entity that displays relations between dimensions in a concretized collection of display components.</obo:IAO_0000115>
@@ -68,9 +68,9 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
     
 
 
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000002 -->
+    <!-- http://purl.obolibrary.org/obo/psdo_0000002 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000002">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000115 xml:lang="en">An information content entity that is the collection of specification and metadata associated with a generalized potential information display.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">performance summary display template</rdfs:label>
@@ -78,14 +78,14 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
     
 
 
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000003 -->
+    <!-- http://purl.obolibrary.org/obo/psdo_0000003 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000003">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000001"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000006"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo_0000006"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A relational information display whose display components bear some combination of dimension roles: ascribee dimension, performance measure dimension, performance dimension, or time dimension.</obo:IAO_0000115>
@@ -97,20 +97,20 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
     
 
 
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000006 -->
+    <!-- http://purl.obolibrary.org/obo/psdo_0000006 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000006">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000006">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000062"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo_0000062"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000079"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo_0000079"/>
                     </owl:Restriction>
                 </owl:unionOf>
             </owl:Class>
@@ -118,19 +118,20 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000115 xml:lang="en">A role inhering in the set of attributes of a mark in a relational information display that share a scale type and that convey information about another entity.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">Zhang J. A representational analysis of relational information displays. International Journal of Human-Computer Studies. 1996 Jul 1;45(1):59–74.</obo:IAO_0000119>
         <obo:IAO_0000232 xml:lang="en">&apos;Represented dimensions&apos; are realized in the processes perception, design or cognition.</obo:IAO_0000232>
+        <obo:IAO_0000232 xml:lang="en">There is a distinction between elements and dimensions. Dimensions are groups, or sets of elements (with cardinality of at least one). At this time we do not know if elements with different roles can exist in a dimension with a different name, i.e., an acribee role within a time dimension. It seems unlikely that this is possible.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">represented dimension</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000008 -->
+    <!-- http://purl.obolibrary.org/obo/psdo_0000008 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000008">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000008">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo_0000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000112>An axis, a title of an axis or of a graph, a bar in a bar graph, a line in a line graph, a textual entity in a table.</obo:IAO_0000112>
@@ -142,10 +143,10 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
     
 
 
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000018 -->
+    <!-- http://purl.obolibrary.org/obo/psdo_0000018 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000018">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000006"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000006"/>
         <obo:IAO_0000115 xml:lang="en">A represented dimension where the attributes of the mark are about entities that have attributed performance data.</obo:IAO_0000115>
         <obo:IAO_0000232 xml:lang="en">The elements of an &apos;ascribee dimension&apos; typically represent people, organizations, or groups. They can also represent statistics, targets, or goals. The possible overlap with &apos;performance measure dimension&apos; is justified by the creative liberties taken by the designer of the performance summary display.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">ascribee dimension</rdfs:label>
@@ -153,20 +154,20 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
     
 
 
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000019 -->
+    <!-- http://purl.obolibrary.org/obo/psdo_0000019 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000019">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000019">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000062"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo_0000062"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000079"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo_0000079"/>
                     </owl:Restriction>
                 </owl:unionOf>
             </owl:Class>
@@ -177,14 +178,14 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
     
 
 
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000020 -->
+    <!-- http://purl.obolibrary.org/obo/psdo_0000020 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000020">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000062"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo_0000062"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A quality that is the abstract measurement property of a concretized display component.</obo:IAO_0000115>
@@ -194,14 +195,14 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
     
 
 
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000023 -->
+    <!-- http://purl.obolibrary.org/obo/psdo_0000023 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000023">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000020"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000020"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000062"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo_0000062"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A scale type with three formal properties that (1) the instances can be distinguished from each other and (2) that one instance on a scale can be judged greater than, less than, or equal to another instance on the same scale and that (3) the magnitude of an instance represented by a unit on the scale is the same regardless of where on the scale the unit falls.</obo:IAO_0000115>
@@ -211,14 +212,14 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
     
 
 
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000024 -->
+    <!-- http://purl.obolibrary.org/obo/psdo_0000024 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000024">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000020"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000020"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000062"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo_0000062"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A scale type with four formal properties that (1) the instances can be distinguished from each other and (2) that one instance on a scale can be judged greater than, less than, or equal to another instance on the same scale, that (3) the magnitude of an instance represented by a unit on the scale is the same regardless of where on the scale the unit falls and (4) an absolute zero value can indicate that nothing at all of the property being represented exists.</obo:IAO_0000115>
@@ -228,14 +229,14 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
     
 
 
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000025 -->
+    <!-- http://purl.obolibrary.org/obo/psdo_0000025 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000025">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000020"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000020"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000062"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo_0000062"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A scale type with two formal properties that (1) the instances can be distinguished from each other and (2) that one instance on a scale can be judged greater than, less than, or equal to another instance on the same scale.</obo:IAO_0000115>
@@ -245,14 +246,14 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
     
 
 
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000026 -->
+    <!-- http://purl.obolibrary.org/obo/psdo_0000026 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000026">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000020"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000020"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000062"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo_0000062"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A scale type with one  formal property that (1) the instances can be distinguished from each other.</obo:IAO_0000115>
@@ -262,9 +263,9 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
     
 
 
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000028 -->
+    <!-- http://purl.obolibrary.org/obo/psdo_0000028 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000028">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000028">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000145"/>
         <obo:IAO_0000115 xml:lang="en">A relational quality of the perceived general movement of a mark, or set of marks that is integrated over a time dimension.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">performance trend</rdfs:label>
@@ -272,9 +273,9 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
     
 
 
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000029 -->
+    <!-- http://purl.obolibrary.org/obo/psdo_0000029 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000029">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000029">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000145"/>
         <obo:IAO_0000115 xml:lang="en">A relational quality of the perceived distance between marks.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">performance gap</rdfs:label>
@@ -282,9 +283,9 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
     
 
 
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000031 -->
+    <!-- http://purl.obolibrary.org/obo/psdo_0000031 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000031">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000031">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000088"/>
         <obo:IAO_0000115 xml:lang="en">A report designed for the purpose of providing performance summary information to a recipient of an intervention.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">performance report</rdfs:label>
@@ -292,10 +293,10 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
     
 
 
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000035 -->
+    <!-- http://purl.obolibrary.org/obo/psdo_0000035 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000035">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000006"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000006"/>
         <obo:IAO_0000112 xml:lang="en">Two sepearate performance measure elements might be &apos;appropriate perscriptions of Drug A&apos; and &apos;appropriate perscriptions of Drug B.&apos; Each performance has a method for measurement that is specific to the type of drug (A or B) prescription behavior.</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A represented dimension where the attributes of the mark are about the methods of measuring behavior.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">performance measure dimension</rdfs:label>
@@ -303,20 +304,20 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
     
 
 
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000036 -->
+    <!-- http://purl.obolibrary.org/obo/psdo_0000036 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000036">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000006"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000006"/>
         <obo:IAO_0000115 xml:lang="en">A represented dimension where the attributes of the mark are about time.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">time dimension</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000037 -->
+    <!-- http://purl.obolibrary.org/obo/psdo_0000037 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000037">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000006"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000006"/>
         <obo:IAO_0000115 xml:lang="en">A represented dimension where the attributes of the mark are about measurements, decisions, aggregates, or calculations related to measured behavior.</obo:IAO_0000115>
         <obo:IAO_0000232 xml:lang="en">Performance dimension can include entities like performance values (all scale types)</obo:IAO_0000232>
         <rdfs:label xml:lang="en">performance dimension</rdfs:label>
@@ -324,14 +325,14 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
     
 
 
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000040 -->
+    <!-- http://purl.obolibrary.org/obo/psdo_0000040 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000040">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000040">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000062"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo_0000062"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A role inhering in a mark that conveys specific information to the recipient of a performance summary report realized through the acts of perception.</obo:IAO_0000115>
@@ -340,50 +341,50 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
     
 
 
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000041 -->
+    <!-- http://purl.obolibrary.org/obo/psdo_0000041 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000041">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000040"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000041">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000040"/>
         <obo:IAO_0000115 xml:lang="en">A focal element that conveys information about identity to the recipient of the performance summary report.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">recipient element</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000045 -->
+    <!-- http://purl.obolibrary.org/obo/psdo_0000045 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000045">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000019"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000019"/>
         <obo:IAO_0000115 xml:lang="en">A comparative element that conveys information about an entity that has an attributed performance value.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">social comparator</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000046 -->
+    <!-- http://purl.obolibrary.org/obo/psdo_0000046 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000046">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000019"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000046">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000019"/>
         <obo:IAO_0000115 xml:lang="en">A comparative element that conveys information about a desired future performance value.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">goal comparator</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000047 -->
+    <!-- http://purl.obolibrary.org/obo/psdo_0000047 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000047">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000019"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000019"/>
         <obo:IAO_0000115 xml:lang="en">A comparative element that conveys information about a predetermined performance value.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">standard comparator</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000054 -->
+    <!-- http://purl.obolibrary.org/obo/psdo_0000054 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000054">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000061"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000054">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000061"/>
         <obo:IAO_0000115 xml:lang="en">An attribute of external form or contour.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">&quot;shape, n.1.&quot; OED Online, Oxford University Press, June 2018, www.oed.com/view/Entry/177498. Accessed 28 June 2018.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">shape</rdfs:label>
@@ -391,10 +392,10 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
     
 
 
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000055 -->
+    <!-- http://purl.obolibrary.org/obo/psdo_0000055 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000055">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000061"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000055">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000061"/>
         <obo:IAO_0000115 xml:lang="en">An attribute by virtue of which some thing appears to have a color.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">&quot;colour | color, n.1.&quot; OED Online, Oxford University Press, June 2018, www.oed.com/view/Entry/36596. Accessed 28 June 2018.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">color</rdfs:label>
@@ -402,10 +403,10 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
     
 
 
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000056 -->
+    <!-- http://purl.obolibrary.org/obo/psdo_0000056 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000056">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000061"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000056">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000061"/>
         <obo:IAO_0000115 xml:lang="en">An attribute of relation in which a thing stands with respect to another or others.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">&quot;position, n.&quot; OED Online, Oxford University Press, June 2018, www.oed.com/view/Entry/148314. Accessed 28 June 2018.</obo:IAO_0000119>
         <obo:IAO_0000232>&apos;Position’ may actually be a relational quality in BFO because is depends on multiple entities.</obo:IAO_0000232>
@@ -414,10 +415,10 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
     
 
 
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000058 -->
+    <!-- http://purl.obolibrary.org/obo/psdo_0000058 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000058">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000061"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000058">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000061"/>
         <obo:IAO_0000115 xml:lang="en">An attribute of the magnitude of the degree of divergence of two things from one another.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">&quot;angle, n.2.&quot; OED Online, Oxford University Press, June 2018, www.oed.com/view/Entry/7542. Accessed 28 June 2018.</obo:IAO_0000119>
         <obo:IAO_0000232>&apos;Angle’ may actually be a relational quality in BFO because is depends on multiple entities.</obo:IAO_0000232>
@@ -426,10 +427,10 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
     
 
 
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000059 -->
+    <!-- http://purl.obolibrary.org/obo/psdo_0000059 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000059">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000061"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000059">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000061"/>
         <obo:IAO_0000115 xml:lang="en">An attribute of constitution, structure, or substance of anything with regard to its constituents or formative element.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">&quot;texture, n.&quot; OED Online, Oxford University Press, June 2018, www.oed.com/view/Entry/200031. Accessed 28 June 2018.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">texture</rdfs:label>
@@ -437,10 +438,10 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
     
 
 
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000060 -->
+    <!-- http://purl.obolibrary.org/obo/psdo_0000060 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000060">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000061"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000060">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000061"/>
         <obo:IAO_0000115 xml:lang="en">The quality of linear magnitude of any thing as measured from end to end</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">&quot;length, n.&quot; OED Online, Oxford University Press, June 2018, www.oed.com/view/Entry/107245. Accessed 28 June 2018.</obo:IAO_0000119>
         <obo:IAO_0000232 xml:lang="en">rdfs:Label property is &apos;mark length&apos; to distinguish from the PATO class &apos;length.&apos;</obo:IAO_0000232>
@@ -449,14 +450,14 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
     
 
 
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000061 -->
+    <!-- http://purl.obolibrary.org/obo/psdo_0000061 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000061">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000061">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000062"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo_0000062"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An information carrier that can be measured, observed, or logged.</obo:IAO_0000115>
@@ -466,9 +467,9 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
     
 
 
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000062 -->
+    <!-- http://purl.obolibrary.org/obo/psdo_0000062 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000062">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000062">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -478,7 +479,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
                         <owl:someValuesFrom>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000059"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000008"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo_0000008"/>
                             </owl:Restriction>
                         </owl:someValuesFrom>
                     </owl:Restriction>
@@ -494,18 +495,70 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
     
 
 
-    <!-- http://purl.obolibrary.org/obo/psdo#psdo_0000079 -->
+    <!-- http://purl.obolibrary.org/obo/psdo_0000079 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo#psdo_0000079">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000079">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo#psdo_0000062"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo_0000062"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A object aggregate of marks.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">mark collection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo_0000080 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000080">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">A role born by a member of a represented dimension.</obo:IAO_0000115>
+        <obo:IAO_0000232 xml:lang="en">It is possible that elements and dimensions are realized in different, but similar processes.</obo:IAO_0000232>
+        <obo:IAO_0000232 xml:lang="en">The distinction between an element and a role is one of plurality. The dimension refers to the set of entities that bear represented roles, while the represented element is born by each element of the set.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">represented element</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo_0000081 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000081">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000080"/>
+        <obo:IAO_0000115 xml:lang="en">A represented element that is born by a member of a performance measure dimension.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">performance measure element</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo_0000082 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000082">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000080"/>
+        <obo:IAO_0000115 xml:lang="en">A represented element that is born by a member of the a dimension.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">time element</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo_0000083 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000083">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000080"/>
+        <obo:IAO_0000115 xml:lang="en">A represented element that is born by a member of a performance dimension.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">performance element</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo_0000084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000084">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000080"/>
+        <obo:IAO_0000115 xml:lang="en">A represented element that is born by a member of an acribee dimension.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">ascribee element</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
