@@ -1,6 +1,9 @@
 ## angle
 An attribute of the magnitude of the degree of divergence of two things from one another.
 http://purl.obolibrary.org/obo/psdo_0000058
+## area
+An attribute that is the quantity that expresses the extent of a two-dimensional figure or shape in a plane.
+http://purl.obolibrary.org/obo/psdo_0000090
 ## ascribee dimension
 A represented dimension where the attributes of the mark are about entities that have attributed performance data.
 http://purl.obolibrary.org/obo/psdo_0000018
@@ -10,12 +13,21 @@ http://purl.obolibrary.org/obo/psdo_0000084
 ## attribute
 "An information carrier that can be measured, observed, or logged."
 http://purl.obolibrary.org/obo/psdo_0000061
-## color
-An attribute by virtue of which some thing appears to have a color.
+## color hue
+An attribute by virtue of which some thing appears to have a 'pure' color.
 http://purl.obolibrary.org/obo/psdo_0000055
+## color lightness
+"An attribute that is the amount of black content mixed with a pure color, or mixture of pure colors."
+http://purl.obolibrary.org/obo/psdo_0000092
+## color saturation
+"An attribute that is the amount of white content mixed with a pure color, or mixture of pure colors."
+http://purl.obolibrary.org/obo/psdo_0000091
 ## comparative element
 A role inhering in a mark that is disjoint with a focal element and that has the same scale type as the focal element.
 http://purl.obolibrary.org/obo/psdo_0000019
+## curvature
+An attribute of the degree from which a curve deviates from a straight line.
+http://purl.obolibrary.org/obo/psdo_0000087
 ## focal element
 A role inhering in a mark that conveys specific information to the recipient of a performance summary report realized through the acts of perception.
 http://purl.obolibrary.org/obo/psdo_0000040
@@ -67,6 +79,18 @@ http://purl.obolibrary.org/obo/psdo_0000003
 ## performance trend
 "A relational quality of the perceived general movement of a mark, or set of marks that is integrated over a time dimension."
 http://purl.obolibrary.org/obo/psdo_0000028
+## performer dimension
+An ascribee dimension that is a living system.
+http://purl.obolibrary.org/obo/psdo_0000086
+## performer element
+An ascribee element that is a living system.
+http://purl.obolibrary.org/obo/psdo_0000085
+## position on common scale
+A position where the distance between marks is on the same scale.
+http://purl.obolibrary.org/obo/psdo_0000088
+## position on unaligned scale
+A position where the distance between marks is not on the same scale.
+http://purl.obolibrary.org/obo/psdo_0000089
 ## position
 An attribute of relation in which a thing stands with respect to another or others.
 http://purl.obolibrary.org/obo/psdo_0000056

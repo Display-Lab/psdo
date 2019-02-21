@@ -5,6 +5,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:doap="http://usefulinc.com/ns/doap#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
@@ -13,7 +14,8 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/psdo.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/2018-12-12/psdo.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/2019-02-21/psdo.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/stato.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/2017-03-24/iao.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/core.owl"/>
         <dc:contributor xml:lang="en">Dahee Lee</dc:contributor>
@@ -396,9 +398,9 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000055">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000061"/>
-        <obo:IAO_0000115 xml:lang="en">An attribute by virtue of which some thing appears to have a color.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An attribute by virtue of which some thing appears to have a &apos;pure&apos; color.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">&quot;colour | color, n.1.&quot; OED Online, Oxford University Press, June 2018, www.oed.com/view/Entry/36596. Accessed 28 June 2018.</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">color</rdfs:label>
+        <rdfs:label xml:lang="en">color hue</rdfs:label>
     </owl:Class>
     
 
@@ -462,6 +464,9 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An information carrier that can be measured, observed, or logged.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">Munzner T. Visualization analysis and design. Boca Raton: CRC Press, Taylor &amp; Francis Group, CRC Press is an imprint of the Taylor &amp; Francis Group, an informa business; 2015. 404 p. (A.K. Peters visualization series).</obo:IAO_0000119>
+        <obo:IAO_0000232 xml:lang="en">This is also called a &apos;channel&apos; by T. Munzner. &quot;A channel is a way to control the appearance of marks independent of the dimensionality of the goemetric primitive.&quot; 
+
+T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &amp; Francis Group, CRC Press is an imprint of the Taylor &amp; Francis Group, an informa business, 2015.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">attribute</rdfs:label>
     </owl:Class>
     
@@ -559,6 +564,93 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000080"/>
         <obo:IAO_0000115 xml:lang="en">A represented element that is born by a member of an acribee dimension.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">ascribee element</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo_0000085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000085">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000084"/>
+        <obo:IAO_0000115 xml:lang="en">An ascribee element that is a living system.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">performer element</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo_0000086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000086">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000018"/>
+        <obo:IAO_0000115 xml:lang="en">An ascribee dimension that is a living system.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">performer dimension</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo_0000087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000087">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000061"/>
+        <obo:IAO_0000115 xml:lang="en">An attribute of the degree from which a curve deviates from a straight line.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">“curvature | Definition of curvature in English by Oxford Dictionaries,” Oxford Dictionaries | English. [Online]. Available: https://en.oxforddictionaries.com/definition/curvature. [Accessed: 20-Feb-2019].</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">curvature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo_0000088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000088">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000056"/>
+        <obo:IAO_0000115 xml:lang="en">A position where the distance between marks is on the same scale.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &amp; Francis Group, CRC Press is an imprint of the Taylor &amp; Francis Group, an informa business, 2015.</obo:IAO_0000119>
+        <obo:IAO_0000232 xml:lang="en">This, like the superclass, may actually be a BFO &apos;relational quality&apos; that holds between sets of marks.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">position on common scale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo_0000089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000089">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000056"/>
+        <obo:IAO_0000115 xml:lang="en">A position where the distance between marks is not on the same scale.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &amp; Francis Group, CRC Press is an imprint of the Taylor &amp; Francis Group, an informa business, 2015.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">position on unaligned scale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo_0000090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000090">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000061"/>
+        <obo:IAO_0000115 xml:lang="en">An attribute that is the quantity that expresses the extent of a two-dimensional figure or shape in a plane.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">“Area,” Wikipedia. 14-Feb-2019.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">area</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo_0000091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000091">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000061"/>
+        <obo:IAO_0000115 xml:lang="en">An attribute that is the amount of white content mixed with a pure color, or mixture of pure colors.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &amp; Francis Group, CRC Press is an imprint of the Taylor &amp; Francis Group, an informa business, 2015.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">color saturation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo_0000092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000092">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000061"/>
+        <obo:IAO_0000115 xml:lang="en">An attribute that is the amount of black content mixed with a pure color, or mixture of pure colors.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &amp; Francis Group, CRC Press is an imprint of the Taylor &amp; Francis Group, an informa business, 2015.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">color lightness</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
