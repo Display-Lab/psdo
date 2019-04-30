@@ -14,7 +14,7 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/psdo.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/2019-02-21/psdo.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/2019-04-30/psdo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/stato.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/2017-03-24/iao.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/core.owl"/>
@@ -60,9 +60,9 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo_0000079"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An information content entity that displays relations between dimensions in a concretized collection of display components.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that displays relations between sets in a concretized collection of display components.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">Zhang J. A representational analysis of relational information displays. International Journal of Human-Computer Studies. 1996 Jul 1;45(1):59–74.</obo:IAO_0000119>
-        <obo:IAO_0000232 xml:lang="en">Zhang’s notion of &apos;dimension&apos; relies on an understanding of ‘distributed representations’ which have both an &apos;internal&apos; and an &apos;external&apos; component. Each dimension (see &apos;representing dimension&apos;) has a quality of &apos;being distrobuted between internal (the cognition and representation of the dimension as such) and external (the &apos;mark).&apos; See:
+        <obo:IAO_0000232 xml:lang="en">Zhang’s notion of &apos;dimension&apos; relies on an understanding of ‘distributed representations’ which have both an &apos;internal&apos; and an &apos;external&apos; component. Each sets (see &apos;representing sets&apos;) has a quality of &apos;being distrobuted between internal (the cognition and representation of the sets as such) and external (the &apos;mark).&apos; See:
 
 Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Science. 1994 Jan 1;18(1):87–122.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">relational information display</rdfs:label>
@@ -90,10 +90,10 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/psdo_0000006"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A relational information display whose display components bear some combination of dimension roles: ascribee dimension, performance measure dimension, performance dimension, or time dimension.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A relational information display whose display components bear some combination of sets (roles): ascribee set, performance measure set, performance set, or time set.</obo:IAO_0000115>
         <obo:IAO_0000117>Cooper Stansbury, John Rincon, Dahee Lee, Zach Landis-Lewis, Colin Gross</obo:IAO_0000117>
-        <obo:IAO_0000232 xml:lang="en">All subclasses of &apos;performance summary display&apos; are defined classes based on cardinality of marks that realize specific represented dimension roles.</obo:IAO_0000232>
-        <obo:IAO_0000232 xml:lang="en">It is the authors current belief that the necessary and sufficient definiton of &apos;performance summary display&apos; mandates that at least two dimensions must be realized.</obo:IAO_0000232>
+        <obo:IAO_0000232 xml:lang="en">All subclasses of &apos;performance summary display&apos; are defined classes based on cardinality of marks that realize specific represented set roles.</obo:IAO_0000232>
+        <obo:IAO_0000232 xml:lang="en">It is the authors current belief that the necessary and sufficient definiton of &apos;performance summary display&apos; mandates that at least two set must be realized.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">performance summary display</rdfs:label>
     </owl:Class>
     
@@ -119,9 +119,9 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A role inhering in the set of attributes of a mark in a relational information display that share a scale type and that convey information about another entity.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">Zhang J. A representational analysis of relational information displays. International Journal of Human-Computer Studies. 1996 Jul 1;45(1):59–74.</obo:IAO_0000119>
-        <obo:IAO_0000232 xml:lang="en">&apos;Represented dimensions&apos; are realized in the processes perception, design or cognition.</obo:IAO_0000232>
-        <obo:IAO_0000232 xml:lang="en">There is a distinction between elements and dimensions. Dimensions are groups, or sets of elements (with cardinality of at least one). At this time we do not know if elements with different roles can exist in a dimension with a different name, i.e., an acribee role within a time dimension. It seems unlikely that this is possible.</obo:IAO_0000232>
-        <rdfs:label xml:lang="en">represented dimension</rdfs:label>
+        <obo:IAO_0000232 xml:lang="en">&apos;Represented sets&apos; are realized in the processes perception, design or cognition.</obo:IAO_0000232>
+        <obo:IAO_0000232 xml:lang="en">There is a distinction between elements and sets. Sets are groups, or sets of elements (with cardinality of at least one). At this time we do not know if elements with different roles can exist in a set with a different name, i.e., an acribee role within a time set. It seems unlikely that this is possible.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">represented set</rdfs:label>
     </owl:Class>
     
 
@@ -139,7 +139,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000112>An axis, a title of an axis or of a graph, a bar in a bar graph, a line in a line graph, a textual entity in a table.</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">An information content entity that is a proper part of a relational information display and is concretized by a mark.</obo:IAO_0000115>
         <obo:IAO_0000232 xml:lang="en">Munzner T. Visualization analysis and design. Boca Raton: CRC Press, Taylor &amp; Francis Group, CRC Press is an imprint of the Taylor &amp; Francis Group, an informa business; 2015. 404 p. (A.K. Peters visualization series).</obo:IAO_0000232>
-        <obo:IAO_0000232 xml:lang="en">The material entity that concretizes the information content entity has the capability to bear some role &apos;represented dimension&apos; or &apos;focal element, ect...</obo:IAO_0000232>
+        <obo:IAO_0000232 xml:lang="en">The material entity that concretizes the information content entity has the capability to bear some role &apos;represented sets&apos; or &apos;focal element, ect...</obo:IAO_0000232>
         <rdfs:label xml:lang="en">relational information display component</rdfs:label>
     </owl:Class>
     
@@ -149,9 +149,9 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000018">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000006"/>
-        <obo:IAO_0000115 xml:lang="en">A represented dimension where the attributes of the mark are about entities that have attributed performance data.</obo:IAO_0000115>
-        <obo:IAO_0000232 xml:lang="en">The elements of an &apos;ascribee dimension&apos; typically represent people, organizations, or groups. They can also represent statistics, targets, or goals. The possible overlap with &apos;performance measure dimension&apos; is justified by the creative liberties taken by the designer of the performance summary display.</obo:IAO_0000232>
-        <rdfs:label xml:lang="en">ascribee dimension</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">A represented set where the attributes of the mark are about entities that have attributed performance data.</obo:IAO_0000115>
+        <obo:IAO_0000232 xml:lang="en">The elements of an &apos;ascribee set&apos; typically represent people, organizations, or groups. They can also represent statistics, targets, or goals. The possible overlap with &apos;performance measure set&apos; is justified by the creative liberties taken by the designer of the performance summary display.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">ascribee set</rdfs:label>
     </owl:Class>
     
 
@@ -269,7 +269,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000028">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000145"/>
-        <obo:IAO_0000115 xml:lang="en">A relational quality of the perceived general movement of a mark, or set of marks that is integrated over a time dimension.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A relational quality of the perceived general movement of a mark, or set of marks that is integrated over a time set.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">performance trend</rdfs:label>
     </owl:Class>
     
@@ -300,8 +300,8 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000035">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000006"/>
         <obo:IAO_0000112 xml:lang="en">Two sepearate performance measure elements might be &apos;appropriate perscriptions of Drug A&apos; and &apos;appropriate perscriptions of Drug B.&apos; Each performance has a method for measurement that is specific to the type of drug (A or B) prescription behavior.</obo:IAO_0000112>
-        <obo:IAO_0000115 xml:lang="en">A represented dimension where the attributes of the mark are about the methods of measuring behavior.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">performance measure dimension</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">A represented set where the attributes of the mark are about the methods of measuring behavior.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">performance measure set</rdfs:label>
     </owl:Class>
     
 
@@ -310,8 +310,8 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000036">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000006"/>
-        <obo:IAO_0000115 xml:lang="en">A represented dimension where the attributes of the mark are about time.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">time dimension</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">A represented set where the attributes of the mark are about time.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">time set</rdfs:label>
     </owl:Class>
     
 
@@ -320,9 +320,9 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000037">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000006"/>
-        <obo:IAO_0000115 xml:lang="en">A represented dimension where the attributes of the mark are about measurements, decisions, aggregates, or calculations related to measured behavior.</obo:IAO_0000115>
-        <obo:IAO_0000232 xml:lang="en">Performance dimension can include entities like performance values (all scale types)</obo:IAO_0000232>
-        <rdfs:label xml:lang="en">performance dimension</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">A represented set where the attributes of the mark are about measurements, decisions, aggregates, or calculations related to measured behavior.</obo:IAO_0000115>
+        <obo:IAO_0000232 xml:lang="en">Performance set can include entities like performance values (all scale types)</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">performance set</rdfs:label>
     </owl:Class>
     
 
@@ -464,7 +464,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An information carrier that can be measured, observed, or logged.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">Munzner T. Visualization analysis and design. Boca Raton: CRC Press, Taylor &amp; Francis Group, CRC Press is an imprint of the Taylor &amp; Francis Group, an informa business; 2015. 404 p. (A.K. Peters visualization series).</obo:IAO_0000119>
-        <obo:IAO_0000232 xml:lang="en">This is also called a &apos;channel&apos; by T. Munzner. &quot;A channel is a way to control the appearance of marks independent of the dimensionality of the goemetric primitive.&quot; 
+        <obo:IAO_0000232 xml:lang="en">This is also called a &apos;channel&apos; by T. Munzner. &quot;A channel is a way to control the appearance of marks independent of the dimensionality of the goemetric primitive.&quot;
 
 T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &amp; Francis Group, CRC Press is an imprint of the Taylor &amp; Francis Group, an informa business, 2015.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">attribute</rdfs:label>
@@ -520,9 +520,9 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000080">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000115 xml:lang="en">A role born by a member of a represented dimension.</obo:IAO_0000115>
-        <obo:IAO_0000232 xml:lang="en">It is possible that elements and dimensions are realized in different, but similar processes.</obo:IAO_0000232>
-        <obo:IAO_0000232 xml:lang="en">The distinction between an element and a role is one of plurality. The dimension refers to the set of entities that bear represented roles, while the represented element is born by each element of the set.</obo:IAO_0000232>
+        <obo:IAO_0000115 xml:lang="en">A role born by a member of a represented set.</obo:IAO_0000115>
+        <obo:IAO_0000232 xml:lang="en">It is possible that elements and sets are realized in different, but similar processes.</obo:IAO_0000232>
+        <obo:IAO_0000232 xml:lang="en">The distinction between an element and a role is one of plurality. The set refers to the set of entities that bear represented roles, while the represented element is born by each element of the set.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">represented element</rdfs:label>
     </owl:Class>
     
@@ -532,7 +532,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000081">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000080"/>
-        <obo:IAO_0000115 xml:lang="en">A represented element that is born by a member of a performance measure dimension.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A represented element that is born by a member of a performance measure set.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">performance measure element</rdfs:label>
     </owl:Class>
     
@@ -542,7 +542,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000082">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000080"/>
-        <obo:IAO_0000115 xml:lang="en">A represented element that is born by a member of the a dimension.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A represented element that is born by a member of a time set.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">time element</rdfs:label>
     </owl:Class>
     
@@ -552,7 +552,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000083">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000080"/>
-        <obo:IAO_0000115 xml:lang="en">A represented element that is born by a member of a performance dimension.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A represented element that is born by a member of a performance set.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">performance element</rdfs:label>
     </owl:Class>
     
@@ -562,7 +562,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000084">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000080"/>
-        <obo:IAO_0000115 xml:lang="en">A represented element that is born by a member of an acribee dimension.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A represented element that is born by a member of an acribee set.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">ascribee element</rdfs:label>
     </owl:Class>
     
@@ -582,8 +582,8 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000086">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000018"/>
-        <obo:IAO_0000115 xml:lang="en">An ascribee dimension that is a living system.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">performer dimension</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An ascribee set that is a living system.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">performer set</rdfs:label>
     </owl:Class>
     
 
