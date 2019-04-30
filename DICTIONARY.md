@@ -4,12 +4,12 @@ http://purl.obolibrary.org/obo/psdo_0000058
 ## area
 An attribute that is the quantity that expresses the extent of a two-dimensional figure or shape in a plane.
 http://purl.obolibrary.org/obo/psdo_0000090
-## ascribee dimension
-A represented dimension where the attributes of the mark are about entities that have attributed performance data.
-http://purl.obolibrary.org/obo/psdo_0000018
 ## ascribee element
-A represented element that is born by a member of an acribee dimension.
+A represented element that is born by a member of an acribee set.
 http://purl.obolibrary.org/obo/psdo_0000084
+## ascribee set
+A represented set where the attributes of the mark are about entities that have attributed performance data.
+http://purl.obolibrary.org/obo/psdo_0000018
 ## attribute
 "An information carrier that can be measured, observed, or logged."
 http://purl.obolibrary.org/obo/psdo_0000061
@@ -52,39 +52,39 @@ http://purl.obolibrary.org/obo/psdo_0000026
 ## ordinal scale
 "A scale type with two formal properties that (1) the instances can be distinguished from each other and (2) that one instance on a scale can be judged greater than, less than, or equal to another instance on the same scale."
 http://purl.obolibrary.org/obo/psdo_0000025
-## performance dimension
-"A represented dimension where the attributes of the mark are about measurements, decisions, aggregates, or calculations related to measured behavior."
-http://purl.obolibrary.org/obo/psdo_0000037
 ## performance element
-A represented element that is born by a member of a performance dimension.
+A represented element that is born by a member of a performance set.
 http://purl.obolibrary.org/obo/psdo_0000083
 ## performance gap
 A relational quality of the perceived distance between marks.
 http://purl.obolibrary.org/obo/psdo_0000029
-## performance measure dimension
-A represented dimension where the attributes of the mark are about the methods of measuring behavior.
-http://purl.obolibrary.org/obo/psdo_0000035
 ## performance measure element
-A represented element that is born by a member of a performance measure dimension.
+A represented element that is born by a member of a performance measure set.
 http://purl.obolibrary.org/obo/psdo_0000081
+## performance measure set
+A represented set where the attributes of the mark are about the methods of measuring behavior.
+http://purl.obolibrary.org/obo/psdo_0000035
 ## performance report
 A report designed for the purpose of providing performance summary information to a recipient of an intervention.
 http://purl.obolibrary.org/obo/psdo_0000031
+## performance set
+"A represented set where the attributes of the mark are about measurements, decisions, aggregates, or calculations related to measured behavior."
+http://purl.obolibrary.org/obo/psdo_0000037
 ## performance summary display template
 An information content entity that is the collection of specification and metadata associated with a generalized potential information display.
 http://purl.obolibrary.org/obo/psdo_0000002
 ## performance summary display
-"A relational information display whose display components bear some combination of dimension roles: ascribee dimension, performance measure dimension, performance dimension, or time dimension."
+"A relational information display whose display components bear some combination of sets (roles): ascribee set, performance measure set, performance set, or time set."
 http://purl.obolibrary.org/obo/psdo_0000003
 ## performance trend
-"A relational quality of the perceived general movement of a mark, or set of marks that is integrated over a time dimension."
+"A relational quality of the perceived general movement of a mark, or set of marks that is integrated over a time set."
 http://purl.obolibrary.org/obo/psdo_0000028
-## performer dimension
-An ascribee dimension that is a living system.
-http://purl.obolibrary.org/obo/psdo_0000086
 ## performer element
 An ascribee element that is a living system.
 http://purl.obolibrary.org/obo/psdo_0000085
+## performer set
+An ascribee set that is a living system.
+http://purl.obolibrary.org/obo/psdo_0000086
 ## position on common scale
 A position where the distance between marks is on the same scale.
 http://purl.obolibrary.org/obo/psdo_0000088
@@ -104,14 +104,14 @@ http://purl.obolibrary.org/obo/psdo_0000041
 An information content entity that is a proper part of a relational information display and is concretized by a mark.
 http://purl.obolibrary.org/obo/psdo_0000008
 ## relational information display
-An information content entity that displays relations between dimensions in a concretized collection of display components.
+An information content entity that displays relations between sets in a concretized collection of display components.
 http://purl.obolibrary.org/obo/psdo_0000001
-## represented dimension
+## represented element
+A role born by a member of a represented set.
+http://purl.obolibrary.org/obo/psdo_0000080
+## represented set
 A role inhering in the set of attributes of a mark in a relational information display that share a scale type and that convey information about another entity.
 http://purl.obolibrary.org/obo/psdo_0000006
-## represented element
-A role born by a member of a represented dimension.
-http://purl.obolibrary.org/obo/psdo_0000080
 ## scale type
 A quality that is the abstract measurement property of a concretized display component.
 http://purl.obolibrary.org/obo/psdo_0000020
@@ -127,9 +127,9 @@ http://purl.obolibrary.org/obo/psdo_0000047
 ## texture
 "An attribute of constitution, structure, or substance of anything with regard to its constituents or formative element."
 http://purl.obolibrary.org/obo/psdo_0000059
-## time dimension
-A represented dimension where the attributes of the mark are about time.
-http://purl.obolibrary.org/obo/psdo_0000036
 ## time element
-A represented element that is born by a member of the a dimension.
+A represented element that is born by a member of a time set.
 http://purl.obolibrary.org/obo/psdo_0000082
+## time set
+A represented set where the attributes of the mark are about time.
+http://purl.obolibrary.org/obo/psdo_0000036
