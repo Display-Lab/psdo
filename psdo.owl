@@ -1,34 +1,34 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/psdo.owl#"
      xml:base="http://purl.obolibrary.org/obo/psdo.owl"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:doap="http://usefulinc.com/ns/doap#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:doap="http://usefulinc.com/ns/doap#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:dc="http://purl.org/dc/elements/1.1/">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/psdo.owl">
         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/2019-04-30/psdo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/stato.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/2017-03-24/iao.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/core.owl"/>
         <dc:contributor xml:lang="en">Dahee Lee</dc:contributor>
-        <dc:description xml:lang="en">Performance Summary Display Ontology (PSDO) (pronounced &quot;pseudo&quot; or &quot;sudo&quot;) is an application ontology about charts, tables, and graphs that are used to communicate performance information to employees and teams in organizations. PSDO&apos;s domain focus is on healthcare organizations that use performance summary displays in clinical dashboards and feedback interventions for healthcare professionals and teams. The displays commonly show information about the quality of care and health outcomes that has been derived from clinical data using performance measures (aka metrics, process indicators, quality measures, etc). PSDO uses Basic Formal Ontology as its upper level ontology. This work is not peer-reviewed.</dc:description>
-        <dc:creator xml:lang="en">John Rincon</dc:creator>
-        <dc:language xml:lang="en">en</dc:language>
-        <owl:versionInfo xml:lang="en">1.0.0</owl:versionInfo>
-        <dc:creator xml:lang="en">Cooper Stansbury</dc:creator>
-        <dc:creator xml:lang="en">Zach Landis-Lewis</dc:creator>
-        <dc:title xml:lang="en">Performance Summary Display Ontology</dc:title>
-        <terms:license xml:lang="en">https://creativecommons.org/licenses/by/4.0/</terms:license>
         <dc:contributor xml:lang="en">Veena Panicker</dc:contributor>
         <dc:creator xml:lang="en">Colin Gross</dc:creator>
+        <dc:creator xml:lang="en">Cooper Stansbury</dc:creator>
+        <dc:creator xml:lang="en">John Rincon</dc:creator>
+        <dc:creator xml:lang="en">Zach Landis-Lewis</dc:creator>
+        <dc:description xml:lang="en">Performance Summary Display Ontology (PSDO) (pronounced &quot;pseudo&quot; or &quot;sudo&quot;) is an application ontology about charts, tables, and graphs that are used to communicate performance information to employees and teams in organizations. PSDO&apos;s domain focus is on healthcare organizations that use performance summary displays in clinical dashboards and feedback interventions for healthcare professionals and teams. The displays commonly show information about the quality of care and health outcomes that has been derived from clinical data using performance measures (aka metrics, process indicators, quality measures, etc). PSDO uses Basic Formal Ontology as its upper level ontology. This work is not peer-reviewed.</dc:description>
+        <dc:language xml:lang="en">en</dc:language>
+        <dc:title xml:lang="en">Performance Summary Display Ontology</dc:title>
+        <terms:license xml:lang="en">https://creativecommons.org/licenses/by/4.0/</terms:license>
+        <owl:versionInfo xml:lang="en">1.0.0</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -652,9 +652,97 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
         <obo:IAO_0000119 xml:lang="en">T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &amp; Francis Group, CRC Press is an imprint of the Taylor &amp; Francis Group, an informa business, 2015.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">color lightness</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo.owl/ascribee_content_entity -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo.owl/ascribee_content_entity">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115>An information content entity that is about an entity that is ascribed a performance value.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">ascribee content entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo.owl/comparator_content_entity -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo.owl/comparator_content_entity">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en"></obo:IAO_0000115>
+        <rdfs:label xml:lang="en">comparator content entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo.owl/performance_content_entity -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo.owl/performance_content_entity">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115>An information content entity that is an aggregate of performance level content entities.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">performance content entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo.owl/performance_gap_content_entity -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo.owl/performance_gap_content_entity">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that is about a discrepancy between performance values</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">performance gap content entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo.owl/performance_level_content_entity -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo.owl/performance_level_content_entity">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that is about the output value of a method of measuring performance.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">performance level content entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo.owl/performance_measure_content_entity -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo.owl/performance_measure_content_entity">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115>An information content entity about a method of measuring performance.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">performance measure content entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo.owl/performance_summary -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo.owl/performance_summary">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
+        <obo:IAO_0000115>A document that is an aggregate of information content entities about (minimally) performance, performance measures, time intervals, and ascribees.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo.owl/performance_trend_content_entity -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo.owl/performance_trend_content_entity">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that is about a change in performance</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">performance trend content entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo.owl/recipient_content_entity -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo.owl/recipient_content_entity">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:label xml:lang="en">recipient content entity</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 1.1.0) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
