@@ -1,5 +1,5 @@
 # Welcome!
-Performance Summary Display Ontology (PSDO) (pronounced "pseudo" or "sudo") is an application ontology about charts, tables, and graphs that are used to communicate performance information to employees and teams in organizations. PSDO's domain focus is on healthcare organizations that use performance summary displays in clinical dashboards and feedback interventions for healthcare professionals and teams. The displays commonly show information about the quality of care and health outcomes that has been derived from clinical data using performance measures (aka metrics, process indicators, quality measures, etc). PSDO uses Basic Formal Ontology as its upper level ontology. This work is not peer-reviewed.
+Performance Summary Display Ontology (PSDO) (pronounced "pseudo" or "sudo") is an application ontology about information content and visual elements that are used to communicate performance information to employees and teams in organizations. PSDO's domain focus is on healthcare organizations that use performance summary displays in clinical dashboards and feedback interventions for healthcare professionals and teams. The displays commonly show information about the quality of care and health outcomes that has been derived from clinical data using performance measures (aka metrics, process indicators, quality measures, etc). PSDO uses Basic Formal Ontology as its upper level ontology. This work is not peer-reviewed.
 
 ### Competing Interests
 The authors declare no competing interests.
@@ -65,7 +65,7 @@ The ground truth file for the ontology is `psdo.owl`. The [DICTIONARY](DICTIONAR
 The ontology content is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 
 ### Source Code
-Copyright 2018 Regents of the University of Michigan
+Copyright 2019 Regents of the University of Michigan
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
