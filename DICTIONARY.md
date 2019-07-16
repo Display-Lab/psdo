@@ -4,7 +4,10 @@ http://purl.obolibrary.org/obo/psdo_0000058
 ## area
 An attribute that is the quantity that expresses the extent of a two-dimensional figure or shape in a plane.
 http://purl.obolibrary.org/obo/psdo_0000090
-## ascribee element
+## ascribee content entity
+An information content entity that is about an entity that is ascribed a performance value.
+http://purl.obolibrary.org/obo/psdo.owl/psdo_0000108
+## ascribee element role
 A represented element that is born by a member of an acribee set.
 http://purl.obolibrary.org/obo/psdo_0000084
 ## ascribee set
@@ -22,16 +25,19 @@ http://purl.obolibrary.org/obo/psdo_0000092
 ## color saturation
 "An attribute that is the amount of white content mixed with a pure color, or mixture of pure colors."
 http://purl.obolibrary.org/obo/psdo_0000091
-## comparative element
+## comparative element role
 A role inhering in a mark that is disjoint with a focal element and that has the same scale type as the focal element.
 http://purl.obolibrary.org/obo/psdo_0000019
+## comparator content entity
+""
+http://purl.obolibrary.org/obo/psdo_0000093
 ## curvature
 An attribute of the degree from which a curve deviates from a straight line.
 http://purl.obolibrary.org/obo/psdo_0000087
-## focal element
+## focal element role
 A role inhering in a mark that conveys specific information to the recipient of a performance summary report realized through the acts of perception.
 http://purl.obolibrary.org/obo/psdo_0000040
-## goal comparator
+## goal comparator role
 A comparative element that conveys information about a desired future performance value.
 http://purl.obolibrary.org/obo/psdo_0000046
 ## interval scale
@@ -40,25 +46,40 @@ http://purl.obolibrary.org/obo/psdo_0000023
 ## mark collection
 A object aggregate of marks.
 http://purl.obolibrary.org/obo/psdo_0000079
-## mark length
-The quality of linear magnitude of any thing as measured from end to end
-http://purl.obolibrary.org/obo/psdo_0000060
 ## mark
 A material information bearer that is a basic visual element of a relational information display.
 http://purl.obolibrary.org/obo/psdo_0000062
+## mark length
+The quality of linear magnitude of any thing as measured from end to end
+http://purl.obolibrary.org/obo/psdo_0000060
+## negative performance gap content entity
+A performance gap content entity having a comparator performance level that is better than its recipient performance level.
+http://purl.obolibrary.org/obo/psdo.owl/psdo_0000105
 ## nominal scale
 A scale type with one  formal property that (1) the instances can be distinguished from each other.
 http://purl.obolibrary.org/obo/psdo_0000026
 ## ordinal scale
 "A scale type with two formal properties that (1) the instances can be distinguished from each other and (2) that one instance on a scale can be judged greater than, less than, or equal to another instance on the same scale."
 http://purl.obolibrary.org/obo/psdo_0000025
-## performance element
-A represented element that is born by a member of a performance set.
-http://purl.obolibrary.org/obo/psdo_0000083
+## performance content entity
+An information content entity that is an aggregate of performance level content entities.
+http://purl.obolibrary.org/obo/psdo.owl/psdo_0000107
+## performance gap content entity
+An information content entity that is about a discrepancy between performance values
+http://purl.obolibrary.org/obo/psdo.owl/psdo_0000106
 ## performance gap
 A relational quality of the perceived distance between marks.
 http://purl.obolibrary.org/obo/psdo_0000029
-## performance measure element
+## performance level content entity
+An information content entity that is about the output value of a method of measuring performance.
+http://purl.obolibrary.org/obo/psdo.owl/psdo_0000103
+## performance level element role
+A represented element that is born by a member of a performance set.
+http://purl.obolibrary.org/obo/psdo_0000083
+## performance measure content entity
+An information content entity about a method of measuring performance.
+http://purl.obolibrary.org/obo/psdo.owl/psdo_0000102
+## performance measure element role
 A represented element that is born by a member of a performance measure set.
 http://purl.obolibrary.org/obo/psdo_0000081
 ## performance measure set
@@ -70,30 +91,36 @@ http://purl.obolibrary.org/obo/psdo_0000031
 ## performance set
 "A represented set where the attributes of the mark are about measurements, decisions, aggregates, or calculations related to measured behavior."
 http://purl.obolibrary.org/obo/psdo_0000037
-## performance summary display template
-An information content entity that is the collection of specification and metadata associated with a generalized potential information display.
-http://purl.obolibrary.org/obo/psdo_0000002
 ## performance summary display
 "A relational information display whose display components bear some combination of sets (roles): ascribee set, performance measure set, performance set, or time set."
 http://purl.obolibrary.org/obo/psdo_0000003
+## performance summary display template
+An information content entity that is the collection of specification and metadata associated with a generalized potential information display.
+http://purl.obolibrary.org/obo/psdo_0000002
+## performance trend content entity
+An information content entity that is about a change in performance
+http://purl.obolibrary.org/obo/psdo.owl/psdo_0000101
 ## performance trend
 "A relational quality of the perceived general movement of a mark, or set of marks that is integrated over a time set."
 http://purl.obolibrary.org/obo/psdo_0000028
-## performer element
+## performer element role
 An ascribee element that is a living system.
 http://purl.obolibrary.org/obo/psdo_0000085
 ## performer set
 An ascribee set that is a living system.
 http://purl.obolibrary.org/obo/psdo_0000086
+## position
+An attribute of relation in which a thing stands with respect to another or others.
+http://purl.obolibrary.org/obo/psdo_0000056
 ## position on common scale
 A position where the distance between marks is on the same scale.
 http://purl.obolibrary.org/obo/psdo_0000088
 ## position on unaligned scale
 A position where the distance between marks is not on the same scale.
 http://purl.obolibrary.org/obo/psdo_0000089
-## position
-An attribute of relation in which a thing stands with respect to another or others.
-http://purl.obolibrary.org/obo/psdo_0000056
+## positive performance gap content entity
+A performance gap content entity having a recipient performance level that is better than its comparator performance level
+http://purl.obolibrary.org/obo/psdo.owl/psdo_0000104
 ## ratio scale
 "A scale type with four formal properties that (1) the instances can be distinguished from each other and (2) that one instance on a scale can be judged greater than, less than, or equal to another instance on the same scale, that (3) the magnitude of an instance represented by a unit on the scale is the same regardless of where on the scale the unit falls and (4) an absolute zero value can indicate that nothing at all of the property being represented exists."
 http://purl.obolibrary.org/obo/psdo_0000024
@@ -106,7 +133,7 @@ http://purl.obolibrary.org/obo/psdo_0000008
 ## relational information display
 An information content entity that displays relations between sets in a concretized collection of display components.
 http://purl.obolibrary.org/obo/psdo_0000001
-## represented element
+## represented element role
 A role born by a member of a represented set.
 http://purl.obolibrary.org/obo/psdo_0000080
 ## represented set
@@ -118,16 +145,16 @@ http://purl.obolibrary.org/obo/psdo_0000020
 ## shape
 An attribute of external form or contour.
 http://purl.obolibrary.org/obo/psdo_0000054
-## social comparator
+## social comparator role
 A comparative element that conveys information about an entity that has an attributed performance value.
 http://purl.obolibrary.org/obo/psdo_0000045
-## standard comparator
+## standard comparator role
 A comparative element that conveys information about a predetermined performance value.
 http://purl.obolibrary.org/obo/psdo_0000047
 ## texture
 "An attribute of constitution, structure, or substance of anything with regard to its constituents or formative element."
 http://purl.obolibrary.org/obo/psdo_0000059
-## time element
+## time element role
 A represented element that is born by a member of a time set.
 http://purl.obolibrary.org/obo/psdo_0000082
 ## time set
