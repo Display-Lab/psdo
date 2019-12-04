@@ -1,0 +1,14 @@
+title: Performance Summary Display Ontologies
+description: > # this means to ignore newlines until "baseurl:"
+  Site to provide links to PSDO's and their definitions.
+basurl: "" # the subpath of your site
+url: "" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-default-layout
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
