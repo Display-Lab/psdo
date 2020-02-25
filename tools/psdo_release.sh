@@ -42,25 +42,4 @@ robot annotate \
 robot report --input ${PSDO} --output ${LOG} | head -n 5
 
 echo "Robot results can be seen here: ${LOG}"
-
-# update dictionary as part of release process
-${SCRIPT_DIR}/make-dict.sh
-
-echo ""
-echo "The following lines contain misspelled words in the ontology, please fix them in ${PSDO}:"
-echo ""
-
-# spell checker
-< ${SCRIPT_DIR}/../DICTIONARY.md aspell list | grep -f /dev/stdin -C 1 ${SCRIPT_DIR}/../DICTIONARY.md
-
-echo ""
-
-# clean up
-while true; do
-    read -p "Are you ready to release this version?" yn
-    case $yn in
-        [Yy]* ) rm psdo.owl; mv psdo-updated.owl psdo.owl; rm catalog-v001.xml; echo 'RELEASE COMPLETE.'; break;;
-        [Nn]* ) rm psdo-updated.owl; exit;;
-        * ) echo "Please answer yes or no.";;
-    esac
-done
+echo "Replace psdo.owl in the root director with psdo-updated.owl. Rename psdo-updated.owl to psdo.owl"
