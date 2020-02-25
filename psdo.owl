@@ -1,40 +1,41 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/psdo.owl#"
      xml:base="http://purl.obolibrary.org/obo/psdo.owl"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:doap="http://usefulinc.com/ns/doap#"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:doap="http://usefulinc.com/ns/doap#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/psdo.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/2019-07-16/psdo.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/2020-02-25/psdo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/stato.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/2017-03-24/iao.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/core.owl"/>
         <dc:contributor xml:lang="en">Dahee Lee</dc:contributor>
-        <dc:contributor xml:lang="en">Shelbi Lisecki</dc:contributor>
-        <dc:contributor xml:lang="en">Veena Panicker</dc:contributor>
-        <dc:creator xml:lang="en">Colin Gross</dc:creator>
-        <dc:creator xml:lang="en">Cooper Stansbury</dc:creator>
-        <dc:creator xml:lang="en">John Rincon</dc:creator>
-        <dc:creator xml:lang="en">Zach Landis-Lewis</dc:creator>
         <dc:description xml:lang="en">Performance Summary Display Ontology (PSDO) (pronounced &quot;pseudo&quot; or &quot;sudo&quot;) is an application ontology about charts, tables, and graphs that are used to communicate performance information to employees and teams in organizations. PSDO&apos;s domain focus is on healthcare organizations that use performance summary displays in clinical dashboards and feedback interventions for healthcare professionals and teams. The displays commonly show information about the quality of care and health outcomes that has been derived from clinical data using performance measures (aka metrics, process indicators, quality measures, etc). PSDO uses Basic Formal Ontology as its upper level ontology. This work is not peer-reviewed.</dc:description>
+        <dc:license xml:lang="en">https://creativecommons.org/licenses/by/4.0/</dc:license>
+        <dc:creator xml:lang="en">John Rincon</dc:creator>
         <dc:language xml:lang="en">en</dc:language>
+        <dc:contributor xml:lang="en">Shelbi Lisecki</dc:contributor>
+        <dc:creator xml:lang="en">Cooper Stansbury</dc:creator>
+        <owl:versionInfo xml:lang="en">1.0.0</owl:versionInfo>
+        <dc:creator xml:lang="en">Zach Landis-Lewis</dc:creator>
         <dc:title xml:lang="en">Performance Summary Display Ontology</dc:title>
         <terms:license xml:lang="en">https://creativecommons.org/licenses/by/4.0/</terms:license>
-        <owl:versionInfo xml:lang="en">1.0.0</owl:versionInfo>
+        <dc:contributor xml:lang="en">Veena Panicker</dc:contributor>
+        <dc:creator xml:lang="en">Colin Gross</dc:creator>
     </owl:Ontology>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Object Properties
@@ -42,7 +43,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000109 -->
@@ -51,18 +52,18 @@
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person"/>
                     <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Organization"/>
+                    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person"/>
                 </owl:unionOf>
             </owl:Class>
         </rdfs:domain>
         <obo:IAO_0000115 xml:lang="en">Relationship between foaf:Person or foaf:Organization and an information content entity.  The ICE represents data about the person such as their performance capabilities or situation.</obo:IAO_0000115>
         <rdfs:label>described by</rdfs:label>
     </owl:ObjectProperty>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Classes
@@ -70,7 +71,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000001 -->
@@ -96,7 +97,7 @@
 Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Science. 1994 Jan 1;18(1):87–122.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">relational information display</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000002 -->
@@ -106,7 +107,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000115 xml:lang="en">An information content entity that is the collection of specification and metadata associated with a generalized potential information display.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">performance summary display template</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000003 -->
@@ -125,7 +126,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000232 xml:lang="en">It is the authors current belief that the necessary and sufficient definiton of &apos;performance summary display&apos; mandates that at least two set must be realized.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">performance summary display</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000006 -->
@@ -152,7 +153,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000232 xml:lang="en">There is a distinction between elements and sets. Sets are groups, or sets of elements (with cardinality of at least one). At this time we do not know if elements with different roles can exist in a set with a different name, i.e., an acribee role within a time set. It seems unlikely that this is possible.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">represented set</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000008 -->
@@ -171,7 +172,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000232 xml:lang="en">The material entity that concretizes the information content entity has the capability to bear some role &apos;represented sets&apos; or &apos;focal element, ect...</obo:IAO_0000232>
         <rdfs:label xml:lang="en">relational information display component</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000018 -->
@@ -182,7 +183,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000232 xml:lang="en">The elements of an &apos;ascribee set&apos; typically represent people, organizations, or groups. They can also represent statistics, targets, or goals. The possible overlap with &apos;performance measure set&apos; is justified by the creative liberties taken by the designer of the performance summary display.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">ascribee set</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000019 -->
@@ -206,7 +207,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000115 xml:lang="en">A role inhering in a mark that is disjoint with a focal element and that has the same scale type as the focal element.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">comparative element</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000020 -->
@@ -223,7 +224,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000119 xml:lang="en">Zhang J. A representational analysis of relational information displays. International Journal of Human-Computer Studies. 1996 Jul 1;45(1):59–74.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">scale type</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000023 -->
@@ -240,7 +241,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000119 xml:lang="en">Zhang J. A representational analysis of relational information displays. International Journal of Human-Computer Studies. 1996 Jul 1;45(1):59–74.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">interval scale</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000024 -->
@@ -257,7 +258,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000119 xml:lang="en">Zhang J. A representational analysis of relational information displays. International Journal of Human-Computer Studies. 1996 Jul 1;45(1):59–74.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">ratio scale</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000025 -->
@@ -274,7 +275,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000119 xml:lang="en">Zhang J. A representational analysis of relational information displays. International Journal of Human-Computer Studies. 1996 Jul 1;45(1):59–74.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">ordinal scale</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000026 -->
@@ -291,7 +292,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000119 xml:lang="en">Zhang J. A representational analysis of relational information displays. International Journal of Human-Computer Studies. 1996 Jul 1;45(1):59–74.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">nominal scale</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000028 -->
@@ -301,7 +302,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000115 xml:lang="en">A relational quality of the perceived general movement of a mark, or set of marks that is integrated over a time set.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">performance trend quality</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000029 -->
@@ -311,7 +312,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000115 xml:lang="en">A relational quality of the perceived distance between marks.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">performance gap quality</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000031 -->
@@ -321,7 +322,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000115 xml:lang="en">A report designed for the purpose of providing performance summary information to a recipient of an intervention.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">performance report</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000035 -->
@@ -332,7 +333,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000115 xml:lang="en">A represented set where the attributes of the mark are about the methods of measuring behavior.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">performance measure set</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000036 -->
@@ -342,7 +343,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000115 xml:lang="en">A represented set where the attributes of the mark are about time.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">time set</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000037 -->
@@ -353,7 +354,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000232 xml:lang="en">Performance set can include entities like performance values (all scale types)</obo:IAO_0000232>
         <rdfs:label xml:lang="en">performance set</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000040 -->
@@ -369,7 +370,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000115 xml:lang="en">A role inhering in a mark that conveys specific information to the recipient of a performance summary report realized through the acts of perception.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">focal element</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000041 -->
@@ -379,7 +380,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000115 xml:lang="en">A focal element that conveys information about identity to the recipient of the performance summary report.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">recipient element</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000045 -->
@@ -389,7 +390,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000115 xml:lang="en">A comparative element that conveys information about an entity that has an attributed performance value.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">social comparator element</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000046 -->
@@ -399,7 +400,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000115 xml:lang="en">A comparative element that conveys information about a desired future performance value.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">goal comparator element</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000047 -->
@@ -409,7 +410,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000115 xml:lang="en">A comparative element that conveys information about a predetermined performance value.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">standard comparator element</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000054 -->
@@ -420,7 +421,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000119 xml:lang="en">&quot;shape, n.1.&quot; OED Online, Oxford University Press, June 2018, www.oed.com/view/Entry/177498. Accessed 28 June 2018.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">shape</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000055 -->
@@ -431,7 +432,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000119 xml:lang="en">&quot;colour | color, n.1.&quot; OED Online, Oxford University Press, June 2018, www.oed.com/view/Entry/36596. Accessed 28 June 2018.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">color hue</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000056 -->
@@ -443,7 +444,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000232>&apos;Position’ may actually be a relational quality in BFO because is depends on multiple entities.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">position</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000058 -->
@@ -455,7 +456,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000232>&apos;Angle’ may actually be a relational quality in BFO because is depends on multiple entities.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">angle</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000059 -->
@@ -466,7 +467,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000119 xml:lang="en">&quot;texture, n.&quot; OED Online, Oxford University Press, June 2018, www.oed.com/view/Entry/200031. Accessed 28 June 2018.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">texture</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000060 -->
@@ -478,7 +479,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000232 xml:lang="en">rdfs:Label property is &apos;mark length&apos; to distinguish from the PATO class &apos;length.&apos;</obo:IAO_0000232>
         <rdfs:label xml:lang="en">mark length</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000061 -->
@@ -498,7 +499,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
 T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &amp; Francis Group, CRC Press is an imprint of the Taylor &amp; Francis Group, an informa business, 2015.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">attribute</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000062 -->
@@ -526,7 +527,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
         <obo:IAO_0000119 xml:lang="en">Munzner T. Visualization analysis and design. Boca Raton: CRC Press, Taylor &amp; Francis Group, CRC Press is an imprint of the Taylor &amp; Francis Group, an informa business; 2015. 404 p. (A.K. Peters visualization series).</obo:IAO_0000119>
         <rdfs:label xml:lang="en">mark</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000079 -->
@@ -542,7 +543,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
         <obo:IAO_0000115 xml:lang="en">A object aggregate of marks.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">mark collection</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000080 -->
@@ -554,7 +555,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
         <obo:IAO_0000232 xml:lang="en">The distinction between an element and a role is one of plurality. The set refers to the set of entities that bear represented roles, while the represented element is born by each element of the set.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">represented element</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000081 -->
@@ -564,7 +565,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
         <obo:IAO_0000115 xml:lang="en">A represented element that is born by a member of a performance measure set.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">performance measure element</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000082 -->
@@ -574,7 +575,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
         <obo:IAO_0000115 xml:lang="en">A represented element that is born by a member of a time set.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">time element</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000083 -->
@@ -584,7 +585,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
         <obo:IAO_0000115 xml:lang="en">A represented element that is born by a member of a performance set.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">performance level element</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000084 -->
@@ -594,7 +595,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
         <obo:IAO_0000115 xml:lang="en">A represented element that is born by a member of an acribee set.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">ascribee element</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000085 -->
@@ -604,7 +605,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
         <obo:IAO_0000115 xml:lang="en">An ascribee element that is a living system.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">performer element</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000086 -->
@@ -614,7 +615,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
         <obo:IAO_0000115 xml:lang="en">An ascribee set that is a living system.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">performer set</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000087 -->
@@ -625,7 +626,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
         <obo:IAO_0000119 xml:lang="en">“curvature | Definition of curvature in English by Oxford Dictionaries,” Oxford Dictionaries | English. [Online]. Available: https://en.oxforddictionaries.com/definition/curvature. [Accessed: 20-Feb-2019].</obo:IAO_0000119>
         <rdfs:label xml:lang="en">curvature</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000088 -->
@@ -637,7 +638,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
         <obo:IAO_0000232 xml:lang="en">This, like the superclass, may actually be a BFO &apos;relational quality&apos; that holds between sets of marks.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">position on common scale</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000089 -->
@@ -648,7 +649,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
         <obo:IAO_0000119 xml:lang="en">T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &amp; Francis Group, CRC Press is an imprint of the Taylor &amp; Francis Group, an informa business, 2015.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">position on unaligned scale</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000090 -->
@@ -659,7 +660,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
         <obo:IAO_0000119 xml:lang="en">“Area,” Wikipedia. 14-Feb-2019.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">area</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000091 -->
@@ -670,7 +671,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
         <obo:IAO_0000119 xml:lang="en">T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &amp; Francis Group, CRC Press is an imprint of the Taylor &amp; Francis Group, an informa business, 2015.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">color saturation</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000092 -->
@@ -681,7 +682,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
         <obo:IAO_0000119 xml:lang="en">T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &amp; Francis Group, CRC Press is an imprint of the Taylor &amp; Francis Group, an informa business, 2015.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">color lightness</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000093 -->
@@ -692,7 +693,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label xml:lang="en">comparator content</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo_0000094 -->
@@ -702,7 +703,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
         <obo:IAO_0000117>Veena Panicker, Colin Gross, Shelbi Lisecki, Cooper Stansbury, Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label xml:lang="en">goal comparator content</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo.owl/psdo_0000095 -->
@@ -712,7 +713,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label>social comparator content</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo.owl/psdo_0000096 -->
@@ -722,7 +723,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label>standard comparator content</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo.owl/psdo_0000097 -->
@@ -732,7 +733,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label xml:lang="en">recipient content</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo.owl/psdo_0000098 -->
@@ -741,7 +742,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
         <obo:IAO_0000115>A document that is an aggregate of information content entities about (minimally) performance, performance measures, time intervals, and ascribees.</obo:IAO_0000115>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo.owl/psdo_0000099 -->
@@ -751,7 +752,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label>positive performance trend content</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo.owl/psdo_0000100 -->
@@ -761,7 +762,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label>negative performance trend content</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo.owl/psdo_0000101 -->
@@ -772,7 +773,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label xml:lang="en">performance trend content</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo.owl/psdo_0000102 -->
@@ -783,7 +784,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label xml:lang="en">performance measure content</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo.owl/psdo_0000103 -->
@@ -794,7 +795,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label xml:lang="en">performance level content</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo.owl/psdo_0000104 -->
@@ -805,7 +806,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label>positive performance gap content</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo.owl/psdo_0000105 -->
@@ -816,7 +817,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label>negative performance gap content</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo.owl/psdo_0000106 -->
@@ -827,7 +828,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label xml:lang="en">performance gap content</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo.owl/psdo_0000107 -->
@@ -838,7 +839,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label xml:lang="en">performance content</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/psdo.owl/psdo_0000108 -->
@@ -849,9 +850,20 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
         <obo:IAO_0000117>Veena Panicker, Colin Gross, Shelbi Lisecki, Cooper Stansbury, Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label xml:lang="en">ascribee content</rdfs:label>
     </owl:Class>
+
+
+
+    <!-- http://xmlns.com/foaf/0.1/Organization -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Organization"/>
+
+
+
+    <!-- http://xmlns.com/foaf/0.1/Person -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Person"/>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
-
+<!-- Generated by the OWL API (version 1.1.0) https://github.com/owlcs/owlapi -->
