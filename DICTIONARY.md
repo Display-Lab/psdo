@@ -46,12 +46,12 @@ http://purl.obolibrary.org/obo/psdo_0000023
 ## mark collection
 A object aggregate of marks.
 http://purl.obolibrary.org/obo/psdo_0000079
-## mark length
-The quality of linear magnitude of any thing as measured from end to end
-http://purl.obolibrary.org/obo/psdo_0000060
 ## mark
 A material information bearer that is a basic visual element of a relational information display.
 http://purl.obolibrary.org/obo/psdo_0000062
+## mark length
+The quality of linear magnitude of any thing as measured from end to end
+http://purl.obolibrary.org/obo/psdo_0000060
 ## negative performance gap content
 A performance gap content entity having a comparator performance level that is better than its recipient performance level.
 http://purl.obolibrary.org/obo/psdo.owl/psdo_0000105
@@ -91,12 +91,12 @@ http://purl.obolibrary.org/obo/psdo_0000031
 ## performance set
 "A represented set where the attributes of the mark are about measurements, decisions, aggregates, or calculations related to measured behavior."
 http://purl.obolibrary.org/obo/psdo_0000037
-## performance summary display template
-An information content entity that is the collection of specification and metadata associated with a generalized potential information display.
-http://purl.obolibrary.org/obo/psdo_0000002
 ## performance summary display
 "A relational information display whose display components bear some combination of sets (roles): ascribee set, performance measure set, performance set, or time set."
 http://purl.obolibrary.org/obo/psdo_0000003
+## performance summary display template
+An information content entity that is the collection of specification and metadata associated with a generalized potential information display.
+http://purl.obolibrary.org/obo/psdo_0000002
 ## performance trend content
 An information content entity that is about a change in performance
 http://purl.obolibrary.org/obo/psdo.owl/psdo_0000101
@@ -109,15 +109,15 @@ http://purl.obolibrary.org/obo/psdo_0000085
 ## performer set
 An ascribee set that is a living system.
 http://purl.obolibrary.org/obo/psdo_0000086
+## position
+An attribute of relation in which a thing stands with respect to another or others.
+http://purl.obolibrary.org/obo/psdo_0000056
 ## position on common scale
 A position where the distance between marks is on the same scale.
 http://purl.obolibrary.org/obo/psdo_0000088
 ## position on unaligned scale
 A position where the distance between marks is not on the same scale.
 http://purl.obolibrary.org/obo/psdo_0000089
-## position
-An attribute of relation in which a thing stands with respect to another or others.
-http://purl.obolibrary.org/obo/psdo_0000056
 ## positive performance gap content
 A performance gap content entity having a recipient performance level that is better than its comparator performance level
 http://purl.obolibrary.org/obo/psdo.owl/psdo_0000104
