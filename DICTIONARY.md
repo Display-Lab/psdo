@@ -29,7 +29,7 @@ http://purl.obolibrary.org/obo/psdo_0000091
 A role inhering in a mark that is disjoint with a focal element and that has the same scale type as the focal element.
 http://purl.obolibrary.org/obo/psdo_0000019
 ## comparator content
-""
+Ascribee content that is used to identify a discrepancy with the performance level of the recipient of an intervention.
 http://purl.obolibrary.org/obo/psdo_0000093
 ## curvature
 An attribute of the degree from which a curve deviates from a straight line.
@@ -37,8 +37,11 @@ http://purl.obolibrary.org/obo/psdo_0000087
 ## focal element
 A role inhering in a mark that conveys specific information to the recipient of a performance summary report realized through the acts of perception.
 http://purl.obolibrary.org/obo/psdo_0000040
+## goal comparator content
+Comparator content that has been ascribed a desired future performance level.
+http://purl.obolibrary.org/obo/psdo_0000094
 ## goal comparator element
-A comparative element that conveys information about a desired future performance value.
+A comparative element that conveys information about a desired future performance level.
 http://purl.obolibrary.org/obo/psdo_0000046
 ## interval scale
 "A scale type with three formal properties that (1) the instances can be distinguished from each other and (2) that one instance on a scale can be judged greater than, less than, or equal to another instance on the same scale and that (3) the magnitude of an instance represented by a unit on the scale is the same regardless of where on the scale the unit falls."
@@ -65,7 +68,7 @@ http://purl.obolibrary.org/obo/psdo_0000025
 An information content entity that is an aggregate of performance level content entities.
 http://purl.obolibrary.org/obo/psdo.owl/psdo_0000107
 ## performance gap content
-An information content entity that is about a discrepancy between performance values
+An information content entity that is about a discrepancy between performance levels.
 http://purl.obolibrary.org/obo/psdo.owl/psdo_0000106
 ## performance gap quality
 A relational quality of the perceived distance between marks.
@@ -97,6 +100,12 @@ http://purl.obolibrary.org/obo/psdo_0000003
 ## performance summary display template
 An information content entity that is the collection of specification and metadata associated with a generalized potential information display.
 http://purl.obolibrary.org/obo/psdo_0000002
+## performance summary
+"A document part designed for the purpose of providing information about performance levels, measures, ascribees, and time to a recipient of an intervention."
+http://purl.obolibrary.org/obo/psdo.owl/psdo_0000109
+## performance summary textual entity
+"A textual entity about performance levels, measures, ascribees, and time."
+http://purl.obolibrary.org/obo/psdo.owl/psdo_0000110
 ## performance trend content
 An information content entity that is about a change in performance
 http://purl.obolibrary.org/obo/psdo.owl/psdo_0000101
@@ -124,6 +133,9 @@ http://purl.obolibrary.org/obo/psdo.owl/psdo_0000104
 ## ratio scale
 "A scale type with four formal properties that (1) the instances can be distinguished from each other and (2) that one instance on a scale can be judged greater than, less than, or equal to another instance on the same scale, that (3) the magnitude of an instance represented by a unit on the scale is the same regardless of where on the scale the unit falls and (4) an absolute zero value can indicate that nothing at all of the property being represented exists."
 http://purl.obolibrary.org/obo/psdo_0000024
+## recipient content
+Ascribee content that is about a living system to whom an intervention is directed.
+http://purl.obolibrary.org/obo/psdo.owl/psdo_0000097
 ## recipient element
 A focal element that conveys information about identity to the recipient of the performance summary report.
 http://purl.obolibrary.org/obo/psdo_0000041
@@ -145,11 +157,17 @@ http://purl.obolibrary.org/obo/psdo_0000020
 ## shape
 An attribute of external form or contour.
 http://purl.obolibrary.org/obo/psdo_0000054
+## social comparator content
+Comparator content about living systems that are ascribed a performance level.
+http://purl.obolibrary.org/obo/psdo.owl/psdo_0000095
 ## social comparator element
-A comparative element that conveys information about an entity that has an attributed performance value.
+A comparative element that conveys information about an entity that has an attributed performance level.
 http://purl.obolibrary.org/obo/psdo_0000045
+## standard comparator content
+Comparator content that has been ascribed a predetermined performance level.
+http://purl.obolibrary.org/obo/psdo.owl/psdo_0000096
 ## standard comparator element
-A comparative element that conveys information about a predetermined performance value.
+A comparative element that conveys information about a predetermined performance level.
 http://purl.obolibrary.org/obo/psdo_0000047
 ## texture
 "An attribute of constitution, structure, or substance of anything with regard to its constituents or formative element."
@@ -157,6 +175,9 @@ http://purl.obolibrary.org/obo/psdo_0000059
 ## time element
 A represented element that is born by a member of a time set.
 http://purl.obolibrary.org/obo/psdo_0000082
+## time interval content
+An information content entity that is about a unit of time.
+http://purl.obolibrary.org/obo/psdo.owl/psdo_0000111
 ## time set
 A represented set where the attributes of the mark are about time.
 http://purl.obolibrary.org/obo/psdo_0000036
