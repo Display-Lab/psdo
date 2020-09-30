@@ -1,3 +1,6 @@
+## achievement content
+Performance content that is about a change from a negative performance gap to a positive performance gap
+http://purl.obolibrary.org/obo/psdo_0000112
 ## angle
 An attribute of the magnitude of the degree of divergence of two things from one another.
 http://purl.obolibrary.org/obo/psdo_0000058
@@ -6,7 +9,7 @@ An attribute that is the quantity that expresses the extent of a two-dimensional
 http://purl.obolibrary.org/obo/psdo_0000090
 ## ascribee content
 An information content entity that is about an entity that is ascribed a performance value.
-http://purl.obolibrary.org/obo/psdo.owl/psdo_0000108
+http://purl.obolibrary.org/obo/psdo_0000108
 ## ascribee element
 A represented element that is born by a member of an acribee set.
 http://purl.obolibrary.org/obo/psdo_0000084
@@ -46,6 +49,9 @@ http://purl.obolibrary.org/obo/psdo_0000046
 ## interval scale
 "A scale type with three formal properties that (1) the instances can be distinguished from each other and (2) that one instance on a scale can be judged greater than, less than, or equal to another instance on the same scale and that (3) the magnitude of an instance represented by a unit on the scale is the same regardless of where on the scale the unit falls."
 http://purl.obolibrary.org/obo/psdo_0000023
+## loss content
+Performance content that is about a change from a positive performance gap to a negative performance gap
+http://purl.obolibrary.org/obo/psdo_0000113
 ## mark collection
 A object aggregate of marks.
 http://purl.obolibrary.org/obo/psdo_0000079
@@ -57,7 +63,10 @@ The quality of linear magnitude of any thing as measured from end to end
 http://purl.obolibrary.org/obo/psdo_0000060
 ## negative performance gap content
 A performance gap content entity having a comparator performance level that is better than its recipient performance level.
-http://purl.obolibrary.org/obo/psdo.owl/psdo_0000105
+http://purl.obolibrary.org/obo/psdo_0000105
+## negative performance trend content
+A performance trend that is worsening
+http://purl.obolibrary.org/obo/psdo_0000100
 ## nominal scale
 A scale type with one  formal property that (1) the instances can be distinguished from each other.
 http://purl.obolibrary.org/obo/psdo_0000026
@@ -66,22 +75,22 @@ http://purl.obolibrary.org/obo/psdo_0000026
 http://purl.obolibrary.org/obo/psdo_0000025
 ## performance content
 An information content entity that is an aggregate of performance level content entities.
-http://purl.obolibrary.org/obo/psdo.owl/psdo_0000107
+http://purl.obolibrary.org/obo/psdo_0000107
 ## performance gap content
 An information content entity that is about a discrepancy between performance levels.
-http://purl.obolibrary.org/obo/psdo.owl/psdo_0000106
+http://purl.obolibrary.org/obo/psdo_0000106
 ## performance gap quality
 A relational quality of the perceived distance between marks.
 http://purl.obolibrary.org/obo/psdo_0000029
 ## performance level content
 An information content entity that is about the output value of a method of measuring performance.
-http://purl.obolibrary.org/obo/psdo.owl/psdo_0000103
+http://purl.obolibrary.org/obo/psdo_0000103
 ## performance level element
 A represented element that is born by a member of a performance set.
 http://purl.obolibrary.org/obo/psdo_0000083
 ## performance measure content
 An information content entity about a method of measuring performance.
-http://purl.obolibrary.org/obo/psdo.owl/psdo_0000102
+http://purl.obolibrary.org/obo/psdo_0000102
 ## performance measure element
 A represented element that is born by a member of a performance measure set.
 http://purl.obolibrary.org/obo/psdo_0000081
@@ -100,15 +109,18 @@ http://purl.obolibrary.org/obo/psdo_0000003
 ## performance summary display template
 An information content entity that is the collection of specification and metadata associated with a generalized potential information display.
 http://purl.obolibrary.org/obo/psdo_0000002
-## performance summary
+## performance summary document
+"A document that is an aggregate of information content entities about performance levels, performance measures, time intervals, and ascribees."
+http://purl.obolibrary.org/obo/psdo_0000098
+## performance summary section
 "A document part designed for the purpose of providing information about performance levels, measures, ascribees, and time to a recipient of an intervention."
-http://purl.obolibrary.org/obo/psdo.owl/psdo_0000109
+http://purl.obolibrary.org/obo/psdo_0000114
 ## performance summary textual entity
 "A textual entity about performance levels, measures, ascribees, and time."
-http://purl.obolibrary.org/obo/psdo.owl/psdo_0000110
+http://purl.obolibrary.org/obo/psdo_0000110
 ## performance trend content
 An information content entity that is about a change in performance
-http://purl.obolibrary.org/obo/psdo.owl/psdo_0000101
+http://purl.obolibrary.org/obo/psdo_0000101
 ## performance trend quality
 "A relational quality of the perceived general movement of a mark, or set of marks that is integrated over a time set."
 http://purl.obolibrary.org/obo/psdo_0000028
@@ -129,13 +141,16 @@ A position where the distance between marks is not on the same scale.
 http://purl.obolibrary.org/obo/psdo_0000089
 ## positive performance gap content
 A performance gap content entity having a recipient performance level that is better than its comparator performance level
-http://purl.obolibrary.org/obo/psdo.owl/psdo_0000104
+http://purl.obolibrary.org/obo/psdo_0000104
+## positive performance trend content
+A performance trend that is improving
+http://purl.obolibrary.org/obo/psdo_0000099
 ## ratio scale
 "A scale type with four formal properties that (1) the instances can be distinguished from each other and (2) that one instance on a scale can be judged greater than, less than, or equal to another instance on the same scale, that (3) the magnitude of an instance represented by a unit on the scale is the same regardless of where on the scale the unit falls and (4) an absolute zero value can indicate that nothing at all of the property being represented exists."
 http://purl.obolibrary.org/obo/psdo_0000024
 ## recipient content
 Ascribee content that is about a living system to whom an intervention is directed.
-http://purl.obolibrary.org/obo/psdo.owl/psdo_0000097
+http://purl.obolibrary.org/obo/psdo_0000097
 ## recipient element
 A focal element that conveys information about identity to the recipient of the performance summary report.
 http://purl.obolibrary.org/obo/psdo_0000041
@@ -159,13 +174,13 @@ An attribute of external form or contour.
 http://purl.obolibrary.org/obo/psdo_0000054
 ## social comparator content
 Comparator content about living systems that are ascribed a performance level.
-http://purl.obolibrary.org/obo/psdo.owl/psdo_0000095
+http://purl.obolibrary.org/obo/psdo_0000095
 ## social comparator element
 A comparative element that conveys information about an entity that has an attributed performance level.
 http://purl.obolibrary.org/obo/psdo_0000045
 ## standard comparator content
 Comparator content that has been ascribed a predetermined performance level.
-http://purl.obolibrary.org/obo/psdo.owl/psdo_0000096
+http://purl.obolibrary.org/obo/psdo_0000096
 ## standard comparator element
 A comparative element that conveys information about a predetermined performance level.
 http://purl.obolibrary.org/obo/psdo_0000047
@@ -177,7 +192,7 @@ A represented element that is born by a member of a time set.
 http://purl.obolibrary.org/obo/psdo_0000082
 ## time interval content
 An information content entity that is about a unit of time.
-http://purl.obolibrary.org/obo/psdo.owl/psdo_0000111
+http://purl.obolibrary.org/obo/psdo_0000111
 ## time set
 A represented set where the attributes of the mark are about time.
 http://purl.obolibrary.org/obo/psdo_0000036
