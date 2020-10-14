@@ -1,6 +1,9 @@
 ## achievement content
-Performance content that is about a change from a negative performance gap to a positive performance gap
+An information content entity that is about a change from a negative performance gap to a positive performance gap
 http://purl.obolibrary.org/obo/psdo_0000112
+## achievement set
+A represented set where the mark attributes are about a change from a negative performance gap to a positive performance gap.
+http://purl.obolibrary.org/obo/psdo_0000121
 ## angle
 An attribute of the magnitude of the degree of divergence of two things from one another.
 http://purl.obolibrary.org/obo/psdo_0000058
@@ -14,7 +17,7 @@ http://purl.obolibrary.org/obo/psdo_0000108
 A represented element that is born by a member of an acribee set.
 http://purl.obolibrary.org/obo/psdo_0000084
 ## ascribee set
-A represented set where the attributes of the mark are about entities that have attributed performance data.
+A represented set where the mark attributes are about entities that have attributed performance data.
 http://purl.obolibrary.org/obo/psdo_0000018
 ## attribute
 "An information carrier that can be measured, observed, or logged."
@@ -50,8 +53,11 @@ http://purl.obolibrary.org/obo/psdo_0000046
 "A scale type with three formal properties that (1) the instances can be distinguished from each other and (2) that one instance on a scale can be judged greater than, less than, or equal to another instance on the same scale and that (3) the magnitude of an instance represented by a unit on the scale is the same regardless of where on the scale the unit falls."
 http://purl.obolibrary.org/obo/psdo_0000023
 ## loss content
-Performance content that is about a change from a positive performance gap to a negative performance gap
+An information content entity that is about a change from a positive performance gap to a negative performance gap
 http://purl.obolibrary.org/obo/psdo_0000113
+## loss set
+A represented set where the mark attributes are about a change from a positive performance gap to a negative performance gap.
+http://purl.obolibrary.org/obo/psdo_0000122
 ## mark collection
 A object aggregate of marks.
 http://purl.obolibrary.org/obo/psdo_0000079
@@ -64,9 +70,15 @@ http://purl.obolibrary.org/obo/psdo_0000060
 ## negative performance gap content
 A performance gap content entity having a comparator performance level that is better than its recipient performance level.
 http://purl.obolibrary.org/obo/psdo_0000105
+## negative performance gap set
+A performance gap set where the mark attributes are about a comparator performance level that is better than the recipient performance level.
+http://purl.obolibrary.org/obo/psdo_0000116
 ## negative performance trend content
 A performance trend that is worsening
 http://purl.obolibrary.org/obo/psdo_0000100
+## negative performance trend set
+A performance trend set where the mark attributes are about worsening.
+http://purl.obolibrary.org/obo/psdo_0000119
 ## nominal scale
 A scale type with one  formal property that (1) the instances can be distinguished from each other.
 http://purl.obolibrary.org/obo/psdo_0000026
@@ -82,6 +94,9 @@ http://purl.obolibrary.org/obo/psdo_0000106
 ## performance gap quality
 A relational quality of the perceived distance between marks.
 http://purl.obolibrary.org/obo/psdo_0000029
+## performance gap set
+A represented set where the mark attributes are about a discrepancy between performance levels.
+http://purl.obolibrary.org/obo/psdo_0000115
 ## performance level content
 An information content entity that is about the output value of a method of measuring performance.
 http://purl.obolibrary.org/obo/psdo_0000103
@@ -124,11 +139,14 @@ http://purl.obolibrary.org/obo/psdo_0000101
 ## performance trend quality
 "A relational quality of the perceived general movement of a mark, or set of marks that is integrated over a time set."
 http://purl.obolibrary.org/obo/psdo_0000028
+## performance trend set
+A represented set where the mark attributes are about a change in performance.
+http://purl.obolibrary.org/obo/psdo_0000118
 ## performer element
-An ascribee element that is a living system.
+An ascribee element where the mark attributes are about a living system.
 http://purl.obolibrary.org/obo/psdo_0000085
 ## performer set
-An ascribee set that is a living system.
+An ascribee set where the mark attributes are about a living system.
 http://purl.obolibrary.org/obo/psdo_0000086
 ## position
 An attribute of relation in which a thing stands with respect to another or others.
@@ -142,9 +160,15 @@ http://purl.obolibrary.org/obo/psdo_0000089
 ## positive performance gap content
 A performance gap content entity having a recipient performance level that is better than its comparator performance level
 http://purl.obolibrary.org/obo/psdo_0000104
+## positive performance gap set
+A performance gap set where the mark attributes are about a recipient performance level that is better than a comparator performance level.
+http://purl.obolibrary.org/obo/psdo_0000117
 ## positive performance trend content
 A performance trend that is improving
 http://purl.obolibrary.org/obo/psdo_0000099
+## positive performance trend set
+A performance trend set where the mark attributes are about improvement.
+http://purl.obolibrary.org/obo/psdo_0000120
 ## ratio scale
 "A scale type with four formal properties that (1) the instances can be distinguished from each other and (2) that one instance on a scale can be judged greater than, less than, or equal to another instance on the same scale, that (3) the magnitude of an instance represented by a unit on the scale is the same regardless of where on the scale the unit falls and (4) an absolute zero value can indicate that nothing at all of the property being represented exists."
 http://purl.obolibrary.org/obo/psdo_0000024

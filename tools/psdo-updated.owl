@@ -14,7 +14,7 @@
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/psdo.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/2020-09-29/psdo.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/2020-10-14/psdo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/stato.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/2017-03-24/iao.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/core.owl"/>
@@ -179,7 +179,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000018">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000006"/>
-        <obo:IAO_0000115 xml:lang="en">A represented set where the attributes of the mark are about entities that have attributed performance data.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A represented set where the mark attributes are about entities that have attributed performance data.</obo:IAO_0000115>
         <obo:IAO_0000232 xml:lang="en">The elements of an &apos;ascribee set&apos; typically represent people, organizations, or groups. They can also represent statistics, targets, or goals. The possible overlap with &apos;performance measure set&apos; is justified by the creative liberties taken by the designer of the performance summary display.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">ascribee set</rdfs:label>
     </owl:Class>
@@ -602,7 +602,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000085">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000084"/>
-        <obo:IAO_0000115 xml:lang="en">An ascribee element that is a living system.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An ascribee element where the mark attributes are about a living system.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">performer element</rdfs:label>
     </owl:Class>
     
@@ -612,7 +612,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000086">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000018"/>
-        <obo:IAO_0000115 xml:lang="en">An ascribee set that is a living system.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An ascribee set where the mark attributes are about a living system.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">performer set</rdfs:label>
     </owl:Class>
     
@@ -887,8 +887,8 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
     <!-- http://purl.obolibrary.org/obo/psdo_0000112 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000112">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000107"/>
-        <obo:IAO_0000115>Performance content that is about a change from a negative performance gap to a positive performance gap</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115>An information content entity that is about a change from a negative performance gap to a positive performance gap</obo:IAO_0000115>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label>achievement content</rdfs:label>
     </owl:Class>
@@ -898,8 +898,8 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
     <!-- http://purl.obolibrary.org/obo/psdo_0000113 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000113">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000107"/>
-        <obo:IAO_0000115>Performance content that is about a change from a positive performance gap to a negative performance gap</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115>An information content entity that is about a change from a positive performance gap to a negative performance gap</obo:IAO_0000115>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label>loss content</rdfs:label>
     </owl:Class>
@@ -914,6 +914,94 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
         <obo:IAO_0000117>Zach Landis-Lewis, Colin Gross</obo:IAO_0000117>
         <obo:IAO_0000119>Lee D, Panicker V, Gross C, Zhang J, Landis-Lewis Z. What was visualized? A method for describing content of performance summary displays in feedback interventions. BMC Med Res Methodol. 2020 Apr 23;20(1):90.</obo:IAO_0000119>
         <rdfs:label>performance summary section</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo_0000115 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000115">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000006"/>
+        <obo:IAO_0000115>A represented set where the mark attributes are about a discrepancy between performance levels.</obo:IAO_0000115>
+        <obo:IAO_0000117>Zach Landis-Lewis, Colin Gross</obo:IAO_0000117>
+        <rdfs:label>performance gap set</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo_0000116 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000116">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000115"/>
+        <obo:IAO_0000115>A performance gap set where the mark attributes are about a comparator performance level that is better than the recipient performance level.</obo:IAO_0000115>
+        <obo:IAO_0000117>Zach Landis-Lewis, Colin Gross</obo:IAO_0000117>
+        <rdfs:label>negative performance gap set</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo_0000117 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000117">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000115"/>
+        <obo:IAO_0000115>A performance gap set where the mark attributes are about a recipient performance level that is better than a comparator performance level.</obo:IAO_0000115>
+        <obo:IAO_0000117>Zach Landis-Lewis, Colin Gross</obo:IAO_0000117>
+        <rdfs:label>positive performance gap set</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo_0000118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000118">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000006"/>
+        <obo:IAO_0000115>A represented set where the mark attributes are about a change in performance.</obo:IAO_0000115>
+        <obo:IAO_0000117>Zach Landis-Lewis, Colin Gross</obo:IAO_0000117>
+        <rdfs:label>performance trend set</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo_0000119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000119">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000118"/>
+        <obo:IAO_0000115>A performance trend set where the mark attributes are about worsening.</obo:IAO_0000115>
+        <obo:IAO_0000117>Zach Landis-Lewis, Colin Gross</obo:IAO_0000117>
+        <rdfs:label>negative performance trend set</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo_0000120 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000120">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000118"/>
+        <obo:IAO_0000115>A performance trend set where the mark attributes are about improvement.</obo:IAO_0000115>
+        <obo:IAO_0000117>Zach Landis-Lewis, Colin Gross</obo:IAO_0000117>
+        <rdfs:label>positive performance trend set</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo_0000121 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000121">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000006"/>
+        <obo:IAO_0000115>A represented set where the mark attributes are about a change from a negative performance gap to a positive performance gap.</obo:IAO_0000115>
+        <obo:IAO_0000117>Zach Landis-Lewis, Colin Gross</obo:IAO_0000117>
+        <rdfs:label>achievement set</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/psdo_0000122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/psdo_0000122">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/psdo_0000006"/>
+        <obo:IAO_0000115>A represented set where the mark attributes are about a change from a positive performance gap to a negative performance gap.</obo:IAO_0000115>
+        <obo:IAO_0000117>Zach Landis-Lewis, Colin Gross</obo:IAO_0000117>
+        <rdfs:label>loss set</rdfs:label>
     </owl:Class>
     
 
