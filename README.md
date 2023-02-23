@@ -1,11 +1,13 @@
 # Welcome!
-Performance Summary Display Ontology (PSDO) (pronounced "pseudo" or "sudo") is an application ontology about information content and visual elements that are used to communicate performance information to employees and teams in organizations. PSDO's domain focus is on healthcare organizations that use performance summary displays in clinical dashboards and feedback interventions for healthcare professionals and teams. The displays commonly show information about the quality of care and health outcomes that has been derived from clinical data using performance measures (aka metrics, process indicators, quality measures, etc). PSDO uses Basic Formal Ontology as its upper level ontology. This work is not peer-reviewed.
+Performance Summary Display Ontology (PSDO) is an application ontology about motivating information in performance summaries and the visual and textual entities that are used to communicate about performance. Motivating information includes performance comparisons and changes that motivate improvement or sustainment, such as improvement towards a goal, loss of high performer status, or the presence of a performance gap. Visual and textual entities include charts, tables, and graphs that display performance information. PSDO's domain focus is healthcare organizations that use clinical quality dashboards and feedback interventions for healthcare professionals and teams. Performance information is commonly about the quality of care and health outcomes that have been derived from clinical data using performance measures (aka metrics, process indicators, quality measures, etc). PSDO uses Basic Formal Ontology as its upper level ontology. This work is supported by the NIH, National Library of Medicine (1K01LM012528-01, 1R01LM013894-01).
+
+Landis-Lewis Z, Stansbury C, Rincón J, Gross C. Performance Summary Display Ontology: Feedback intervention content, delivery, and interpreted information. International Conference on Biomedical Ontology 2022 (ICBO 2022). https://icbo-conference.github.io/icbo2022/papers/ICBO-2022_paper_2172.pdf
 
 ### Competing Interests
 The authors declare no competing interests.
 
 ### Acknowledgements
-Research reported in this ontology was supported by the National Library of Medicine of the National Institutes of Health under grant number 1K01LM012528-01.
+Research reported in this ontology was supported by the National Library of Medicine of the National Institutes of Health under: 1K01LM012528-01, 1R01LM013894-01.
 
 ## Ontology Content
 ### Current Ontology Terms and Definitions
