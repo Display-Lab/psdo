@@ -1008,6 +1008,83 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000123 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000123">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000095"/>
+        <obo:IAO_0000115>Social comparator content that is about a percentile for a performance level that is better than average.</obo:IAO_0000115>
+        <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
+        <rdfs:label>top performer benchmark</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000124 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000124">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000123"/>
+        <obo:IAO_0000115>A top performer benchmark that is ascribed the performance level of the 90th percentile for a population.</obo:IAO_0000115>
+        <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
+        <rdfs:label>90th percentile benchmark</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000125">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000123"/>
+        <obo:IAO_0000115>A top performer benchmark that is ascribed the performance level of the 75th percentile for a population.</obo:IAO_0000115>
+        <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
+        <rdfs:label>75th percentile benchmark</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000126 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000126">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000127"/>
+        <obo:IAO_0000115>An average comparator that is about a peer group.</obo:IAO_0000115>
+        <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
+        <rdfs:label>peer average comparator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000127 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000127">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000095"/>
+        <obo:IAO_0000115>Social comparator content that is about a mean performance level for a population.</obo:IAO_0000115>
+        <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
+        <rdfs:label>average comparator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000128">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000125"/>
+        <obo:IAO_0000115>A 75th percentile benchmark that is about a peer group.</obo:IAO_0000115>
+        <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
+        <rdfs:label>peer 75th percentile benchmark</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000129 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000129">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000124"/>
+        <obo:IAO_0000115>A 90th percentile benchmark that is about a peer group.</obo:IAO_0000115>
+        <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
+        <rdfs:label>peer 90th percentile benchmark</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://xmlns.com/foaf/0.1/Organization -->
 
     <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Organization"/>
