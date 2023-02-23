@@ -1,36 +1,38 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/psdo.owl#"
      xml:base="http://purl.obolibrary.org/obo/psdo.owl"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:doap="http://usefulinc.com/ns/doap#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:doap="http://usefulinc.com/ns/doap#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:dc="http://purl.org/dc/elements/1.1/">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/psdo.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/2020-12-04/psdo.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/2022-02-23/psdo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/stato.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/2017-03-24/iao.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/core.owl"/>
         <dc:contributor xml:lang="en">Dahee Lee</dc:contributor>
-        <dc:description xml:lang="en">Performance Summary Display Ontology (PSDO) (pronounced &quot;pseudo&quot; or &quot;sudo&quot;) is an application ontology about charts, tables, and graphs that are used to communicate performance information to employees and teams in organizations. PSDO&apos;s domain focus is on healthcare organizations that use performance summary displays in clinical dashboards and feedback interventions for healthcare professionals and teams. The displays commonly show information about the quality of care and health outcomes that has been derived from clinical data using performance measures (aka metrics, process indicators, quality measures, etc). PSDO uses Basic Formal Ontology as its upper level ontology. This work is not peer-reviewed.</dc:description>
-        <dc:license xml:lang="en">https://creativecommons.org/licenses/by/4.0/</dc:license>
-        <dc:creator xml:lang="en">John Rincon</dc:creator>
-        <dc:language xml:lang="en">en</dc:language>
         <dc:contributor xml:lang="en">Shelbi Lisecki</dc:contributor>
-        <dc:creator xml:lang="en">Cooper Stansbury</dc:creator>
-        <owl:versionInfo xml:lang="en">1.0.0</owl:versionInfo>
-        <dc:creator xml:lang="en">Zach Landis-Lewis</dc:creator>
-        <dc:title xml:lang="en">Performance Summary Display Ontology</dc:title>
-        <terms:license xml:lang="en">https://creativecommons.org/licenses/by/4.0/</terms:license>
         <dc:contributor xml:lang="en">Veena Panicker</dc:contributor>
         <dc:creator xml:lang="en">Colin Gross</dc:creator>
+        <dc:creator xml:lang="en">Cooper Stansbury</dc:creator>
+        <dc:creator xml:lang="en">John Rincon</dc:creator>
+        <dc:creator xml:lang="en">Zach Landis-Lewis</dc:creator>
+        <dc:description xml:lang="en">Performance Summary Display Ontology (PSDO) is an application ontology about motivating information in performance summaries and the visual and textual entities that are used to communicate about performance. Motivating information includes performance comparisons and changes that motivate improvement or sustainment, such as improvement towards a goal, loss of high performer status, or the presence of a performance gap. Visual and textual entities include charts, tables, and graphs that display performance information. PSDO&apos;s domain focus is healthcare organizations that use clinical quality dashboards and feedback interventions for healthcare professionals and teams. Performance information is commonly about the quality of care and health outcomes that have been derived from clinical data using performance measures (aka metrics, process indicators, quality measures, etc). PSDO uses Basic Formal Ontology as its upper level ontology. This work is supported by the NIH, National Library of Medicine (1K01LM012528-01, 1R01LM013894-01).
+
+Landis-Lewis Z, Stansbury C, Rincón J, Gross C. Performance Summary Display Ontology: Feedback intervention content, delivery, and interpreted information. International Conference on Biomedical Ontology 2022 (ICBO 2022). https://icbo-conference.github.io/icbo2022/papers/ICBO-2022_paper_2172.pdf</dc:description>
+        <dc:language xml:lang="en">en</dc:language>
+        <dc:license xml:lang="en">https://creativecommons.org/licenses/by/4.0/</dc:license>
+        <dc:title xml:lang="en">Performance Summary Display Ontology</dc:title>
+        <terms:license xml:lang="en">https://creativecommons.org/licenses/by/4.0/</terms:license>
+        <owl:versionInfo xml:lang="en">1.0.1</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -1019,5 +1021,5 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
 
 
-<!-- Generated by the OWL API (version 1.1.0) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
 
