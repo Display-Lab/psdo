@@ -1085,6 +1085,17 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000130 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000130">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115>An information content entity that is an aggregate of performance gaps having the same type in a non-interrupted set of temporal intervals.</obo:IAO_0000115>
+        <obo:IAO_0000117>Thandiwe-Kesi Robins, Zach Landis-Lewis</obo:IAO_0000117>
+        <rdfs:label>consecutive performance gap content</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://xmlns.com/foaf/0.1/Organization -->
 
     <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Organization"/>
