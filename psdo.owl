@@ -131,6 +131,19 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000107"/>
+        <obo:IAO_0000115>Performance information that holds motivational potential</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <rdfs:comment>For more information, check paper: &quot;Precision Feedback: A Conceptual Model&quot;. PMID: 39036537</rdfs:comment>
+        <rdfs:comment>to be a superclass of performance comparisons, trends, achievement and loss</rdfs:comment>
+        <rdfs:label xml:lang="en">motivating performance information content</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PSDO_0000006 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000006">
@@ -779,7 +792,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
     <!-- http://purl.obolibrary.org/obo/PSDO_0000101 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000101">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000004"/>
         <obo:IAO_0000115 xml:lang="en">An information content entity that is about a change in performance</obo:IAO_0000115>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label xml:lang="en">performance trend content</rdfs:label>
@@ -790,7 +803,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
     <!-- http://purl.obolibrary.org/obo/PSDO_0000102 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000102">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000107"/>
         <obo:IAO_0000115>An information content entity about a method of measuring performance.</obo:IAO_0000115>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label xml:lang="en">performance measure content</rdfs:label>
@@ -801,7 +814,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
     <!-- http://purl.obolibrary.org/obo/PSDO_0000103 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000103">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000107"/>
         <obo:IAO_0000115 xml:lang="en">An information content entity that is about the output value of a method of measuring performance.</obo:IAO_0000115>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label xml:lang="en">performance level content</rdfs:label>
@@ -814,8 +827,10 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000104">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000106"/>
         <obo:IAO_0000115>A performance gap content entity having a recipient performance level that is better than its comparator performance level</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
-        <rdfs:label>positive performance gap content</rdfs:label>
+        <obo:IAO_0000118>positive performance gap content</obo:IAO_0000118>
+        <rdfs:label>positive performance comparison content</rdfs:label>
     </owl:Class>
     
 
@@ -825,8 +840,10 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000105">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000106"/>
         <obo:IAO_0000115>A performance gap content entity having a comparator performance level that is better than its recipient performance level.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
-        <rdfs:label>negative performance gap content</rdfs:label>
+        <obo:IAO_0000118>negative performance gap content</obo:IAO_0000118>
+        <rdfs:label>negative performance comparison content</rdfs:label>
     </owl:Class>
     
 
@@ -834,10 +851,12 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
     <!-- http://purl.obolibrary.org/obo/PSDO_0000106 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000106">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000004"/>
         <obo:IAO_0000115 xml:lang="en">An information content entity that is about a discrepancy between performance levels.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">performance gap content</rdfs:label>
+        <obo:IAO_0000118>performance gap content</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">performance comparison content</rdfs:label>
     </owl:Class>
     
 
@@ -878,7 +897,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
     <!-- http://purl.obolibrary.org/obo/PSDO_0000111 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000111">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000107"/>
         <obo:IAO_0000115>An information content entity that is about a unit of time.</obo:IAO_0000115>
         <obo:IAO_0000117>Zach Landis-Lewis, Colin Gross</obo:IAO_0000117>
         <rdfs:label>time interval content</rdfs:label>
@@ -889,7 +908,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
     <!-- http://purl.obolibrary.org/obo/PSDO_0000112 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000112">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000004"/>
         <obo:IAO_0000115>An information content entity that is about a change from a negative performance gap to a positive performance gap</obo:IAO_0000115>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label>achievement content</rdfs:label>
@@ -900,7 +919,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
     <!-- http://purl.obolibrary.org/obo/PSDO_0000113 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000113">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000004"/>
         <obo:IAO_0000115>An information content entity that is about a change from a positive performance gap to a negative performance gap</obo:IAO_0000115>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label>loss content</rdfs:label>
@@ -1045,8 +1064,8 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000126">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000127"/>
-        <obo:IAO_0000115>An average comparator that is about an institutional peer group.</obo:IAO_0000115>
-        <obo:IAO_0000117>Zach Landis-Lewis, Allen Flynn</obo:IAO_0000117>
+        <obo:IAO_0000115>An average comparator that is about a peer group.</obo:IAO_0000115>
+        <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label>peer average comparator</rdfs:label>
     </owl:Class>
     
@@ -1067,8 +1086,8 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000128">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000125"/>
-        <obo:IAO_0000115>A 75th percentile benchmark that is about an institutional peer group.</obo:IAO_0000115>
-        <obo:IAO_0000117>Zach Landis-Lewis, Allen Flynn</obo:IAO_0000117>
+        <obo:IAO_0000115>A 75th percentile benchmark that is about a peer group.</obo:IAO_0000115>
+        <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label>peer 75th percentile benchmark</rdfs:label>
     </owl:Class>
     
@@ -1078,20 +1097,9 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000129">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000124"/>
-        <obo:IAO_0000115>A 90th percentile benchmark that is about an institutional peer group.</obo:IAO_0000115>
-        <obo:IAO_0000117>Zach Landis-Lewis, Allen Flynn</obo:IAO_0000117>
+        <obo:IAO_0000115>A 90th percentile benchmark that is about a peer group.</obo:IAO_0000115>
+        <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label>peer 90th percentile benchmark</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PSDO_0000130 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000130">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115>An information content entity that is an aggregate of performance gaps having the same type in a non-interrupted set of temporal intervals.</obo:IAO_0000115>
-        <obo:IAO_0000117>Thandiwe-Kesi Robins, Zach Landis-Lewis</obo:IAO_0000117>
-        <rdfs:label>consecutive performance gap content</rdfs:label>
     </owl:Class>
     
 
@@ -1109,5 +1117,5 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
 
 
-<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
