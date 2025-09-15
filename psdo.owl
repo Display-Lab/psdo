@@ -814,8 +814,10 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000104">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000106"/>
         <obo:IAO_0000115>A performance gap content entity having a recipient performance level that is better than its comparator performance level</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
-        <rdfs:label>positive performance gap content</rdfs:label>
+        <obo:IAO_0000118>positive performance gap content</obo:IAO_0000118>
+        <rdfs:label>positive performance comparison content</rdfs:label>
     </owl:Class>
     
 
@@ -825,8 +827,10 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000105">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000106"/>
         <obo:IAO_0000115>A performance gap content entity having a comparator performance level that is better than its recipient performance level.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
-        <rdfs:label>negative performance gap content</rdfs:label>
+        <obo:IAO_0000118>negative performance gap content</obo:IAO_0000118>
+        <rdfs:label>negative performance comparison content</rdfs:label>
     </owl:Class>
     
 
