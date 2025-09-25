@@ -144,6 +144,17 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000656"/>
+        <obo:IAO_0000115>An information content entity that represents the rate and direction of change in performance over time, represented as the slope of a trend line derived from performance levels measured at successive time intervals.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">performance trend slope</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PSDO_0000006 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000006">
@@ -171,6 +182,17 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
+        <obo:IAO_0000115>An information content entity that represents the quantitative difference between an observed performance level and a comparator value, such as a benchmark, target, or peer average.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">performance gap size</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PSDO_0000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000008">
@@ -186,6 +208,28 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000232 xml:lang="en">Munzner T. Visualization analysis and design. Boca Raton: CRC Press, Taylor &amp; Francis Group, CRC Press is an imprint of the Taylor &amp; Francis Group, an informa business; 2015. 404 p. (A.K. Peters visualization series).</obo:IAO_0000232>
         <obo:IAO_0000232 xml:lang="en">The material entity that concretizes the information content entity has the capability to bear some role &apos;represented sets&apos; or &apos;focal element, ect...</obo:IAO_0000232>
         <rdfs:label xml:lang="en">relational information display component</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
+        <obo:IAO_0000115>The number of months since the message was delivered previously.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">message delivery interval in month</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
+        <obo:IAO_0000115>The number of times the recipient previously recieved this message in the last year.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">annual message receipt count</rdfs:label>
     </owl:Class>
     
 
