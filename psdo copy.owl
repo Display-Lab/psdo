@@ -135,7 +135,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000107"/>
-        <obo:IAO_0000115>Motivating information is a performance infromation content entity that holds motivational potential.</obo:IAO_0000115>
+        <obo:IAO_0000115>Motivating information is performance infromation content entity holds motivational potential.</obo:IAO_0000115>
         <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <rdfs:comment>For more information, check paper: &quot;Precision Feedback: A Conceptual Model&quot;. PMID: 39036537</rdfs:comment>
         <rdfs:comment>to be a superclass of performance comparisons, trends, achievement and loss</rdfs:comment>
@@ -148,7 +148,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000005">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000004"/>
-        <obo:IAO_0000117>Streak information is a motivating information that having discrepancies between performance levels over a designated time interval.</obo:IAO_0000117>
+        <obo:IAO_0000117>Streak information is motivating information having discrepancies between performance levels over a designated time interval.</obo:IAO_0000117>
         <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000118>consecutive performance gap</obo:IAO_0000118>
         <rdfs:label xml:lang="en">streak information</rdfs:label>
@@ -187,7 +187,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000007">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000005"/>
-        <obo:IAO_0000117>Positive streak is a streak information where performance levels are consistently better than established comparators in succession over a designated time interval.</obo:IAO_0000117>
+        <obo:IAO_0000117>Positive streak is streak information where performance levels are consistently better than established comparators in succession over a designated time interval.</obo:IAO_0000117>
         <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000118>consecutive positive performance gap</obo:IAO_0000118>
         <rdfs:label xml:lang="en">positive streak</rdfs:label>
@@ -240,7 +240,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000005"/>
-        <obo:IAO_0000117>Negative streak is a streak information where performance levels are consistently worse than established comparators in succession over a designated time intervals.</obo:IAO_0000117>
+        <obo:IAO_0000117>Negative streak is streak information where performance levels are consistently worse than established comparators in succession over a designated time intervals.</obo:IAO_0000117>
         <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000118>consecutive negative performance gap</obo:IAO_0000118>
         <rdfs:label xml:lang="en">negative streak</rdfs:label>
@@ -829,7 +829,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000099">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000101"/>
-        <obo:IAO_0000115>Positive trend information is a trend information that represents a change in performance in the direction of improvement, where performance levels increase or otherwise indicate better outcomes over time.</obo:IAO_0000115>
+        <obo:IAO_0000115>Positive trend information is trend information represents a change in performance in the direction of improvement, where performance levels increase or otherwise indicate better outcomes over time.</obo:IAO_0000115>
         <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label>positive trend information</rdfs:label>
@@ -841,7 +841,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000100">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000101"/>
-        <obo:IAO_0000115>Negative trend information is a trend information that represents a change in performance in the direction of worsening, where performance levels decrease or otherwise indicate poorer outcomes over time.</obo:IAO_0000115>
+        <obo:IAO_0000115>Negative trend information is trend information represents a change in performance in the direction of worsening, where performance levels decrease or otherwise indicate poorer outcomes over time.</obo:IAO_0000115>
         <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label>negative trend information</rdfs:label>
@@ -853,7 +853,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000101">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000004"/>
-        <obo:IAO_0000115 xml:lang="en">Trend information is a motivating information that is about a change in performance.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Trend information is motivating information about a change in performance.</obo:IAO_0000115>
         <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label xml:lang="en">trend information</rdfs:label>
@@ -865,7 +865,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000102">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000107"/>
-        <obo:IAO_0000115>Performance measure is a performance infromation content entity about how a measure is operationalized to calculate performance in healthcare. It determines how indicators or metrics are applied at individual, team, organizational, or system levels, and may include rules for attribution, scale of application, and linkage of multiple measures.</obo:IAO_0000115>
+        <obo:IAO_0000115>Performance measure is performance infromation content entity about how a measure is operationalized to calculate performance in healthcare. It determines how indicators or metrics are applied at individual, team, organizational, or system levels, and may include rules for attribution, scale of application, and linkage of multiple measures.</obo:IAO_0000115>
         <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label xml:lang="en">performance measure</rdfs:label>
@@ -877,7 +877,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000103">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000107"/>
-        <obo:IAO_0000115 xml:lang="en">Performance level is a performance infromation content entity that represents the representational form of a performance level, which may be expressed using ratio-scale values (e.g., counts, percentages), ordinal-scale values (e.g., “high” or “low”), interval-scale values (e.g., grades), or categorical indicators (e.g., red/green signals). Its pecifies how a performance level is displayed, either numerically, textually, or visually, such as in dashboards and charts that complement performance measurement with graphical or symbolic forms.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Performance level is performance infromation content entity represents the representational form of a performance level, which may be expressed using ratio-scale values (e.g., counts, percentages), ordinal-scale values (e.g., “high” or “low”), interval-scale values (e.g., grades), or categorical indicators (e.g., red/green signals). Its pecifies how a performance level is displayed, either numerically, textually, or visually, such as in dashboards and charts that complement performance measurement with graphical or symbolic forms.</obo:IAO_0000115>
         <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label xml:lang="en">performance level</rdfs:label>
@@ -889,7 +889,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000104">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000106"/>
-        <obo:IAO_0000115>Positive comparison is a comparison information that having a recipient performance level that is better than its comparator performance level</obo:IAO_0000115>
+        <obo:IAO_0000115>Positive comparison is comparison information having a recipient performance level that is better than its comparator performance level</obo:IAO_0000115>
         <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <obo:IAO_0000118>positive performance gap content</obo:IAO_0000118>
@@ -902,7 +902,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000105">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000106"/>
-        <obo:IAO_0000115>Negative comparison is a comparison information that having a comparator performance level that is better than its recipient performance level.</obo:IAO_0000115>
+        <obo:IAO_0000115>Negative comparison is comparison information having a comparator performance level that is better than its recipient performance level.</obo:IAO_0000115>
         <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <obo:IAO_0000118>negative performance gap content</obo:IAO_0000118>
@@ -915,7 +915,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000106">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000004"/>
-        <obo:IAO_0000115 xml:lang="en">Comparison information is a motivating information that is about a discrepancy between the performance levels of a feedback recipient and a comparator.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Comparison information is motivating information about a discrepancy between the performance levels of a feedback recipient and a comparator.</obo:IAO_0000115>
         <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <obo:IAO_0000118>performance gap content</obo:IAO_0000118>
@@ -928,7 +928,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000107">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115>Performance content is an information content entity that is an aggregate of performance level content entities and can form a foundation for analyses to produce precision feedback and form the basis for elicitation of preferences about alternative types of performance information.</obo:IAO_0000115>
+        <obo:IAO_0000115>Performance content is information content entity aggregate of performance level content entities and can form a foundation for analyses to produce precision feedback and form the basis for elicitation of preferences about alternative types of performance information.</obo:IAO_0000115>
         <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label xml:lang="en">performance content</rdfs:label>
@@ -940,7 +940,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000108">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000107"/>
-        <obo:IAO_0000115>Ascribee is a performance content that is about an entity that is ascribed a performance value.</obo:IAO_0000115>
+        <obo:IAO_0000115>Ascribee is performance content ascribed a performance value.</obo:IAO_0000115>
         <obo:IAO_0000117>Veena Panicker, Colin Gross, Shelbi Lisecki, Cooper Stansbury, Zach Landis-Lewis</obo:IAO_0000117>
         <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <rdfs:label xml:lang="en">ascribee</rdfs:label>
@@ -963,7 +963,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000111">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000107"/>
-        <obo:IAO_0000115>Time interval is a performance information content entity that specifies the temporal scope to which performance information is attributed. A time interval may denote a single period (e.g., a fiscal year) or a sequence of multiple periods (e.g., monthly or quarterly intervals), thereby enabling interpretation of performance change over time.</obo:IAO_0000115>
+        <obo:IAO_0000115>Time interval is performance information content entity specifies the temporal scope to which performance information is attributed. A time interval may denote a single period (e.g., a fiscal year) or a sequence of multiple periods (e.g., monthly or quarterly intervals), thereby enabling interpretation of performance change over time.</obo:IAO_0000115>
         <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis, Colin Gross</obo:IAO_0000117>
         <rdfs:label>time interval</rdfs:label>
@@ -975,7 +975,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000112">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000004"/>
-        <obo:IAO_0000115>Achievement information is a motivating information that is about a change from a negative performance gap to a positive performance gap.</obo:IAO_0000115>
+        <obo:IAO_0000115>Achievement information is motivating information about a change from a negative performance comparison to a positive performance comparison.</obo:IAO_0000115>
         <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label>achievement information</rdfs:label>
@@ -987,7 +987,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000113">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000004"/>
-        <obo:IAO_0000115>Loss information is a motivating information that is about a change from a positive performance gap to a negative performance gap.</obo:IAO_0000115>
+        <obo:IAO_0000115>Loss information is motivating information about a change from a positive performance comparison to a negative performance comparison.</obo:IAO_0000115>
         <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label>loss information</rdfs:label>
@@ -1176,9 +1176,9 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000130">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115>An information content entity that is an aggregate of performance gaps having the same type in a non-interrupted set of temporal intervals.</obo:IAO_0000115>
+        <obo:IAO_0000115>An information content entity is aggregate of performance comparisons having the same type in a non-interrupted set of temporal intervals.</obo:IAO_0000115>
         <obo:IAO_0000117>Thandiwe-Kesi Robins, Zach Landis-Lewis</obo:IAO_0000117>
-        <rdfs:label>consecutive performance gap content</rdfs:label>
+        <rdfs:label>consecutive performance comparison content</rdfs:label>
     </owl:Class>
     
 
