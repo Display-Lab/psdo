@@ -327,6 +327,19 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000009">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115>An information content entity that is about an entity that is ascribed a performance value.</obo:IAO_0000115>
+        <obo:IAO_0000117>Veena Panicker, Colin Gross, Shelbi Lisecki, Cooper Stansbury, Zach Landis-Lewis</obo:IAO_0000117>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">obsolete_ascribee</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PSDO_0000011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000011">
@@ -866,6 +879,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000093">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000107"/>
         <obo:IAO_0000115 xml:lang="en">Comparator content is performance content used to identify a discrepancy with the performance level of the recipient of an intervention.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label xml:lang="en">comparator</rdfs:label>
     </owl:Class>
@@ -876,8 +890,9 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000094">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000093"/>
-        <obo:IAO_0000115>Comparator content that has been ascribed a desired future performance level.</obo:IAO_0000115>
+        <obo:IAO_0000115>Goal comparator is comparator content that has been ascribed a desired future performance level.</obo:IAO_0000115>
         <obo:IAO_0000117>Veena Panicker, Colin Gross, Shelbi Lisecki, Cooper Stansbury, Zach Landis-Lewis</obo:IAO_0000117>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <rdfs:label xml:lang="en">goal comparator</rdfs:label>
     </owl:Class>
     
@@ -887,7 +902,8 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000095">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000093"/>
-        <obo:IAO_0000115>Comparator content about living systems that are ascribed a performance level.</obo:IAO_0000115>
+        <obo:IAO_0000115>Social comparator is comparator content about living systems that are ascribed a performance level.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label>social comparator</rdfs:label>
     </owl:Class>
@@ -1190,7 +1206,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000123">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000095"/>
-        <obo:IAO_0000115>Social comparator content that is about a percentile for a performance level that is better than average.</obo:IAO_0000115>
+        <obo:IAO_0000115>Top performer benchmark is social comparator content that is about a percentile for a performance level that is better than average.</obo:IAO_0000115>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label>top performer benchmark</rdfs:label>
     </owl:Class>
@@ -1201,7 +1217,8 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000124">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000123"/>
-        <obo:IAO_0000115>A top performer benchmark that is ascribed the performance level of the 90th percentile for a population.</obo:IAO_0000115>
+        <obo:IAO_0000115>90th percentile benchmark is top performer benchmark that is ascribed the performance level of the 90th percentile for a population.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label>90th percentile benchmark</rdfs:label>
     </owl:Class>
@@ -1212,7 +1229,8 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000125">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000123"/>
-        <obo:IAO_0000115>A top performer benchmark that is ascribed the performance level of the 75th percentile for a population.</obo:IAO_0000115>
+        <obo:IAO_0000115>It is a top performer benchmark that is ascribed the performance level of the 75th percentile for a population.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label>75th percentile benchmark</rdfs:label>
     </owl:Class>
@@ -1223,7 +1241,8 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000126">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000127"/>
-        <obo:IAO_0000115>An average comparator that is about a peer group.</obo:IAO_0000115>
+        <obo:IAO_0000115>Peer average comparator is average comparator content that is about a peer group.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label>peer average comparator</rdfs:label>
     </owl:Class>
@@ -1234,7 +1253,8 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000127">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000095"/>
-        <obo:IAO_0000115>Social comparator content that is about a mean performance level for a population.</obo:IAO_0000115>
+        <obo:IAO_0000115>Average comparator is social comparator content that is about a mean performance level for a population.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label>average comparator</rdfs:label>
     </owl:Class>
@@ -1245,7 +1265,8 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000128">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000125"/>
-        <obo:IAO_0000115>A 75th percentile benchmark that is about a peer group.</obo:IAO_0000115>
+        <obo:IAO_0000115>It is about a peer group.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label>peer 75th percentile benchmark</rdfs:label>
     </owl:Class>
@@ -1256,7 +1277,8 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000129">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000124"/>
-        <obo:IAO_0000115>A 90th percentile benchmark that is about a peer group.</obo:IAO_0000115>
+        <obo:IAO_0000115>It is about a peer group.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label>peer 90th percentile benchmark</rdfs:label>
     </owl:Class>
