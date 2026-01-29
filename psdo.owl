@@ -1051,8 +1051,8 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000126">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000127"/>
-        <obo:IAO_0000115>An average comparator that is about a peer group.</obo:IAO_0000115>
-        <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
+        <obo:IAO_0000115>An average comparator that is about an institutional peer group.</obo:IAO_0000115>
+        <obo:IAO_0000117>Zach Landis-Lewis, Allen Flynn</obo:IAO_0000117>
         <rdfs:label>peer average comparator</rdfs:label>
     </owl:Class>
     
@@ -1073,8 +1073,8 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000128">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000125"/>
-        <obo:IAO_0000115>A 75th percentile benchmark that is about a peer group.</obo:IAO_0000115>
-        <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
+        <obo:IAO_0000115>A 75th percentile benchmark that is about an institutional peer group.</obo:IAO_0000115>
+        <obo:IAO_0000117>Zach Landis-Lewis, Allen Flynn</obo:IAO_0000117>
         <rdfs:label>peer 75th percentile benchmark</rdfs:label>
     </owl:Class>
     
@@ -1084,9 +1084,20 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000129">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000124"/>
-        <obo:IAO_0000115>A 90th percentile benchmark that is about a peer group.</obo:IAO_0000115>
-        <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
+        <obo:IAO_0000115>A 90th percentile benchmark that is about an institutional peer group.</obo:IAO_0000115>
+        <obo:IAO_0000117>Zach Landis-Lewis, Allen Flynn</obo:IAO_0000117>
         <rdfs:label>peer 90th percentile benchmark</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000130 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000130">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115>An information content entity that is an aggregate of performance gaps having the same type in a non-interrupted set of temporal intervals.</obo:IAO_0000115>
+        <obo:IAO_0000117>Thandiwe-Kesi Robins, Zach Landis-Lewis</obo:IAO_0000117>
+        <rdfs:label>consecutive performance gap content</rdfs:label>
     </owl:Class>
     
 
