@@ -244,7 +244,7 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000107"/>
-        <obo:IAO_0000115>Motivating information is performance content that hold motivational potential.</obo:IAO_0000115>
+        <obo:IAO_0000115>Motivating information is performance content that holds motivational potential.</obo:IAO_0000115>
         <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <rdfs:comment>For more information, check paper: &quot;Precision Feedback: A Conceptual Model&quot;. PMID: 39036537</rdfs:comment>
         <rdfs:comment>to be a superclass of performance comparisons, trends, achievement and loss</rdfs:comment>
@@ -326,6 +326,21 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
     <!-- http://purl.obolibrary.org/obo/PSDO_0000009 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000115>Message recency is a data item which represents the number of months since the message was delivered previously.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">message recency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000115>Delivery count is a data item which represents the number of times the recipient previously recieved this message in the last year.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">delivery count</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115>An information content entity that is about an entity that is ascribed a performance value.</obo:IAO_0000115>
         <obo:IAO_0000117>Veena Panicker, Colin Gross, Shelbi Lisecki, Cooper Stansbury, Zach Landis-Lewis</obo:IAO_0000117>
@@ -1272,7 +1287,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000128">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000125"/>
-        <obo:IAO_0000115>It is about a peer group.</obo:IAO_0000115>
+        <obo:IAO_0000115>A 75th percentile benchmark that is about a peer group.</obo:IAO_0000115>
         <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label>peer 75th percentile benchmark</rdfs:label>
@@ -1284,8 +1299,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000129">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000124"/>
-        <obo:IAO_0000115>It is about a peer group.</obo:IAO_0000115>
-        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <obo:IAO_0000115>A 90th percentile benchmark that is about a peer group.</obo:IAO_0000115>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label>peer 90th percentile benchmark</rdfs:label>
     </owl:Class>
