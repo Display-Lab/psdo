@@ -48,6 +48,19 @@ Landis-Lewis Z, Stansbury C, Rincón J, Gross C. Performance Summary Display Ont
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000034 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/PSDO_0000034">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000010"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000038"/>
+        <obo:IAO_0000115>Relates a quality measure to an information content entity that specifies the intended direction of change for that measure.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">has desired direction</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PSDO_0000109 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/PSDO_0000109">
@@ -68,11 +81,131 @@ Landis-Lewis Z, Stansbury C, Rincón J, Gross C. Performance Summary Display Ont
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000012 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/PSDO_0000012">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000106"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000112"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000113"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">has comparison size</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000013 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/PSDO_0000013">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000112"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000113"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">has prior comparison size</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000014 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/PSDO_0000014">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000112"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000113"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">has streak length</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000015 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/PSDO_0000015">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000101"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000112"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000113"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">has trend slope</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000017 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/PSDO_0000017">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000016"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <obo:IAO_0000115>Message recency is the number of time intervals since the message was last sent to the recipient.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">message recency</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000021 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/PSDO_0000021">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000016"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <obo:IAO_0000115>Message recurrence is the number of times a message was previously sent to the recipient.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">message recurrence</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000022 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/PSDO_0000022">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000016"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <obo:IAO_0000115>Measure recency is the number of time intervals since the measure was last sent to the recipient.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">measure recency</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000027 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/PSDO_0000027">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000016"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <obo:IAO_0000115>Measure recurrence is the number of times a measure was previously sent to the recipient.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">measure recurrence</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BMONT_0000081 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BMONT_0000081">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115>A metric is a quantifiable measure or indicator used to assess, analyze, and evaluate performance, progress, or quality in various contexts. Metrics provide objective data that can be compared, tracked over time, and used to make informed decisions, set goals, and drive improvement. In different fields and industries, metrics serve specific purposes and may encompass a wide range of parameters, variables, and key performance indicators (KPIs).</obo:IAO_0000115>
+        <obo:IAO_0000117>The Biomarker Ontology</obo:IAO_0000117>
+        <rdfs:label>metric</rdfs:label>
+    </owl:Class>
     
 
 
@@ -131,6 +264,31 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000107"/>
+        <obo:IAO_0000115>Motivating information is performance content that hold motivational potential.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <rdfs:comment>For more information, check paper: &quot;Precision Feedback: A Conceptual Model&quot;. PMID: 39036537</rdfs:comment>
+        <rdfs:comment>to be a superclass of performance comparisons, trends, achievement and loss</rdfs:comment>
+        <rdfs:label xml:lang="en">motivating information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000004"/>
+        <obo:IAO_0000117>Streak information is motivating information having discrepancies between performance levels over a designated time interval.</obo:IAO_0000117>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <obo:IAO_0000118>consecutive performance gap</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">streak information</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PSDO_0000006 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000006">
@@ -158,6 +316,18 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000005"/>
+        <obo:IAO_0000117>Positive streak is streak information where performance levels are consistently better than established comparators in succession over a designated time interval.</obo:IAO_0000117>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <obo:IAO_0000118>consecutive positive performance gap</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">positive streak</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PSDO_0000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000008">
@@ -173,6 +343,54 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000232 xml:lang="en">Munzner T. Visualization analysis and design. Boca Raton: CRC Press, Taylor &amp; Francis Group, CRC Press is an imprint of the Taylor &amp; Francis Group, an informa business; 2015. 404 p. (A.K. Peters visualization series).</obo:IAO_0000232>
         <obo:IAO_0000232 xml:lang="en">The material entity that concretizes the information content entity has the capability to bear some role &apos;represented sets&apos; or &apos;focal element, ect...</obo:IAO_0000232>
         <rdfs:label xml:lang="en">relational information display component</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000009">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115>An information content entity that is about an entity that is ascribed a performance value.</obo:IAO_0000115>
+        <obo:IAO_0000117>Veena Panicker, Colin Gross, Shelbi Lisecki, Cooper Stansbury, Zach Landis-Lewis</obo:IAO_0000117>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">obsolete_ascribee</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BMONT_0000081"/>
+        <obo:IAO_0000115>An information content entity that assesses a certain aspect of healthcare quality, typically by defining the assessment content, the assessment objects, the assessment time period, and the expected areas for improvement.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">quality measure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000005"/>
+        <obo:IAO_0000117>Negative streak is streak information where performance levels are consistently worse than established comparators in succession over a designated time intervals.</obo:IAO_0000117>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <obo:IAO_0000118>consecutive negative performance gap</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">negative streak</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115>Message history information is an information content entity that represents number of counts from the past delivery or transmission records of a message, such as how recently a message was sent ot how frequently it has recurred.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">message history information</rdfs:label>
     </owl:Class>
     
 
@@ -317,12 +535,45 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000004"/>
+        <obo:IAO_0000115>Approach information is motivating information about an positive trend and a negative comparison.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">approach information</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PSDO_0000031 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000031">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000088"/>
         <obo:IAO_0000115 xml:lang="en">A report designed for the purpose of providing performance summary information to a recipient of an intervention.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">performance report</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000010"/>
+        <obo:IAO_0000115>A quality measure that evaluates the extent to which specified healthcare processes, actions, or care delivery activities are performed as intended.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">process measure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000010"/>
+        <obo:IAO_0000115>A quality measure that measures the ultimate impact of care on the patient&apos;s health status, including the severity of the patient&apos;s condition, socioeconomic status, and factors outside the healthcare system.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">outcome measure</rdfs:label>
     </owl:Class>
     
 
@@ -359,6 +610,28 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115>An information content entity that characterizes a performance measure by specifying the intended direction of change.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">desired direction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000038"/>
+        <obo:IAO_0000115>A desired direction that specifies that higher values of a quality measure are intended or targeted over time.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">desired increase</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PSDO_0000040 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000040">
@@ -381,6 +654,17 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000040"/>
         <obo:IAO_0000115 xml:lang="en">A focal element that conveys information about identity to the recipient of the performance summary report.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">recipient element</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000038"/>
+        <obo:IAO_0000115>A desired direction that specifies that lower values of a quality measure are intended or targeted over time.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">desired decrease</rdfs:label>
     </owl:Class>
     
 
@@ -690,10 +974,11 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
     <!-- http://purl.obolibrary.org/obo/PSDO_0000093 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000093">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000108"/>
-        <obo:IAO_0000115 xml:lang="en">Ascribee content that is used to identify a discrepancy with the performance level of the recipient of an intervention.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000107"/>
+        <obo:IAO_0000115 xml:lang="en">Comparator content is performance content used to identify a discrepancy with the performance level of the recipient of an intervention.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">comparator content</rdfs:label>
+        <rdfs:label xml:lang="en">comparator</rdfs:label>
     </owl:Class>
     
 
@@ -702,9 +987,10 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000094">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000093"/>
-        <obo:IAO_0000115>Comparator content that has been ascribed a desired future performance level.</obo:IAO_0000115>
+        <obo:IAO_0000115>Goal comparator is comparator content that has been ascribed a desired future performance level.</obo:IAO_0000115>
         <obo:IAO_0000117>Veena Panicker, Colin Gross, Shelbi Lisecki, Cooper Stansbury, Zach Landis-Lewis</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">goal comparator content</rdfs:label>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">goal comparator</rdfs:label>
     </owl:Class>
     
 
@@ -713,9 +999,10 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000095">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000093"/>
-        <obo:IAO_0000115>Comparator content about living systems that are ascribed a performance level.</obo:IAO_0000115>
+        <obo:IAO_0000115>Social comparator is comparator content about living systems that are ascribed a performance level.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
-        <rdfs:label>social comparator content</rdfs:label>
+        <rdfs:label>social comparator</rdfs:label>
     </owl:Class>
     
 
@@ -726,7 +1013,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000093"/>
         <obo:IAO_0000115>Comparator content that has been ascribed a predetermined performance level.</obo:IAO_0000115>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
-        <rdfs:label>standard comparator content</rdfs:label>
+        <rdfs:label>standard comparator</rdfs:label>
     </owl:Class>
     
 
@@ -734,10 +1021,10 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
     <!-- http://purl.obolibrary.org/obo/PSDO_0000097 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000097">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000108"/>
-        <obo:IAO_0000115>Ascribee content that is about a living system to whom an intervention is directed.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000107"/>
+        <obo:IAO_0000115>Recipient content is performance content about a living system to whom an intervention is directed.</obo:IAO_0000115>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">recipient content</rdfs:label>
+        <rdfs:label xml:lang="en">recipient</rdfs:label>
     </owl:Class>
     
 
@@ -758,9 +1045,10 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000099">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000101"/>
-        <obo:IAO_0000115>A performance trend that is improving</obo:IAO_0000115>
+        <obo:IAO_0000115>Positive trend information is trend information represents a change in performance in the direction of improvement, where performance levels increase or otherwise indicate better outcomes over time.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
-        <rdfs:label>positive performance trend content</rdfs:label>
+        <rdfs:label>positive trend information</rdfs:label>
     </owl:Class>
     
 
@@ -769,9 +1057,10 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000100">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000101"/>
-        <obo:IAO_0000115>A performance trend that is worsening</obo:IAO_0000115>
+        <obo:IAO_0000115>Negative trend information is trend information represents a change in performance in the direction of worsening, where performance levels decrease or otherwise indicate poorer outcomes over time.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
-        <rdfs:label>negative performance trend content</rdfs:label>
+        <rdfs:label>negative trend information</rdfs:label>
     </owl:Class>
     
 
@@ -779,10 +1068,11 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
     <!-- http://purl.obolibrary.org/obo/PSDO_0000101 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000101">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">An information content entity that is about a change in performance</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000004"/>
+        <obo:IAO_0000115 xml:lang="en">Trend information is motivating information about a change in performance.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">performance trend content</rdfs:label>
+        <rdfs:label xml:lang="en">trend information</rdfs:label>
     </owl:Class>
     
 
@@ -790,10 +1080,11 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
     <!-- http://purl.obolibrary.org/obo/PSDO_0000102 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000102">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115>An information content entity about a method of measuring performance.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000107"/>
+        <obo:IAO_0000115>Performance measure content is performance content about how a measure is operationalized to calculate performance in healthcare. It determines how indicators or metrics are applied at individual, team, organizational, or system levels, and may include rules for attribution, scale of application, and linkage of multiple measures.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">performance measure content</rdfs:label>
+        <rdfs:label xml:lang="en">performance measure</rdfs:label>
     </owl:Class>
     
 
@@ -801,10 +1092,11 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
     <!-- http://purl.obolibrary.org/obo/PSDO_0000103 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000103">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">An information content entity that is about the output value of a method of measuring performance.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000107"/>
+        <obo:IAO_0000115 xml:lang="en">Performance level content is performance content about the output value of a method of measuring performance.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">performance level content</rdfs:label>
+        <rdfs:label xml:lang="en">performance level</rdfs:label>
     </owl:Class>
     
 
@@ -813,11 +1105,11 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000104">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000106"/>
-        <obo:IAO_0000115>A performance gap content entity having a recipient performance level that is better than its comparator performance level</obo:IAO_0000115>
+        <obo:IAO_0000115>Positive comparison is comparison information having a recipient performance level that is better than its comparator performance level</obo:IAO_0000115>
         <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <obo:IAO_0000118>positive performance gap content</obo:IAO_0000118>
-        <rdfs:label>positive performance comparison content</rdfs:label>
+        <rdfs:label>positive comparison</rdfs:label>
     </owl:Class>
     
 
@@ -826,11 +1118,11 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000105">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000106"/>
-        <obo:IAO_0000115>A performance gap content entity having a comparator performance level that is better than its recipient performance level.</obo:IAO_0000115>
+        <obo:IAO_0000115>Negative comparison is comparison information having a comparator performance level that is better than its recipient performance level.</obo:IAO_0000115>
         <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <obo:IAO_0000118>negative performance gap content</obo:IAO_0000118>
-        <rdfs:label>negative performance comparison content</rdfs:label>
+        <rdfs:label>negative comparison</rdfs:label>
     </owl:Class>
     
 
@@ -838,12 +1130,12 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
     <!-- http://purl.obolibrary.org/obo/PSDO_0000106 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000106">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">An information content entity that is about a discrepancy between performance levels.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000004"/>
+        <obo:IAO_0000115 xml:lang="en">Comparison information is motivating information about a discrepancy between the performance levels of a feedback recipient and a comparator.</obo:IAO_0000115>
         <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <obo:IAO_0000118>performance gap content</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">performance comparison content</rdfs:label>
+        <rdfs:label xml:lang="en">comparison information</rdfs:label>
     </owl:Class>
     
 
@@ -852,20 +1144,10 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000107">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115>An information content entity that is an aggregate of performance level content entities.</obo:IAO_0000115>
+        <obo:IAO_0000115>Performance content is information content entity aggregate of performance level content entities and can form a foundation for analyses to produce precision feedback and form the basis for elicitation of preferences about alternative types of performance information.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label xml:lang="en">performance content</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PSDO_0000108 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000108">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115>An information content entity that is about an entity that is ascribed a performance value.</obo:IAO_0000115>
-        <obo:IAO_0000117>Veena Panicker, Colin Gross, Shelbi Lisecki, Cooper Stansbury, Zach Landis-Lewis</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">ascribee content</rdfs:label>
     </owl:Class>
     
 
@@ -884,10 +1166,11 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
     <!-- http://purl.obolibrary.org/obo/PSDO_0000111 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000111">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115>An information content entity that is about a unit of time.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000107"/>
+        <obo:IAO_0000115>Time interval content is performance content that is about a unit of time.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis, Colin Gross</obo:IAO_0000117>
-        <rdfs:label>time interval content</rdfs:label>
+        <rdfs:label>time interval</rdfs:label>
     </owl:Class>
     
 
@@ -895,10 +1178,11 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
     <!-- http://purl.obolibrary.org/obo/PSDO_0000112 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000112">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115>An information content entity that is about a change from a negative performance gap to a positive performance gap</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000004"/>
+        <obo:IAO_0000115>Achievement information is motivating information about a change from a negative performance comparison to a positive performance comparison.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
-        <rdfs:label>achievement content</rdfs:label>
+        <rdfs:label>achievement information</rdfs:label>
     </owl:Class>
     
 
@@ -906,10 +1190,11 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
     <!-- http://purl.obolibrary.org/obo/PSDO_0000113 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000113">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115>An information content entity that is about a change from a positive performance gap to a negative performance gap</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000004"/>
+        <obo:IAO_0000115>Loss information is motivating information about a change from a positive performance comparison to a negative performance comparison.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
-        <rdfs:label>loss content</rdfs:label>
+        <rdfs:label>loss information</rdfs:label>
     </owl:Class>
     
 
@@ -1018,7 +1303,7 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000123">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000095"/>
-        <obo:IAO_0000115>Social comparator content that is about a percentile for a performance level that is better than average.</obo:IAO_0000115>
+        <obo:IAO_0000115>Top performer benchmark is social comparator content that is about a percentile for a performance level that is better than average.</obo:IAO_0000115>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label>top performer benchmark</rdfs:label>
     </owl:Class>
@@ -1029,7 +1314,8 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000124">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000123"/>
-        <obo:IAO_0000115>A top performer benchmark that is ascribed the performance level of the 90th percentile for a population.</obo:IAO_0000115>
+        <obo:IAO_0000115>90th percentile benchmark is top performer benchmark that is ascribed the performance level of the 90th percentile for a population.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label>90th percentile benchmark</rdfs:label>
     </owl:Class>
@@ -1040,7 +1326,8 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000125">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000123"/>
-        <obo:IAO_0000115>A top performer benchmark that is ascribed the performance level of the 75th percentile for a population.</obo:IAO_0000115>
+        <obo:IAO_0000115>It is a top performer benchmark that is ascribed the performance level of the 75th percentile for a population.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label>75th percentile benchmark</rdfs:label>
     </owl:Class>
@@ -1051,8 +1338,9 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000126">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000127"/>
-        <obo:IAO_0000115>An average comparator that is about an institutional peer group.</obo:IAO_0000115>
-        <obo:IAO_0000117>Zach Landis-Lewis, Allen Flynn</obo:IAO_0000117>
+        <obo:IAO_0000115>Peer average comparator is average comparator content that is about a peer group.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label>peer average comparator</rdfs:label>
     </owl:Class>
     
@@ -1062,7 +1350,8 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000127">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000095"/>
-        <obo:IAO_0000115>Social comparator content that is about a mean performance level for a population.</obo:IAO_0000115>
+        <obo:IAO_0000115>Average comparator is social comparator content that is about a mean performance level for a population.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
         <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label>average comparator</rdfs:label>
     </owl:Class>
@@ -1073,8 +1362,9 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000128">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000125"/>
-        <obo:IAO_0000115>A 75th percentile benchmark that is about an institutional peer group.</obo:IAO_0000115>
-        <obo:IAO_0000117>Zach Landis-Lewis, Allen Flynn</obo:IAO_0000117>
+        <obo:IAO_0000115>It is about a peer group.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label>peer 75th percentile benchmark</rdfs:label>
     </owl:Class>
     
@@ -1084,8 +1374,9 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000129">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000124"/>
-        <obo:IAO_0000115>A 90th percentile benchmark that is about an institutional peer group.</obo:IAO_0000115>
-        <obo:IAO_0000117>Zach Landis-Lewis, Allen Flynn</obo:IAO_0000117>
+        <obo:IAO_0000115>It is about a peer group.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <obo:IAO_0000117>Zach Landis-Lewis</obo:IAO_0000117>
         <rdfs:label>peer 90th percentile benchmark</rdfs:label>
     </owl:Class>
     
@@ -1095,9 +1386,9 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000130">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115>An information content entity that is an aggregate of performance gaps having the same type in a non-interrupted set of temporal intervals.</obo:IAO_0000115>
+        <obo:IAO_0000115>An information content entity is aggregate of performance comparisons having the same type in a non-interrupted set of temporal intervals.</obo:IAO_0000115>
         <obo:IAO_0000117>Thandiwe-Kesi Robins, Zach Landis-Lewis</obo:IAO_0000117>
-        <rdfs:label>consecutive performance gap content</rdfs:label>
+        <rdfs:label>consecutive performance comparison content</rdfs:label>
     </owl:Class>
     
 
@@ -1116,4 +1407,3 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
 
 <!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
-
