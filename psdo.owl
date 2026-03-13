@@ -699,6 +699,66 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000006"/>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">motivating set</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000049">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000048"/>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">comparison set</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000050">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000049"/>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">negative comparision set</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000049"/>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">positive comparision set</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000052">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000066"/>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">negative streak set</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000053">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000066"/>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">positive streak set</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PSDO_0000054 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000054">
@@ -729,6 +789,16 @@ Zhang J, Norman DA. Representations in distributed cognitive tasks. Cognitive Sc
         <obo:IAO_0000119 xml:lang="en">&quot;position, n.&quot; OED Online, Oxford University Press, June 2018, www.oed.com/view/Entry/148314. Accessed 28 June 2018.</obo:IAO_0000119>
         <obo:IAO_0000232>&apos;Position’ may actually be a relational quality in BFO because is depends on multiple entities.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">position</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000057">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000048"/>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">trend set</rdfs:label>
     </owl:Class>
     
 
@@ -812,6 +882,66 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
         <obo:IAO_0000115 xml:lang="en">A material information bearer that is a basic visual element of a relational information display.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">Munzner T. Visualization analysis and design. Boca Raton: CRC Press, Taylor &amp; Francis Group, CRC Press is an imprint of the Taylor &amp; Francis Group, an informa business; 2015. 404 p. (A.K. Peters visualization series).</obo:IAO_0000119>
         <rdfs:label xml:lang="en">mark</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000063">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000057"/>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">negative trend set</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000064">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000057"/>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">positive trend set</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000065">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000048"/>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">achievement set</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000066">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000048"/>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">streak set</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000069">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000048"/>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">approach set</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PSDO_0000070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000070">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000048"/>
+        <obo:IAO_0000117>Yujia Tian</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">loss set</rdfs:label>
     </owl:Class>
     
 
@@ -1277,28 +1407,6 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PSDO_0000121 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000121">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000006"/>
-        <obo:IAO_0000115>A represented set where the mark attributes are about a change from a negative performance gap to a positive performance gap.</obo:IAO_0000115>
-        <obo:IAO_0000117>Zach Landis-Lewis, Colin Gross</obo:IAO_0000117>
-        <rdfs:label>achievement set</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PSDO_0000122 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000122">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PSDO_0000006"/>
-        <obo:IAO_0000115>A represented set where the mark attributes are about a change from a positive performance gap to a negative performance gap.</obo:IAO_0000115>
-        <obo:IAO_0000117>Zach Landis-Lewis, Colin Gross</obo:IAO_0000117>
-        <rdfs:label>loss set</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/PSDO_0000123 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PSDO_0000123">
@@ -1406,4 +1514,5 @@ T. Munzner, Visualization analysis and design. Boca Raton: CRC Press, Taylor &am
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
